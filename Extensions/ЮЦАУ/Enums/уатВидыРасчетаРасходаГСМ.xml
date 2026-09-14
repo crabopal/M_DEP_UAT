@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="450993ab-1a8a-4e80-a7f8-850cf6972eb4">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.уатВидыРасчетаРасходаГСМ" category="Ref">
+				<xr:TypeId>fa01fecf-b423-480f-9e2d-f4baf53d9622</xr:TypeId>
+				<xr:ValueId>d7f66ddf-43cb-4e75-88c4-f8a81dd9a378</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.уатВидыРасчетаРасходаГСМ" category="Manager">
+				<xr:TypeId>ee157ab0-5b36-4c35-afd8-75abf14a0002</xr:TypeId>
+				<xr:ValueId>7a96daa4-f046-4b28-bd2c-0f7d2533d76c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.уатВидыРасчетаРасходаГСМ" category="List">
+				<xr:TypeId>d08eb92c-b96c-4745-85f2-117efdda4e79</xr:TypeId>
+				<xr:ValueId>a422bfac-4967-4726-8738-062b0f81ba46</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уатВидыРасчетаРасходаГСМ</Name>
+			<Comment/>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

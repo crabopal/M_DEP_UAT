@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
+	<ConfigVersions>
+		<Metadata name="Catalog.SDL_НастройкиФортМонитор" id="5eda870d-0ccb-4682-b57a-419146263404" configVersion="326aed4bbbadd22978fc3f31a749d32850979864">
+			<Metadata name="Catalog.SDL_НастройкиФортМонитор.Attribute.SDL_ЧасовойПояс" id="2a0ee201-58c1-4052-8d5b-0d9a4bed1277"/>
+			<Metadata name="Catalog.SDL_НастройкиФортМонитор.Attribute.ЗагрузитьКоординаты" id="32693b70-b1ca-4828-9a1b-956abc867326"/>
+			<Metadata name="Catalog.SDL_НастройкиФортМонитор.Attribute.SDL_РаботаСHTTPСервисами" id="3397f8af-203f-4ebc-9347-dde53f64eaeb"/>
+			<Metadata name="Catalog.SDL_НастройкиФортМонитор.Attribute.ИнтервалЗагрузки" id="3e2daf99-e9b5-4495-94ac-9fe601e49486"/>
+			<Metadata name="Catalog.SDL_НастройкиФортМонитор.Attribute.SDL_ЧасовойПоясБазы" id="3e3e03b8-7843-4473-b837-388a83cab096"/>
+			<Metadata name="Catalog.SDL_НастройкиФортМонитор.Attribute.SDL_ИспользоватьУниверсальноеВремя" id="5289d006-0cd8-4559-a595-abed01b9353c"/>
+			<Metadata name="Catalog.SDL_НастройкиФортМонитор.Attribute.ЗагрузитьПробегРасход" id="c658cc6c-3a82-4b04-9245-168801ac9355"/>
+			<Metadata name="Catalog.SDL_НастройкиФортМонитор.Attribute.ЗагрузитьДопСведения" id="cf7a7055-48c8-4e71-93bc-6fa1fa3a2d5a"/>
+			<Metadata name="Catalog.SDL_НастройкиФортМонитор.Attribute.SDL_ПересчетОдометраПоПробегуНаВозврат" id="cfff6167-5bdd-4964-8026-057fa23a7e91"/>
+			<Metadata name="Catalog.SDL_НастройкиФортМонитор.Attribute.УчетнаяЗапись" id="df4d4555-79f6-4a39-aee7-e64156946aae"/>
+			<Metadata name="Catalog.SDL_НастройкиФортМонитор.Attribute.SDL_ПересчетПробегаПоОдометруНаВозврат" id="e317a445-32fc-4457-8988-52051737799b"/>
+			<Metadata name="Catalog.SDL_НастройкиФортМонитор.Attribute.ИспользоватьФортМонитор" id="e384eddc-323d-47e9-bf08-1b90093142d7"/>
+			<Metadata name="Catalog.SDL_НастройкиФортМонитор.Attribute.СистемаМониторинга" id="e8e6446a-421b-48b1-b48c-43d881c8f5c1"/>
+		</Metadata>
+		<Metadata name="Catalog.SDL_НастройкиФортМонитор.Form.ФормаЭлемента" id="11a522c6-fd6e-4704-a7e1-106677c7219e" configVersion="1ff1a8ad3f6e2d1025da56c277ce4aae500144cc"/>
+		<Metadata name="Catalog.SDL_НастройкиФортМонитор.Form.ФормаЭлемента.Form" id="11a522c6-fd6e-4704-a7e1-106677c7219e.0" configVersion="02fc94eb899e1970f9d8d387e0ccc3b85fcb49c9"/>
+		<Metadata name="Catalog.SDL_НастройкиФортМонитор.ManagerModule" id="5eda870d-0ccb-4682-b57a-419146263404.3" configVersion="1ff98028cdef1ee33f84facb995b92a76f8d4b9d"/>
+		<Metadata name="Catalog.SDL_НастройкиФортМонитор.ObjectModule" id="5eda870d-0ccb-4682-b57a-419146263404.0" configVersion="dc8d1e73176faab3fe1f76abef31a75812053fad"/>
+		<Metadata name="Catalog.уатВнешниеСистемы" id="cefd6dfa-876e-404d-a2a1-775deae098f0" configVersion="71581e77048cb030ff6eca8f8e5db838eed315d3"/>
+		<Metadata name="Catalog.уатТС" id="c88f9b32-66d0-496c-8709-feb84af78cb7" configVersion="5a53e7defe90cd3fb96909b66213ffb040d090dd">
+			<Metadata name="Catalog.уатТС.Attribute.ИДвСистемеНавигации" id="503b2810-2172-4c57-bdbc-09de0c04ac55"/>
+			<Metadata name="Catalog.уатТС.Attribute.ИспользуемаяСистемаGPS" id="81caec9a-54da-4501-af76-867d78899872"/>
+		</Metadata>
+		<Metadata name="Catalog.уатУчетныеЗаписиСистемыМониторинга" id="95c45044-4952-455c-b50b-f44441a2e907" configVersion="ecd5f8e41ddea51ea0d55e18b4bc8c43035b70b0">
+			<Metadata name="Catalog.уатУчетныеЗаписиСистемыМониторинга.Attribute.Пароль" id="25709e0f-5f74-443b-9c21-7db9de0bf1a5"/>
+			<Metadata name="Catalog.уатУчетныеЗаписиСистемыМониторинга.Attribute.SDL_БезЗащиты" id="26c5858f-e144-41f2-b090-1b66a2cc91e1"/>
+			<Metadata name="Catalog.уатУчетныеЗаписиСистемыМониторинга.Attribute.ВидСистемы" id="3450bf68-0b8d-441e-96a4-590b00e2db79"/>
+			<Metadata name="Catalog.уатУчетныеЗаписиСистемыМониторинга.Attribute.SDL_Порт" id="387ecf08-6001-423e-b6f4-cdc57cd9509d"/>
+			<Metadata name="Catalog.уатУчетныеЗаписиСистемыМониторинга.Attribute.АдресСервиса" id="417083af-8a10-4a02-a5e2-c9772a15d5da"/>
+			<Metadata name="Catalog.уатУчетныеЗаписиСистемыМониторинга.Attribute.Сервер" id="6faf406f-c027-48fa-a092-2dea78304f9c"/>
+			<Metadata name="Catalog.уатУчетныеЗаписиСистемыМониторинга.Attribute.SDL_ИмяПараметраСессии" id="7e3e197b-60ca-44f8-a491-2a6d80c4de2b"/>
+			<Metadata name="Catalog.уатУчетныеЗаписиСистемыМониторинга.Attribute.Версия" id="81463141-f715-4779-b080-cc3dedc1881b"/>
+			<Metadata name="Catalog.уатУчетныеЗаписиСистемыМониторинга.Attribute.СистемаМониторинга" id="82c0e389-c7ff-4000-b511-e0900d9a3646"/>
+			<Metadata name="Catalog.уатУчетныеЗаписиСистемыМониторинга.Attribute.ТокенАвторизации" id="8740e116-953c-4911-9b26-1c6888d98f0d"/>
+			<Metadata name="Catalog.уатУчетныеЗаписиСистемыМониторинга.Attribute.Логин" id="de6cbf73-ca2a-4071-8dda-c413005a23dd"/>
+			<Metadata name="Catalog.уатУчетныеЗаписиСистемыМониторинга.Attribute.Ресурс" id="f062f238-2a7a-4ddb-a778-3f57dfb6ec90"/>
+		</Metadata>
+		<Metadata name="Catalog.уатУчетныеЗаписиСистемыМониторинга.Form.ФормаЭлемента" id="b437cc21-4107-49ed-bc95-580c19f24e74" configVersion="f6965519a696f12d67eff4ba3357bf6f503ba4a9"/>
+		<Metadata name="Catalog.уатУчетныеЗаписиСистемыМониторинга.Form.ФормаЭлемента.Form" id="b437cc21-4107-49ed-bc95-580c19f24e74.0" configVersion="dae7f5a1d2be736f4d6db81ee15019cda0e05096"/>
+		<Metadata name="Catalog.уатУчетныеЗаписиСистемыМониторинга.ManagerModule" id="95c45044-4952-455c-b50b-f44441a2e907.3" configVersion="94c8961fb39bfe8a78e0d3b15474674ab3a887a0"/>
+		<Metadata name="CommonModule.SDL_РаботаСHTTPСервисами" id="dceaa965-1d85-4dd1-88f3-83c577a33a48" configVersion="40ac304e7e050e5f3893a57d6ea78757fbbebd04"/>
+		<Metadata name="CommonModule.SDL_РаботаСHTTPСервисами.Module" id="dceaa965-1d85-4dd1-88f3-83c577a33a48.0" configVersion="4e3c83930a24e663cf5afbaffcc045545127bf7c"/>
+		<Metadata name="CommonModule.SDL_РассчетГлонасс" id="9139babd-0e62-41ea-8702-d1739fd5b194" configVersion="2ef2471ab288d6b35cad6f0728ae99497106e356"/>
+		<Metadata name="CommonModule.SDL_РассчетГлонасс.Module" id="9139babd-0e62-41ea-8702-d1739fd5b194.0" configVersion="9ba054d3d29ccdabdc546eb98a701f222e73db55"/>
+		<Metadata name="CommonModule.SDL_ФортМонитор" id="71ecb04a-4876-4c91-ad17-d71656dddc37" configVersion="91b09025d064392af66441959540dd8be58f0602"/>
+		<Metadata name="CommonModule.SDL_ФортМонитор.Module" id="71ecb04a-4876-4c91-ad17-d71656dddc37.0" configVersion="83f5d81d8174b4d1669f4a20f23e35cd25c1d9e9"/>
+		<Metadata name="CommonModule.уатИнтеграции_проф" id="f0237560-4c23-41f0-a513-59570b88f145" configVersion="ecae0042ed58a01bb624e670f293108d98647991"/>
+		<Metadata name="CommonModule.уатИнтеграции_проф.Module" id="f0237560-4c23-41f0-a513-59570b88f145.0" configVersion="9a0a0f6db1522129aad7b99e27d5b35f67bc7d26"/>
+		<Metadata name="CommonModule.уатРаботаСРасширениями" id="3f42f871-ece4-47c8-972e-6e96a484c2a2" configVersion="3bcdcb32d0577af95699f28c5389e86b5285058f"/>
+		<Metadata name="CommonModule.уатРаботаСРасширениями.Module" id="3f42f871-ece4-47c8-972e-6e96a484c2a2.0" configVersion="0cfcda3026e3685e189db4bce76be4eb86494eea"/>
+		<Metadata name="CommonModule.уатРаботаСРасширениямиКлиент" id="4b9af150-3b15-4a2a-a3d0-de6e1adc1eca" configVersion="9118dea7607ce88dd2cadfaf31106fc69d403543"/>
+		<Metadata name="CommonModule.уатРаботаСРасширениямиКлиент.Module" id="4b9af150-3b15-4a2a-a3d0-de6e1adc1eca.0" configVersion="2ff8c70eda7cdbe21fadebc8d478d546810a60c0"/>
+		<Metadata name="CommonModule.уатЭлектронныеКартыСервер" id="fb75da80-a03f-4677-a6f2-19345d85cace" configVersion="b4831d7e78c8982a664ffa17e9339e0dea18ad8c"/>
+		<Metadata name="CommonModule.уатЭлектронныеКартыСервер.Module" id="fb75da80-a03f-4677-a6f2-19345d85cace.0" configVersion="6bfc4be086d82dea5c5f2efb7531f82682b35f12"/>
+		<Metadata name="CommonPicture.ВводимыеСимволыСкрыты" id="80c75357-1764-4499-9928-0c9c09c1996f" configVersion="ab775d1131873cc6756bad0f6e1698c491ad1cd3"/>
+		<Metadata name="CommonPicture.ЗаполнитьФорму" id="f212cde7-55df-4f3a-973d-bcdd11190dad" configVersion="5410472fab8d02698ac778efeea6e692dbf65da6"/>
+		<Metadata name="CommonPicture.Органайзер" id="6c104073-955f-4dd1-9479-70da6ef1f7ff" configVersion="d4f0802bb8f87fc3f9acc0796d0b0efab0fb3611"/>
+		<Metadata name="CommonPicture.уатМаршрутныеЛисты" id="04aaff34-99e8-4345-8d79-bc5b8f717e0a" configVersion="0b21e347433b33223a5ead9e89a96f2b84e74de2"/>
+		<Metadata name="CommonPicture.уатПодменюВводаНаОсновании" id="4b55c327-a891-4924-af38-224e7ce1cd9e" configVersion="872309404b918b16a2936359ad5ad544421ab5a7"/>
+		<Metadata name="CommonPicture.уатРедактироватьВДиалоге" id="a7c8f342-a372-48ec-a88f-ab9e279cd250" configVersion="f0541b621e7e4ebe378fb9e12446034cbb7b0b41"/>
+		<Metadata name="CommonPicture.уатСостоянияДокумента" id="ee097f1b-c44e-43fb-b8ac-878cefb74606" configVersion="96fb051b1c1ec8c858af9bdcd3119ed9feb32093"/>
+		<Metadata name="Configuration.FortMonitorAPI_ТЛЭ" id="01f0f2c7-c265-4ebd-b14e-95c83a249c17" configVersion="43a665fbf1806ceb8bf021be6594f1444a2d6370"/>
+		<Metadata name="DataProcessor.SDL_ЗагрузкаДанныхФортМонитор" id="c8909bd0-45c2-4714-a770-ba5fece67c38" configVersion="c29020655454df26e02eac13359ae6655d077cba">
+			<Metadata name="DataProcessor.SDL_ЗагрузкаДанныхФортМонитор.Attribute.ДатаПо" id="43599afc-2afa-4292-bd8e-1c4dff7c4335"/>
+			<Metadata name="DataProcessor.SDL_ЗагрузкаДанныхФортМонитор.Attribute.ДатаС" id="727972ab-afe5-40f7-983c-fd044debfbc0"/>
+		</Metadata>
+		<Metadata name="DataProcessor.SDL_ЗагрузкаДанныхФортМонитор.Form.Форма" id="2f46382a-eee1-4325-9642-6ea47e0ecd93" configVersion="53bb562ea52da5c9c9e132787b4a29256069dcfa"/>
+		<Metadata name="DataProcessor.SDL_ЗагрузкаДанныхФортМонитор.Form.Форма.Form" id="2f46382a-eee1-4325-9642-6ea47e0ecd93.0" configVersion="8b1c5d4f9d328f30e384d3a6299e50aa6132bb27"/>
+		<Metadata name="DataProcessor.SDL_ЗагрузкаДанныхФортМонитор.Help" id="c8909bd0-45c2-4714-a770-ba5fece67c38.1" configVersion="f4c0f037576a53e8b7ecc04bc52fcd367552308b"/>
+		<Metadata name="DataProcessor.SDL_ПолучениеДанныхФортМонитор" id="06f453e5-81ea-40ab-94b2-cd3672585df5" configVersion="f4e26ad8a14a4652d129d7618f5964d232ab5890"/>
+		<Metadata name="DataProcessor.SDL_ПолучениеДанныхФортМонитор.Form.Форма" id="737a20e3-d0b7-4d43-a0c7-f66d21a766eb" configVersion="d85860c980f79b4efbb65a388f2768d0bc1fdf38"/>
+		<Metadata name="DataProcessor.SDL_ПолучениеДанныхФортМонитор.Form.Форма.Form" id="737a20e3-d0b7-4d43-a0c7-f66d21a766eb.0" configVersion="ddd05b1ae73c80e93b4ba9a444f558833c926298"/>
+		<Metadata name="Document.уатПутевойЛист" id="44df840c-505d-40b3-93e4-779b1795af05" configVersion="6b55d0efa013fc150a3423b3975c036d83076d0d"/>
+		<Metadata name="Document.уатПутевойЛист.Form.ФормаДокумента" id="0b826446-8ff5-4b48-ba6b-139e7c715377" configVersion="5b45cb1ab78b8e7cb83d2593ea7cc0cc7c581583"/>
+		<Metadata name="Document.уатПутевойЛист.Form.ФормаДокумента.Form" id="0b826446-8ff5-4b48-ba6b-139e7c715377.0" configVersion="9ede36e5b0698f4a8526389891b93bb204f17340"/>
+		<Metadata name="Enum.SDL_ЧасовыеПояса" id="a7c9fd06-0d1a-4069-8935-1528c9d1be06" configVersion="dde7c888caf831575d66744b9c8ba62adc76a433">
+			<Metadata name="Enum.SDL_ЧасовыеПояса.EnumValue.UTC11" id="009d06dd-3c4b-4717-8ee1-941a71654d5f"/>
+			<Metadata name="Enum.SDL_ЧасовыеПояса.EnumValue.UTC12" id="18e9880b-3118-48f9-9540-d747ca8ab9b2"/>
+			<Metadata name="Enum.SDL_ЧасовыеПояса.EnumValue.UTC2" id="1c0cfb68-5373-4770-8153-6dd9f2a395d0"/>
+			<Metadata name="Enum.SDL_ЧасовыеПояса.EnumValue.UTC1" id="1e62d487-dc88-4a6f-989e-d43d58476394"/>
+			<Metadata name="Enum.SDL_ЧасовыеПояса.EnumValue.UTC6" id="2fcbbd09-3fc9-4bc3-9fab-a9bc0f16efd1"/>
+			<Metadata name="Enum.SDL_ЧасовыеПояса.EnumValue.UTC3" id="30688e8a-a676-4537-8779-84f2aad2fe8e"/>
+			<Metadata name="Enum.SDL_ЧасовыеПояса.EnumValue.UTC4" id="4153ed44-f8c8-4734-a334-09932f1a279c"/>
+			<Metadata name="Enum.SDL_ЧасовыеПояса.EnumValue.UTC7" id="809c7fec-65f8-488d-8692-228f0ce7f8bb"/>
+			<Metadata name="Enum.SDL_ЧасовыеПояса.EnumValue.UTC0" id="93cf91d5-e28d-4865-acf4-85ef4f977dea"/>
+			<Metadata name="Enum.SDL_ЧасовыеПояса.EnumValue.UTC5" id="a138e2df-62e2-48d5-9739-61ae367bb752"/>
+			<Metadata name="Enum.SDL_ЧасовыеПояса.EnumValue.UTC9" id="a81c40b8-3c89-482f-9814-8594b772ccbe"/>
+			<Metadata name="Enum.SDL_ЧасовыеПояса.EnumValue.UTC8" id="b479f334-b362-4f6c-8416-55c5509b3a0b"/>
+			<Metadata name="Enum.SDL_ЧасовыеПояса.EnumValue.UTC10" id="cd84fe50-f85f-4580-a498-e273a9c23f3a"/>
+		</Metadata>
+		<Metadata name="Enum.уатВерсииАвтоГРАФ" id="e7e1e586-0ea0-4259-9576-5152dc11e155" configVersion="576ca1f483969e509ae518d24fe3acefcc8ce69b"/>
+		<Metadata name="Enum.уатВидыДвиженияГСМ" id="aa576ff5-2d4f-412a-b7da-5dba6576b3c4" configVersion="5bde11701ea9643010d64e509666d88d4e2f9269">
+			<Metadata name="Enum.уатВидыДвиженияГСМ.EnumValue.ЗаправкаСклад" id="17b2ab8b-fee3-4edd-acd6-dde99207a947"/>
+			<Metadata name="Enum.уатВидыДвиженияГСМ.EnumValue.ЗаправкаПоставщик" id="6c0fb0e8-43b5-4f24-bec0-d721b3cd97a8"/>
+			<Metadata name="Enum.уатВидыДвиженияГСМ.EnumValue.ЗаправкаНаличные" id="b1f7297a-6dfe-42ac-b098-f9ad78a7fa06"/>
+		</Metadata>
+		<Metadata name="Enum.уатВидыОперацийСливГСМ" id="95c93078-0f1c-408c-a531-953b415490ae" configVersion="7bcd4b34aa75234e107fb8505b40d53596f4ac51">
+			<Metadata name="Enum.уатВидыОперацийСливГСМ.EnumValue.НаСклад" id="0240740f-8ecd-4bfa-bfeb-0f3b2484ecf0"/>
+			<Metadata name="Enum.уатВидыОперацийСливГСМ.EnumValue.НаАЗС" id="f5a58f58-bb05-4171-bc1a-d782f64eeada"/>
+		</Metadata>
+		<Metadata name="Enum.уатСтатусыДействия" id="e7b4af32-a17a-47e7-b0f0-2e05d852f88d" configVersion="f34fb6663c14191e7003e329ac8f9e73c42d3f5c">
+			<Metadata name="Enum.уатСтатусыДействия.EnumValue.Действует" id="5e83895e-0364-45d7-903c-dccb9562f22b"/>
+		</Metadata>
+		<Metadata name="Enum.уатСтатусыКарт" id="c185b73e-7b56-4f24-91b2-c3c80f29e55a" configVersion="a2bb32c4042a844fd0aa0f0e2d095f9dff016ad7">
+			<Metadata name="Enum.уатСтатусыКарт.EnumValue.Действует" id="005e47c2-6538-4342-86f7-72e63eb8ee19"/>
+		</Metadata>
+		<Metadata name="Enum.уатТипСобытияGPS" id="be50f7e4-52e1-46e7-849b-e84fb6d20b1c" configVersion="6ded77167b2ff11c6c6d0193d9ed7e226bd793d2">
+			<Metadata name="Enum.уатТипСобытияGPS.EnumValue.ДлительноеПревышениеСкорости" id="014f1434-fe7d-45e0-8524-587874d9f780"/>
+			<Metadata name="Enum.уатТипСобытияGPS.EnumValue.СливГСМ" id="9dcc1967-e221-4cb4-9aaf-43c049302824"/>
+			<Metadata name="Enum.уатТипСобытияGPS.EnumValue.ЗаправкаГСМ" id="bbd254a5-8bf6-4cf8-8674-ea2738d72181"/>
+			<Metadata name="Enum.уатТипСобытияGPS.EnumValue.МгновенноеПревышениеСкорости" id="fd968d25-1599-4325-8d92-33c9e554e527"/>
+		</Metadata>
+		<Metadata name="InformationRegister.уатДополнительныеСведенияПоGPS" id="a105b6a1-7d74-4baf-a224-e2670b4807ea" configVersion="d8cd2ec05ac157f9a86f0fb555bdba6f1f48aaf5">
+			<Metadata name="InformationRegister.уатДополнительныеСведенияПоGPS.Dimension.ТС" id="1bc6463d-d881-4b9b-b80a-4612e836aac1"/>
+			<Metadata name="InformationRegister.уатДополнительныеСведенияПоGPS.Resource.ДлительностьСобытия" id="3498aa0b-2e84-4722-9248-168ee1ab99a1"/>
+			<Metadata name="InformationRegister.уатДополнительныеСведенияПоGPS.Dimension.ТипСобытия" id="460b0ba1-11ab-4c85-88ae-af2dbe5e39de"/>
+			<Metadata name="InformationRegister.уатДополнительныеСведенияПоGPS.Resource.Значение" id="ba33f6a8-35cc-43bd-b0c4-939e258e69c9"/>
+			<Metadata name="InformationRegister.уатДополнительныеСведенияПоGPS.Resource.ПредельноеЗначение" id="d55acecb-4124-4f3c-8a71-3b09e041fec7"/>
+		</Metadata>
+		<Metadata name="InformationRegister.уатКоординатыПоМониторингу" id="afe8c866-dd9a-448d-bd1c-b6c78707b1f4" configVersion="cfd5c3cfefde4be50018566b0e9ca1d07f2f3c2b">
+			<Metadata name="InformationRegister.уатКоординатыПоМониторингу.Dimension.ТС" id="0cf89931-ad2c-444a-b8e9-5ddfeac6ac66"/>
+			<Metadata name="InformationRegister.уатКоординатыПоМониторингу.Resource.ПредставлениеАдреса" id="147d2074-52d6-48ee-ba95-e298c0287278"/>
+			<Metadata name="InformationRegister.уатКоординатыПоМониторингу.Resource.Скорость" id="2a49a52b-6bdb-4c07-84ea-9d9ce4ec0df8"/>
+			<Metadata name="InformationRegister.уатКоординатыПоМониторингу.Resource.Долгота" id="9680be0e-6061-469a-8ace-fdd6a825e1d4"/>
+			<Metadata name="InformationRegister.уатКоординатыПоМониторингу.Resource.Широта" id="aebc8c84-148f-4e3a-95e4-2657ae31293e"/>
+			<Metadata name="InformationRegister.уатКоординатыПоМониторингу.Resource.Курс" id="c0678e1e-dae3-42bd-b05e-58bc94abd05a"/>
+		</Metadata>
+		<Metadata name="InformationRegister.уатПробегРасходПоМониторингу" id="250b81ce-c958-48dd-ac16-2f62d39c5b86" configVersion="7eea3903672f215b9dfd4f11e154f48d16cb9d8e">
+			<Metadata name="InformationRegister.уатПробегРасходПоМониторингу.Dimension.ТС" id="80a29a8f-3078-4a41-9ce3-bdcd35910b9c"/>
+		</Metadata>
+		<Metadata name="InformationRegister.уатПробегРасходПоМониторингу.ManagerModule" id="250b81ce-c958-48dd-ac16-2f62d39c5b86.2" configVersion="e46fccf685a626a3f3dd84378a5d0d44ad5afad0"/>
+		<Metadata name="InformationRegister.уатТекущееМестоположениеТСПоМониторингу" id="8a16cad0-25a0-4071-8ad8-043b46ca8285" configVersion="cd30266837e319b73d27c9b65e76f839fbae75dd">
+			<Metadata name="InformationRegister.уатТекущееМестоположениеТСПоМониторингу.Dimension.ТС" id="25c84258-e748-485d-a9a2-a696cb2cd4a3"/>
+			<Metadata name="InformationRegister.уатТекущееМестоположениеТСПоМониторингу.Resource.Дата" id="29dfd4cf-07ea-4f76-a272-ab62beecc675"/>
+			<Metadata name="InformationRegister.уатТекущееМестоположениеТСПоМониторингу.Resource.Долгота" id="66f0e2bc-d5bd-470c-a13c-02d131e22eba"/>
+			<Metadata name="InformationRegister.уатТекущееМестоположениеТСПоМониторингу.Resource.Широта" id="8f58fa49-9095-496f-a112-10f8cb1ace1d"/>
+			<Metadata name="InformationRegister.уатТекущееМестоположениеТСПоМониторингу.Resource.Скорость" id="9b63c85e-66a9-41f0-93a7-02aae1affce9"/>
+			<Metadata name="InformationRegister.уатТекущееМестоположениеТСПоМониторингу.Resource.ПредставлениеАдреса" id="a2319318-7985-4cd6-ba0d-b9773054b520"/>
+			<Metadata name="InformationRegister.уатТекущееМестоположениеТСПоМониторингу.Resource.Курс" id="e924832c-893e-41a5-b680-8d5e75234f67"/>
+		</Metadata>
+		<Metadata name="InformationRegister.уатТекущееМестоположениеТСПоМониторингу.Form.ФормаСписка" id="7eee88b6-1292-419e-85ab-15b420950918" configVersion="54638e717c0437434a3a47f313e17bc45ef60d9e"/>
+		<Metadata name="InformationRegister.уатТекущееМестоположениеТСПоМониторингу.Form.ФормаСписка.Form" id="7eee88b6-1292-419e-85ab-15b420950918.0" configVersion="c4bfb5423ee4c9276bd4bd84eeaf2800c9d2e10f"/>
+		<Metadata name="Language.Русский" id="6e6ce258-b675-49f3-95b9-7633a11af0fd" configVersion="ca747ba70aafaf623f669c3afc131278e23072c0"/>
+		<Metadata name="Role.уатПрикладнаяРольДиспетчер" id="fb5d91a5-6a7a-4893-a243-f470392e5752" configVersion="4864a52910cf46bea323e4bcca28e54748562459"/>
+		<Metadata name="Role.уатПрикладнаяРольДиспетчер.Rights" id="fb5d91a5-6a7a-4893-a243-f470392e5752.0" configVersion="26e724241035e70e8a41dd5d5ea0f4ed819e7b08"/>
+		<Metadata name="StyleItem.ГиперссылкаЦвет" id="8e16d970-f5d2-4575-8f33-a7e5f26658d2" configVersion="852dac82b5e9950f1528a2155e22b5f687309a3b"/>
+		<Metadata name="StyleItem.ПоясняющийОшибкуТекст" id="aec79e02-8e09-475d-bdd0-191665d2ec4b" configVersion="2c64722588e9ab241b59bf367efe40c34955971b"/>
+		<Metadata name="StyleItem.ПоясняющийТекст" id="832ee22e-1796-491f-9c7a-86d764bb32be" configVersion="acd2187571595ceb1e8a4f00d70b968c43e2a7cb"/>
+		<Metadata name="StyleItem.уатЦветФонаСтатуса" id="e97b40c0-9735-4d28-8a50-15cf729601e0" configVersion="afe8b38ab6958f5d3e8d1f66485b398f77ca27f7"/>
+		<Metadata name="Subsystem.уатМониторинг" id="01ac49ab-8eba-40c2-ad29-c69f753f034f" configVersion="039d3187119398b781c9097ecbad0d53d963bdf3"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

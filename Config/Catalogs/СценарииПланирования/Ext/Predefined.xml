@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.20">
+	<Item id="fd9b8eb0-b9e8-4eb6-a9dc-d4fb3c12d843">
+		<Name>ОсновнойСценарийПанирования</Name>
+		<Code>000000001</Code>
+		<Description>Основной сценарий панирования</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

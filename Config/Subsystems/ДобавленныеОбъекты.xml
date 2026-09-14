@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Subsystem uuid="5737db05-9e78-47ca-8f0a-6b03ed1f6cdc">
+		<Properties>
+			<Name>ДобавленныеОбъекты</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавленные объекты</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<IncludeHelpInContents>true</IncludeHelpInContents>
+			<IncludeInCommandInterface>false</IncludeInCommandInterface>
+			<UseOneCommand>false</UseOneCommand>
+			<Explanation/>
+			<Picture/>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.эркасОбщийМодуль</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.Бюджетирование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.уатГруппыСтатейЗатратДляАнализа</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.МаршрутыОсновные</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Маршруты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.СценарииПланирования</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ПрофилиИзмененияПлановПоПериодам</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Проекты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.СтатьиБюджета</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Бюджеты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Подразделения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ВидыЦФО</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ИсточникиДанныхДляРасчетовБюджетирования</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.СтатьиОборотовПоБюджетам</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.МаршрутныйЛист_ЮЦАУ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ГрафикРаботыАвтотранспорта_ЮЦАУ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.РеестрПоВзаиморрасчетамСФизЛицами_ЮЦАУ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ВедомостьУчетаПоказателейКАУ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.УчетМатериаловПоВидамРабот</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.АктуализацияБюджетов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПланированиеБюджета</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.УчетФактическихДанныхПоБюджетам</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ВедомостьУчетаРабочегоВремениКАУ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ВидыГраницОтбораИсточникаПланирования</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ВидыОстатковОборотовБюджета</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ИзмеренияБюджетирования</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ВидыПодразделений</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ВидыБюджетов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ДетализацияПланирования</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.СпособыПланирования</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.СостоянияОбъектов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.СпособыОпределенияВалютыОборотаПоСтатье</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ВидыДанныхДляОтчетовБюджетированияИсточники</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ВидыДанныхДляОтчетовБюджетирования</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ВидыПереносаОтклоненийПланФакт</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ВидыРаспределенияЗначенийБюджетирования</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ВидыИзмененийПоПериодамБюджетирования</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ИспользованиеКонтролируемыхЗначенийБюджетов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ВидыДенежныхСредств</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ВидыОперацийЗаявкиНаРасходование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ВидГрафикаРаботыАвтотранспорта</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ГруппыОС_ДМС</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ЮЦАУ_Разряд</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.СтатьиБюджетногоКлассификатора</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.СоответствиеПодразделенийИПодразделенийОрганизаций</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ГраницыПериодовБюджетирования</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ЮЦАУ_Разряд_сотрудников</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.эркасИдентификаторыТС</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.эркасНастройкиОбмена</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.эркасПоказателиПутевыхЛистов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ЗначенияПоУмолчанию_ЮЦАУ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ГрафикРаботыТранспорта_ЮЦАУ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ЮЦАУ_ДоговорыКонтрагентовДопИнформация</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ВидыОбслуживанияТСсОсобымПорядкомУчета</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ЮЦАУ_НоменклатураТС</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.уатСоответсвиеСтатейЗатратДляАнализа</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ОборотыБюджетов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.КонтролируемыеЗначенияБюджетов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ЮЦАУ_РабочееВремяПоУчасткам</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ЮЦАУ_РасходВодыПоВидамРабот</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ЮЦАУ_СтоимостьСписанияЗЧ</xr:Item>
+			</Content>
+		</Properties>
+		<ChildObjects/>
+	</Subsystem>
+</MetaDataObject>

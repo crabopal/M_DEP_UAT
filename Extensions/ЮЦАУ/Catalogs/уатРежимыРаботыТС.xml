@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="7f390e12-cee6-4753-99ad-6cebac6a1e22">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.уатРежимыРаботыТС" category="Object">
+				<xr:TypeId>b4f209d2-b856-43d9-931f-5815128ff4f3</xr:TypeId>
+				<xr:ValueId>251ee38d-511c-4523-8fc7-bfe454c6730b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.уатРежимыРаботыТС" category="Ref">
+				<xr:TypeId>b2ef61e4-fd5a-45e6-92c8-2de6d2b1f373</xr:TypeId>
+				<xr:ValueId>cf9fa427-1988-4c18-bffc-3c9609166a0e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.уатРежимыРаботыТС" category="Selection">
+				<xr:TypeId>ddf6d315-b4b6-4c87-8c7e-64e850123b9f</xr:TypeId>
+				<xr:ValueId>3e95a0df-7c1b-4a57-81c6-022d72ecb9fe</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.уатРежимыРаботыТС" category="List">
+				<xr:TypeId>020bc8db-b19b-451a-8fe2-5bebfa5f1173</xr:TypeId>
+				<xr:ValueId>5b33abb9-8d0d-4509-a3d4-fe260413bdb7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.уатРежимыРаботыТС" category="Manager">
+				<xr:TypeId>45e9d95a-35c5-4879-a432-4f312e081e02</xr:TypeId>
+				<xr:ValueId>d58adb8c-94d3-426e-b1d7-6bcfc151ebc9</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уатРежимыРаботыТС</Name>
+			<Comment/>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

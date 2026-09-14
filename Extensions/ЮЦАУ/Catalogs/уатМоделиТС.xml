@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="eb627e67-c072-4d70-9d56-fcb8ca04becb">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.уатМоделиТС" category="Object">
+				<xr:TypeId>a1864c79-903b-496b-abdf-08e0bb2676ae</xr:TypeId>
+				<xr:ValueId>66d2a1b9-128c-4db3-97c6-2aaf73bfff3b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.уатМоделиТС" category="Ref">
+				<xr:TypeId>9c086853-953c-4fe4-abbf-59b95652d1b1</xr:TypeId>
+				<xr:ValueId>6f98b13e-8187-434c-aae2-8500a2decf2e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.уатМоделиТС" category="Selection">
+				<xr:TypeId>de22534b-4313-4704-aff6-b93acbe45f9d</xr:TypeId>
+				<xr:ValueId>f0ead2fb-e67d-4a69-a859-834e6cfc6e92</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.уатМоделиТС" category="List">
+				<xr:TypeId>61b671b3-6dc4-4112-8774-cc7b86870190</xr:TypeId>
+				<xr:ValueId>1b65a883-9ed0-4fa0-b6ce-631c29d97655</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.уатМоделиТС" category="Manager">
+				<xr:TypeId>59008fb2-be79-41d1-b7aa-bfb229b611ad</xr:TypeId>
+				<xr:ValueId>58c5bae9-ec15-41b7-904b-7b18250478a3</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уатМоделиТС</Name>
+			<Comment/>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

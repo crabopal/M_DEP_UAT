@@ -1,0 +1,1109 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаПроверитьРезультат" id="43">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ПроверитьРезультат</CommandName>
+				<ExtendedTooltip name="ФормаПроверитьРезультатРасширеннаяПодсказка" id="44"/>
+			</Button>
+			<Button name="ФормаПроверитьРезультатВТЗ" id="60">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ПроверитьРезультатВТЗ</CommandName>
+				<ExtendedTooltip name="ФормаПроверитьРезультатВТЗРасширеннаяПодсказка" id="61"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="ChoiceProcessing">ОбработкаВыбора</Event>
+		<Event name="OnReadAtServer">ПриЧтенииНаСервере</Event>
+		<Event name="BeforeWrite">ПередЗаписью</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+		<Event name="BeforeWriteAtServer">ПередЗаписьюНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаШапка" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа шапка</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа шапка</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаШапкаРасширеннаяПодсказка" id="10"/>
+			<ChildItems>
+				<InputField name="Наименование" id="4">
+					<DataPath>Объект.Description</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+				</InputField>
+				<InputField name="Код" id="1">
+					<DataPath>Объект.Code</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+				</InputField>
+				<CheckBoxField name="Отключен" id="230">
+					<DataPath>Объект.Отключен</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ОтключенКонтекстноеМеню" id="231"/>
+					<ExtendedTooltip name="ОтключенРасширеннаяПодсказка" id="232"/>
+				</CheckBoxField>
+			</ChildItems>
+		</UsualGroup>
+		<Button name="РедактироватьСхемуКомпоновки" id="7">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.РедактироватьСхемуКомпоновки</CommandName>
+			<ExtendedTooltip name="РедактироватьСхемуКомпоновкиРасширеннаяПодсказка" id="8"/>
+		</Button>
+		<Pages name="Страницы" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<PagesRepresentation>TabsOnTop</PagesRepresentation>
+			<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="12"/>
+			<ChildItems>
+				<Page name="СтраницаПараметры" id="13">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Параметры</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница параметры</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СтраницаПараметрыРасширеннаяПодсказка" id="14"/>
+					<ChildItems>
+						<Table name="КомпоновщикНастроекНастройкиПараметрыДанных" id="15">
+							<Representation>Tree</Representation>
+							<Autofill>true</Autofill>
+							<Width>50</Width>
+							<InitialTreeView>ExpandAllLevels</InitialTreeView>
+							<FileDragMode>AsFile</FileDragMode>
+							<DataPath>КомпоновщикНастроек.Settings.DataParameters</DataPath>
+							<ContextMenu name="КомпоновщикНастроекНастройкиПараметрыДанныхКонтекстноеМеню" id="16"/>
+							<AutoCommandBar name="КомпоновщикНастроекНастройкиПараметрыДанныхКоманднаяПанель" id="17"/>
+							<ExtendedTooltip name="КомпоновщикНастроекНастройкиПараметрыДанныхРасширеннаяПодсказка" id="18"/>
+							<SearchStringAddition name="КомпоновщикНастроекНастройкиПараметрыДанныхСтрокаПоиска" id="19">
+								<AdditionSource>
+									<Item>КомпоновщикНастроекНастройкиПараметрыДанных</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="КомпоновщикНастроекНастройкиПараметрыДанныхСтрокаПоискаКонтекстноеМеню" id="20"/>
+								<ExtendedTooltip name="КомпоновщикНастроекНастройкиПараметрыДанныхСтрокаПоискаРасширеннаяПодсказка" id="21"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="КомпоновщикНастроекНастройкиПараметрыДанныхСостояниеПросмотра" id="22">
+								<AdditionSource>
+									<Item>КомпоновщикНастроекНастройкиПараметрыДанных</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="КомпоновщикНастроекНастройкиПараметрыДанныхСостояниеПросмотраКонтекстноеМеню" id="23"/>
+								<ExtendedTooltip name="КомпоновщикНастроекНастройкиПараметрыДанныхСостояниеПросмотраРасширеннаяПодсказка" id="24"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="КомпоновщикНастроекНастройкиПараметрыДанныхУправлениеПоиском" id="25">
+								<AdditionSource>
+									<Item>КомпоновщикНастроекНастройкиПараметрыДанных</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="КомпоновщикНастроекНастройкиПараметрыДанныхУправлениеПоискомКонтекстноеМеню" id="26"/>
+								<ExtendedTooltip name="КомпоновщикНастроекНастройкиПараметрыДанныхУправлениеПоискомРасширеннаяПодсказка" id="27"/>
+							</SearchControlAddition>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаОтбор" id="28">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отбор</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница отбор</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СтраницаОтборРасширеннаяПодсказка" id="29"/>
+					<ChildItems>
+						<Table name="КомпоновщикНастроекНастройкиОтбор" id="30">
+							<Representation>Tree</Representation>
+							<Autofill>true</Autofill>
+							<InitialTreeView>ExpandAllLevels</InitialTreeView>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<FileDragMode>AsFile</FileDragMode>
+							<DataPath>КомпоновщикНастроек.Settings.Filter</DataPath>
+							<ViewMode>All</ViewMode>
+							<SettingsNamedItemDetailedRepresentation>false</SettingsNamedItemDetailedRepresentation>
+							<ContextMenu name="КомпоновщикНастроекНастройкиОтборКонтекстноеМеню" id="31"/>
+							<AutoCommandBar name="КомпоновщикНастроекНастройкиОтборКоманднаяПанель" id="32"/>
+							<ExtendedTooltip name="КомпоновщикНастроекНастройкиОтборРасширеннаяПодсказка" id="33"/>
+							<SearchStringAddition name="КомпоновщикНастроекНастройкиОтборСтрокаПоиска" id="34">
+								<AdditionSource>
+									<Item>КомпоновщикНастроекНастройкиОтбор</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="КомпоновщикНастроекНастройкиОтборСтрокаПоискаКонтекстноеМеню" id="35"/>
+								<ExtendedTooltip name="КомпоновщикНастроекНастройкиОтборСтрокаПоискаРасширеннаяПодсказка" id="36"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="КомпоновщикНастроекНастройкиОтборСостояниеПросмотра" id="37">
+								<AdditionSource>
+									<Item>КомпоновщикНастроекНастройкиОтбор</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="КомпоновщикНастроекНастройкиОтборСостояниеПросмотраКонтекстноеМеню" id="38"/>
+								<ExtendedTooltip name="КомпоновщикНастроекНастройкиОтборСостояниеПросмотраРасширеннаяПодсказка" id="39"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="КомпоновщикНастроекНастройкиОтборУправлениеПоиском" id="40">
+								<AdditionSource>
+									<Item>КомпоновщикНастроекНастройкиОтбор</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="КомпоновщикНастроекНастройкиОтборУправлениеПоискомКонтекстноеМеню" id="41"/>
+								<ExtendedTooltip name="КомпоновщикНастроекНастройкиОтборУправлениеПоискомРасширеннаяПодсказка" id="42"/>
+							</SearchControlAddition>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаПоля" id="45">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Поля</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница поля</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СтраницаПоляРасширеннаяПодсказка" id="46"/>
+					<ChildItems>
+						<Table name="КомпоновщикНастроекНастройкиВыбор" id="47">
+							<Representation>Tree</Representation>
+							<Autofill>true</Autofill>
+							<InitialTreeView>ExpandAllLevels</InitialTreeView>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<FileDragMode>AsFile</FileDragMode>
+							<DataPath>КомпоновщикНастроек.Settings.Selection</DataPath>
+							<ContextMenu name="КомпоновщикНастроекНастройкиВыборКонтекстноеМеню" id="48"/>
+							<AutoCommandBar name="КомпоновщикНастроекНастройкиВыборКоманднаяПанель" id="49"/>
+							<ExtendedTooltip name="КомпоновщикНастроекНастройкиВыборРасширеннаяПодсказка" id="50"/>
+							<SearchStringAddition name="КомпоновщикНастроекНастройкиВыборСтрокаПоиска" id="51">
+								<AdditionSource>
+									<Item>КомпоновщикНастроекНастройкиВыбор</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="КомпоновщикНастроекНастройкиВыборСтрокаПоискаКонтекстноеМеню" id="52"/>
+								<ExtendedTooltip name="КомпоновщикНастроекНастройкиВыборСтрокаПоискаРасширеннаяПодсказка" id="53"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="КомпоновщикНастроекНастройкиВыборСостояниеПросмотра" id="54">
+								<AdditionSource>
+									<Item>КомпоновщикНастроекНастройкиВыбор</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="КомпоновщикНастроекНастройкиВыборСостояниеПросмотраКонтекстноеМеню" id="55"/>
+								<ExtendedTooltip name="КомпоновщикНастроекНастройкиВыборСостояниеПросмотраРасширеннаяПодсказка" id="56"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="КомпоновщикНастроекНастройкиВыборУправлениеПоиском" id="57">
+								<AdditionSource>
+									<Item>КомпоновщикНастроекНастройкиВыбор</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="КомпоновщикНастроекНастройкиВыборУправлениеПоискомКонтекстноеМеню" id="58"/>
+								<ExtendedTooltip name="КомпоновщикНастроекНастройкиВыборУправлениеПоискомРасширеннаяПодсказка" id="59"/>
+							</SearchControlAddition>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаМастераНастроек" id="62">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Конструктор</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница мастера настроек</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СтраницаМастераНастроекРасширеннаяПодсказка" id="63"/>
+					<ChildItems>
+						<Pages name="СтраницыКонструктора" id="73">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Страницы конструктора</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Страницы конструктора</v8:content>
+								</v8:item>
+							</ToolTip>
+							<PagesRepresentation>TabsOnTop</PagesRepresentation>
+							<ExtendedTooltip name="СтраницыКонструктораРасширеннаяПодсказка" id="74"/>
+							<ChildItems>
+								<Page name="СтраницаБухИтоги" id="146">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Бух. итоги</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Страница бух итоги</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ExtendedTooltip name="СтраницаБухИтогиРасширеннаяПодсказка" id="147"/>
+									<ChildItems>
+										<Table name="НастройкиПоРегиструБухгатерии" id="150">
+											<AutoInsertNewRow>true</AutoInsertNewRow>
+											<EnableStartDrag>true</EnableStartDrag>
+											<EnableDrag>true</EnableDrag>
+											<FileDragMode>AsFile</FileDragMode>
+											<DataPath>Объект.НастройкиПоРегиструБухгатерии</DataPath>
+											<RowFilter xsi:nil="true"/>
+											<ContextMenu name="НастройкиПоРегиструБухгатерииКонтекстноеМеню" id="151"/>
+											<AutoCommandBar name="НастройкиПоРегиструБухгатерииКоманднаяПанель" id="152">
+												<ChildItems>
+													<Button name="НастройкиПоРегиструБухгатерииСгкнерироватьЗапросПоРегиструБухгалтерии" id="228">
+														<Type>CommandBarButton</Type>
+														<CommandName>Form.Command.СгенерироватьЗапросПоРегиструБухгалтерии</CommandName>
+														<ExtendedTooltip name="НастройкиПоРегиструБухгатерииСгкнерироватьЗапросПоРегиструБухгалтерииРасширеннаяПодсказка" id="229"/>
+													</Button>
+												</ChildItems>
+											</AutoCommandBar>
+											<ExtendedTooltip name="НастройкиПоРегиструБухгатерииРасширеннаяПодсказка" id="153"/>
+											<SearchStringAddition name="НастройкиПоРегиструБухгатерииСтрокаПоиска" id="154">
+												<AdditionSource>
+													<Item>НастройкиПоРегиструБухгатерии</Item>
+													<Type>SearchStringRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="НастройкиПоРегиструБухгатерииСтрокаПоискаКонтекстноеМеню" id="155"/>
+												<ExtendedTooltip name="НастройкиПоРегиструБухгатерииСтрокаПоискаРасширеннаяПодсказка" id="156"/>
+											</SearchStringAddition>
+											<ViewStatusAddition name="НастройкиПоРегиструБухгатерииСостояниеПросмотра" id="157">
+												<AdditionSource>
+													<Item>НастройкиПоРегиструБухгатерии</Item>
+													<Type>ViewStatusRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="НастройкиПоРегиструБухгатерииСостояниеПросмотраКонтекстноеМеню" id="158"/>
+												<ExtendedTooltip name="НастройкиПоРегиструБухгатерииСостояниеПросмотраРасширеннаяПодсказка" id="159"/>
+											</ViewStatusAddition>
+											<SearchControlAddition name="НастройкиПоРегиструБухгатерииУправлениеПоиском" id="160">
+												<AdditionSource>
+													<Item>НастройкиПоРегиструБухгатерии</Item>
+													<Type>SearchControl</Type>
+												</AdditionSource>
+												<ContextMenu name="НастройкиПоРегиструБухгатерииУправлениеПоискомКонтекстноеМеню" id="161"/>
+												<ExtendedTooltip name="НастройкиПоРегиструБухгатерииУправлениеПоискомРасширеннаяПодсказка" id="162"/>
+											</SearchControlAddition>
+											<ChildItems>
+												<LabelField name="НастройкиПоРегиструБухгатерииНомерСтроки" id="163">
+													<DataPath>Объект.НастройкиПоРегиструБухгатерии.LineNumber</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="НастройкиПоРегиструБухгатерииНомерСтрокиКонтекстноеМеню" id="164"/>
+													<ExtendedTooltip name="НастройкиПоРегиструБухгатерииНомерСтрокиРасширеннаяПодсказка" id="165"/>
+												</LabelField>
+												<InputField name="НастройкиПоРегиструБухгатерииДТ" id="166">
+													<DataPath>Объект.НастройкиПоРегиструБухгатерии.ВидОборота</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ListChoiceMode>true</ListChoiceMode>
+													<Format>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>БЛ=Дт; БИ=Кт</v8:content>
+														</v8:item>
+													</Format>
+													<EditFormat>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>БЛ=Дт; БИ=Кт</v8:content>
+														</v8:item>
+													</EditFormat>
+													<ChoiceList>
+														<xr:Item>
+															<xr:Presentation/>
+															<xr:CheckState>0</xr:CheckState>
+															<xr:Value xsi:type="FormChoiceListDesTimeValue">
+																<Presentation>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>Оборот по ДТ</v8:content>
+																	</v8:item>
+																</Presentation>
+																<Value xsi:type="xs:boolean">false</Value>
+															</xr:Value>
+														</xr:Item>
+														<xr:Item>
+															<xr:Presentation/>
+															<xr:CheckState>0</xr:CheckState>
+															<xr:Value xsi:type="FormChoiceListDesTimeValue">
+																<Presentation>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>Оборот по КТ</v8:content>
+																	</v8:item>
+																</Presentation>
+																<Value xsi:type="xs:boolean">true</Value>
+															</xr:Value>
+														</xr:Item>
+													</ChoiceList>
+													<ContextMenu name="НастройкиПоРегиструБухгатерииДТКонтекстноеМеню" id="167"/>
+													<ExtendedTooltip name="НастройкиПоРегиструБухгатерииДТРасширеннаяПодсказка" id="168"/>
+												</InputField>
+												<CheckBoxField name="НастройкиПоРегиструБухгатерииКТ" id="169">
+													<EditMode>EnterOnInput</EditMode>
+													<CheckBoxType>Auto</CheckBoxType>
+													<ContextMenu name="НастройкиПоРегиструБухгатерииКТКонтекстноеМеню" id="170"/>
+													<ExtendedTooltip name="НастройкиПоРегиструБухгатерииКТРасширеннаяПодсказка" id="171"/>
+												</CheckBoxField>
+												<InputField name="Счет" id="172">
+													<DataPath>Объект.НастройкиПоРегиструБухгатерии.Счет</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="СчетКонтекстноеМеню" id="173"/>
+													<ExtendedTooltip name="СчетРасширеннаяПодсказка" id="174"/>
+													<Events>
+														<Event name="OnChange">СчетПриИзменении</Event>
+													</Events>
+												</InputField>
+												<ColumnGroup name="НастройкиПоРегиструБухгатерииГруппа1" id="220">
+													<ExtendedTooltip name="НастройкиПоРегиструБухгатерииГруппа1РасширеннаяПодсказка" id="221"/>
+													<ChildItems>
+														<InputField name="Субк1Условие" id="175">
+															<DataPath>Объект.НастройкиПоРегиструБухгатерии.Субк1Условие</DataPath>
+															<EditMode>EnterOnInput</EditMode>
+															<ListChoiceMode>true</ListChoiceMode>
+															<Format>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>БЛ==; БИ=&lt;&gt;</v8:content>
+																</v8:item>
+															</Format>
+															<EditFormat>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>БЛ==; БИ=&lt;&gt;</v8:content>
+																</v8:item>
+															</EditFormat>
+															<ChoiceList>
+																<xr:Item>
+																	<xr:Presentation/>
+																	<xr:CheckState>0</xr:CheckState>
+																	<xr:Value xsi:type="FormChoiceListDesTimeValue">
+																		<Presentation>
+																			<v8:item>
+																				<v8:lang>ru</v8:lang>
+																				<v8:content>=</v8:content>
+																			</v8:item>
+																		</Presentation>
+																		<Value xsi:type="xs:boolean">false</Value>
+																	</xr:Value>
+																</xr:Item>
+																<xr:Item>
+																	<xr:Presentation/>
+																	<xr:CheckState>0</xr:CheckState>
+																	<xr:Value xsi:type="FormChoiceListDesTimeValue">
+																		<Presentation>
+																			<v8:item>
+																				<v8:lang>ru</v8:lang>
+																				<v8:content>&lt;&gt;</v8:content>
+																			</v8:item>
+																		</Presentation>
+																		<Value xsi:type="xs:boolean">true</Value>
+																	</xr:Value>
+																</xr:Item>
+															</ChoiceList>
+															<ContextMenu name="Субк1УсловиеКонтекстноеМеню" id="176"/>
+															<ExtendedTooltip name="Субк1УсловиеРасширеннаяПодсказка" id="177"/>
+														</InputField>
+														<InputField name="Субк2Условие" id="178">
+															<DataPath>Объект.НастройкиПоРегиструБухгатерии.Субк2Условие</DataPath>
+															<EditMode>EnterOnInput</EditMode>
+															<ListChoiceMode>true</ListChoiceMode>
+															<Format>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>БЛ==; БИ=&lt;&gt;</v8:content>
+																</v8:item>
+															</Format>
+															<EditFormat>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>БЛ==; БИ=&lt;&gt;</v8:content>
+																</v8:item>
+															</EditFormat>
+															<ChoiceList>
+																<xr:Item>
+																	<xr:Presentation/>
+																	<xr:CheckState>0</xr:CheckState>
+																	<xr:Value xsi:type="FormChoiceListDesTimeValue">
+																		<Presentation>
+																			<v8:item>
+																				<v8:lang>ru</v8:lang>
+																				<v8:content>=</v8:content>
+																			</v8:item>
+																		</Presentation>
+																		<Value xsi:type="xs:boolean">false</Value>
+																	</xr:Value>
+																</xr:Item>
+																<xr:Item>
+																	<xr:Presentation/>
+																	<xr:CheckState>0</xr:CheckState>
+																	<xr:Value xsi:type="FormChoiceListDesTimeValue">
+																		<Presentation>
+																			<v8:item>
+																				<v8:lang>ru</v8:lang>
+																				<v8:content>&lt;&gt;</v8:content>
+																			</v8:item>
+																		</Presentation>
+																		<Value xsi:type="xs:boolean">true</Value>
+																	</xr:Value>
+																</xr:Item>
+															</ChoiceList>
+															<ContextMenu name="Субк2УсловиеКонтекстноеМеню" id="179"/>
+															<ExtendedTooltip name="Субк2УсловиеРасширеннаяПодсказка" id="180"/>
+														</InputField>
+														<InputField name="Субк3Условие" id="181">
+															<DataPath>Объект.НастройкиПоРегиструБухгатерии.Субк3Условие</DataPath>
+															<EditMode>EnterOnInput</EditMode>
+															<ListChoiceMode>true</ListChoiceMode>
+															<Format>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>БЛ==; БИ=&lt;&gt;</v8:content>
+																</v8:item>
+															</Format>
+															<EditFormat>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>БЛ==; БИ=&lt;&gt;</v8:content>
+																</v8:item>
+															</EditFormat>
+															<ChoiceList>
+																<xr:Item>
+																	<xr:Presentation/>
+																	<xr:CheckState>0</xr:CheckState>
+																	<xr:Value xsi:type="FormChoiceListDesTimeValue">
+																		<Presentation>
+																			<v8:item>
+																				<v8:lang>ru</v8:lang>
+																				<v8:content>=</v8:content>
+																			</v8:item>
+																		</Presentation>
+																		<Value xsi:type="xs:boolean">false</Value>
+																	</xr:Value>
+																</xr:Item>
+																<xr:Item>
+																	<xr:Presentation/>
+																	<xr:CheckState>0</xr:CheckState>
+																	<xr:Value xsi:type="FormChoiceListDesTimeValue">
+																		<Presentation>
+																			<v8:item>
+																				<v8:lang>ru</v8:lang>
+																				<v8:content>&lt;&gt;</v8:content>
+																			</v8:item>
+																		</Presentation>
+																		<Value xsi:type="xs:boolean">true</Value>
+																	</xr:Value>
+																</xr:Item>
+															</ChoiceList>
+															<ContextMenu name="Субк3УсловиеКонтекстноеМеню" id="182"/>
+															<ExtendedTooltip name="Субк3УсловиеРасширеннаяПодсказка" id="183"/>
+														</InputField>
+													</ChildItems>
+												</ColumnGroup>
+												<ColumnGroup name="НастройкиПоРегиструБухгатерииГруппа2" id="222">
+													<ExtendedTooltip name="НастройкиПоРегиструБухгатерииГруппа2РасширеннаяПодсказка" id="223"/>
+													<ChildItems>
+														<InputField name="Субконто1" id="184">
+															<DataPath>Объект.НастройкиПоРегиструБухгатерии.Субконто1</DataPath>
+															<EditMode>EnterOnInput</EditMode>
+															<ChooseType>false</ChooseType>
+															<ContextMenu name="Субконто1КонтекстноеМеню" id="185"/>
+															<ExtendedTooltip name="Субконто1РасширеннаяПодсказка" id="186"/>
+															<Events>
+																<Event name="StartChoice">Субконто1НачалоВыбора</Event>
+															</Events>
+														</InputField>
+														<InputField name="Субконто2" id="187">
+															<DataPath>Объект.НастройкиПоРегиструБухгатерии.Субконто2</DataPath>
+															<EditMode>EnterOnInput</EditMode>
+															<ChooseType>false</ChooseType>
+															<ContextMenu name="Субконто2КонтекстноеМеню" id="188"/>
+															<ExtendedTooltip name="Субконто2РасширеннаяПодсказка" id="189"/>
+															<Events>
+																<Event name="StartChoice">Субконто2НачалоВыбора</Event>
+															</Events>
+														</InputField>
+														<InputField name="Субконто3" id="190">
+															<DataPath>Объект.НастройкиПоРегиструБухгатерии.Субконто3</DataPath>
+															<EditMode>EnterOnInput</EditMode>
+															<ContextMenu name="Субконто3КонтекстноеМеню" id="191"/>
+															<ExtendedTooltip name="Субконто3РасширеннаяПодсказка" id="192"/>
+															<Events>
+																<Event name="StartChoice">Субконто3НачалоВыбора</Event>
+															</Events>
+														</InputField>
+													</ChildItems>
+												</ColumnGroup>
+												<InputField name="КорСчет" id="193">
+													<DataPath>Объект.НастройкиПоРегиструБухгатерии.КорСчет</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="КорСчетКонтекстноеМеню" id="194"/>
+													<ExtendedTooltip name="КорСчетРасширеннаяПодсказка" id="195"/>
+													<Events>
+														<Event name="OnChange">КорСчетПриИзменении</Event>
+													</Events>
+												</InputField>
+												<ColumnGroup name="НастройкиПоРегиструБухгатерииГруппа3" id="224">
+													<ExtendedTooltip name="НастройкиПоРегиструБухгатерииГруппа3РасширеннаяПодсказка" id="225"/>
+													<ChildItems>
+														<InputField name="НастройкиПоРегиструБухгатерииКорСубк1Условие" id="196">
+															<DataPath>Объект.НастройкиПоРегиструБухгатерии.КорСубк1Условие</DataPath>
+															<EditMode>EnterOnInput</EditMode>
+															<ListChoiceMode>true</ListChoiceMode>
+															<Format>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>БЛ==; БИ=&lt;&gt;</v8:content>
+																</v8:item>
+															</Format>
+															<EditFormat>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>БЛ==; БИ=&lt;&gt;</v8:content>
+																</v8:item>
+															</EditFormat>
+															<ChoiceList>
+																<xr:Item>
+																	<xr:Presentation/>
+																	<xr:CheckState>0</xr:CheckState>
+																	<xr:Value xsi:type="FormChoiceListDesTimeValue">
+																		<Presentation>
+																			<v8:item>
+																				<v8:lang>ru</v8:lang>
+																				<v8:content>=</v8:content>
+																			</v8:item>
+																		</Presentation>
+																		<Value xsi:type="xs:boolean">false</Value>
+																	</xr:Value>
+																</xr:Item>
+																<xr:Item>
+																	<xr:Presentation/>
+																	<xr:CheckState>0</xr:CheckState>
+																	<xr:Value xsi:type="FormChoiceListDesTimeValue">
+																		<Presentation>
+																			<v8:item>
+																				<v8:lang>ru</v8:lang>
+																				<v8:content>&lt;&gt;</v8:content>
+																			</v8:item>
+																		</Presentation>
+																		<Value xsi:type="xs:boolean">true</Value>
+																	</xr:Value>
+																</xr:Item>
+															</ChoiceList>
+															<ContextMenu name="НастройкиПоРегиструБухгатерииКорСубк1УсловиеКонтекстноеМеню" id="197"/>
+															<ExtendedTooltip name="НастройкиПоРегиструБухгатерииКорСубк1УсловиеРасширеннаяПодсказка" id="198"/>
+														</InputField>
+														<InputField name="НастройкиПоРегиструБухгатерииКорСубк2Условие" id="199">
+															<DataPath>Объект.НастройкиПоРегиструБухгатерии.КорСубк2Условие</DataPath>
+															<EditMode>EnterOnInput</EditMode>
+															<ListChoiceMode>true</ListChoiceMode>
+															<Format>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>БЛ==; БИ=&lt;&gt;</v8:content>
+																</v8:item>
+															</Format>
+															<EditFormat>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>БЛ==; БИ=&lt;&gt;</v8:content>
+																</v8:item>
+															</EditFormat>
+															<ChoiceList>
+																<xr:Item>
+																	<xr:Presentation/>
+																	<xr:CheckState>0</xr:CheckState>
+																	<xr:Value xsi:type="FormChoiceListDesTimeValue">
+																		<Presentation>
+																			<v8:item>
+																				<v8:lang>ru</v8:lang>
+																				<v8:content>=</v8:content>
+																			</v8:item>
+																		</Presentation>
+																		<Value xsi:type="xs:boolean">false</Value>
+																	</xr:Value>
+																</xr:Item>
+																<xr:Item>
+																	<xr:Presentation/>
+																	<xr:CheckState>0</xr:CheckState>
+																	<xr:Value xsi:type="FormChoiceListDesTimeValue">
+																		<Presentation>
+																			<v8:item>
+																				<v8:lang>ru</v8:lang>
+																				<v8:content>&lt;&gt;</v8:content>
+																			</v8:item>
+																		</Presentation>
+																		<Value xsi:type="xs:boolean">true</Value>
+																	</xr:Value>
+																</xr:Item>
+															</ChoiceList>
+															<ContextMenu name="НастройкиПоРегиструБухгатерииКорСубк2УсловиеКонтекстноеМеню" id="200"/>
+															<ExtendedTooltip name="НастройкиПоРегиструБухгатерииКорСубк2УсловиеРасширеннаяПодсказка" id="201"/>
+														</InputField>
+														<InputField name="НастройкиПоРегиструБухгатерииКорСубк3Условие" id="202">
+															<DataPath>Объект.НастройкиПоРегиструБухгатерии.КорСубк3Условие</DataPath>
+															<EditMode>EnterOnInput</EditMode>
+															<ListChoiceMode>true</ListChoiceMode>
+															<Format>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>БЛ==; БИ=&lt;&gt;</v8:content>
+																</v8:item>
+															</Format>
+															<EditFormat>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>БЛ==; БИ=&lt;&gt;</v8:content>
+																</v8:item>
+															</EditFormat>
+															<ChoiceList>
+																<xr:Item>
+																	<xr:Presentation/>
+																	<xr:CheckState>0</xr:CheckState>
+																	<xr:Value xsi:type="FormChoiceListDesTimeValue">
+																		<Presentation>
+																			<v8:item>
+																				<v8:lang>ru</v8:lang>
+																				<v8:content>=</v8:content>
+																			</v8:item>
+																		</Presentation>
+																		<Value xsi:type="xs:boolean">false</Value>
+																	</xr:Value>
+																</xr:Item>
+																<xr:Item>
+																	<xr:Presentation/>
+																	<xr:CheckState>0</xr:CheckState>
+																	<xr:Value xsi:type="FormChoiceListDesTimeValue">
+																		<Presentation>
+																			<v8:item>
+																				<v8:lang>ru</v8:lang>
+																				<v8:content>&lt;&gt;</v8:content>
+																			</v8:item>
+																		</Presentation>
+																		<Value xsi:type="xs:boolean">true</Value>
+																	</xr:Value>
+																</xr:Item>
+															</ChoiceList>
+															<ContextMenu name="НастройкиПоРегиструБухгатерииКорСубк3УсловиеКонтекстноеМеню" id="203"/>
+															<ExtendedTooltip name="НастройкиПоРегиструБухгатерииКорСубк3УсловиеРасширеннаяПодсказка" id="204"/>
+														</InputField>
+													</ChildItems>
+												</ColumnGroup>
+												<ColumnGroup name="НастройкиПоРегиструБухгатерииГруппа4" id="226">
+													<ExtendedTooltip name="НастройкиПоРегиструБухгатерииГруппа4РасширеннаяПодсказка" id="227"/>
+													<ChildItems>
+														<InputField name="КорСубконто1" id="205">
+															<DataPath>Объект.НастройкиПоРегиструБухгатерии.КорСубконто1</DataPath>
+															<EditMode>EnterOnInput</EditMode>
+															<ContextMenu name="КорСубконто1КонтекстноеМеню" id="206"/>
+															<ExtendedTooltip name="КорСубконто1РасширеннаяПодсказка" id="207"/>
+															<Events>
+																<Event name="StartChoice">КорСубконто1НачалоВыбора</Event>
+															</Events>
+														</InputField>
+														<InputField name="КорСубконто2" id="208">
+															<DataPath>Объект.НастройкиПоРегиструБухгатерии.КорСубконто2</DataPath>
+															<EditMode>EnterOnInput</EditMode>
+															<ContextMenu name="КорСубконто2КонтекстноеМеню" id="209"/>
+															<ExtendedTooltip name="КорСубконто2РасширеннаяПодсказка" id="210"/>
+															<Events>
+																<Event name="StartChoice">КорСубконто2НачалоВыбора</Event>
+															</Events>
+														</InputField>
+														<InputField name="КорСубконто3" id="211">
+															<DataPath>Объект.НастройкиПоРегиструБухгатерии.КорСубконто3</DataPath>
+															<EditMode>EnterOnInput</EditMode>
+															<ContextMenu name="КорСубконто3КонтекстноеМеню" id="212"/>
+															<ExtendedTooltip name="КорСубконто3РасширеннаяПодсказка" id="213"/>
+															<Events>
+																<Event name="StartChoice">КорСубконто3НачалоВыбора</Event>
+															</Events>
+														</InputField>
+													</ChildItems>
+												</ColumnGroup>
+												<InputField name="НастройкиПоРегиструБухгатерииПодразделение" id="214">
+													<DataPath>Объект.НастройкиПоРегиструБухгатерии.Подразделение</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="НастройкиПоРегиструБухгатерииПодразделениеКонтекстноеМеню" id="215"/>
+													<ExtendedTooltip name="НастройкиПоРегиструБухгатерииПодразделениеРасширеннаяПодсказка" id="216"/>
+												</InputField>
+												<InputField name="НастройкиПоРегиструБухгатерииВычитать" id="217">
+													<DataPath>Объект.НастройкиПоРегиструБухгатерии.Вычитать</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<Format>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>БЛ=Сложить; БИ=Вычесть</v8:content>
+														</v8:item>
+													</Format>
+													<EditFormat>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>БЛ=Сложить; БИ=Вычесть</v8:content>
+														</v8:item>
+													</EditFormat>
+													<ContextMenu name="НастройкиПоРегиструБухгатерииВычитатьКонтекстноеМеню" id="218"/>
+													<ExtendedTooltip name="НастройкиПоРегиструБухгатерииВычитатьРасширеннаяПодсказка" id="219"/>
+												</InputField>
+											</ChildItems>
+										</Table>
+									</ChildItems>
+								</Page>
+								<Page name="СтраницаБюджетирование" id="119">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Бюджетирование</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Страница бюджетирование</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ExtendedTooltip name="СтраницаБюджетированиеРасширеннаяПодсказка" id="120"/>
+									<ChildItems>
+										<Table name="НастройкиПоРегиструБюджетирования" id="121">
+											<AutoInsertNewRow>true</AutoInsertNewRow>
+											<EnableStartDrag>true</EnableStartDrag>
+											<EnableDrag>true</EnableDrag>
+											<FileDragMode>AsFile</FileDragMode>
+											<DataPath>Объект.НастройкиПоРегиструБюджетирования</DataPath>
+											<RowFilter xsi:nil="true"/>
+											<ContextMenu name="НастройкиПоРегиструБюджетированияКонтекстноеМеню" id="122"/>
+											<AutoCommandBar name="НастройкиПоРегиструБюджетированияКоманднаяПанель" id="123">
+												<ChildItems>
+													<Button name="НастройкиПоРегиструБюджетированияСгениерироватьЗапросПоРегистру" id="148">
+														<Type>CommandBarButton</Type>
+														<CommandName>Form.Command.СгенерироватьЗапросПоРегистру</CommandName>
+														<ExtendedTooltip name="НастройкиПоРегиструБюджетированияСгениерироватьЗапросПоРегиструРасширеннаяПодсказка" id="149"/>
+													</Button>
+												</ChildItems>
+											</AutoCommandBar>
+											<ExtendedTooltip name="НастройкиПоРегиструБюджетированияРасширеннаяПодсказка" id="124"/>
+											<SearchStringAddition name="НастройкиПоРегиструБюджетированияСтрокаПоиска" id="125">
+												<AdditionSource>
+													<Item>НастройкиПоРегиструБюджетирования</Item>
+													<Type>SearchStringRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="НастройкиПоРегиструБюджетированияСтрокаПоискаКонтекстноеМеню" id="126"/>
+												<ExtendedTooltip name="НастройкиПоРегиструБюджетированияСтрокаПоискаРасширеннаяПодсказка" id="127"/>
+											</SearchStringAddition>
+											<ViewStatusAddition name="НастройкиПоРегиструБюджетированияСостояниеПросмотра" id="128">
+												<AdditionSource>
+													<Item>НастройкиПоРегиструБюджетирования</Item>
+													<Type>ViewStatusRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="НастройкиПоРегиструБюджетированияСостояниеПросмотраКонтекстноеМеню" id="129"/>
+												<ExtendedTooltip name="НастройкиПоРегиструБюджетированияСостояниеПросмотраРасширеннаяПодсказка" id="130"/>
+											</ViewStatusAddition>
+											<SearchControlAddition name="НастройкиПоРегиструБюджетированияУправлениеПоиском" id="131">
+												<AdditionSource>
+													<Item>НастройкиПоРегиструБюджетирования</Item>
+													<Type>SearchControl</Type>
+												</AdditionSource>
+												<ContextMenu name="НастройкиПоРегиструБюджетированияУправлениеПоискомКонтекстноеМеню" id="132"/>
+												<ExtendedTooltip name="НастройкиПоРегиструБюджетированияУправлениеПоискомРасширеннаяПодсказка" id="133"/>
+											</SearchControlAddition>
+											<ChildItems>
+												<LabelField name="НастройкиПоРегиструБюджетированияНомерСтроки" id="134">
+													<DataPath>Объект.НастройкиПоРегиструБюджетирования.LineNumber</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="НастройкиПоРегиструБюджетированияНомерСтрокиКонтекстноеМеню" id="135"/>
+													<ExtendedTooltip name="НастройкиПоРегиструБюджетированияНомерСтрокиРасширеннаяПодсказка" id="136"/>
+												</LabelField>
+												<InputField name="НастройкиПоРегиструБюджетированияСтатьяОборотовПоБюджетам" id="137">
+													<DataPath>Объект.НастройкиПоРегиструБюджетирования.СтатьяОборотовПоБюджетам</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="НастройкиПоРегиструБюджетированияСтатьяОборотовПоБюджетамКонтекстноеМеню" id="138"/>
+													<ExtendedTooltip name="НастройкиПоРегиструБюджетированияСтатьяОборотовПоБюджетамРасширеннаяПодсказка" id="139"/>
+												</InputField>
+												<InputField name="НастройкиПоРегиструБюджетированияСценарий" id="140">
+													<DataPath>Объект.НастройкиПоРегиструБюджетирования.Сценарий</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="НастройкиПоРегиструБюджетированияСценарийКонтекстноеМеню" id="141"/>
+													<ExtendedTooltip name="НастройкиПоРегиструБюджетированияСценарийРасширеннаяПодсказка" id="142"/>
+												</InputField>
+												<InputField name="НастройкиПоРегиструБюджетированияВычитать" id="143">
+													<DataPath>Объект.НастройкиПоРегиструБюджетирования.Вычитать</DataPath>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Действие</v8:content>
+														</v8:item>
+													</Title>
+													<EditMode>EnterOnInput</EditMode>
+													<Format>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>БЛ=Сложить; БИ=Отнять</v8:content>
+														</v8:item>
+													</Format>
+													<EditFormat>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>БЛ=Сложить; БИ=Отнять</v8:content>
+														</v8:item>
+													</EditFormat>
+													<ContextMenu name="НастройкиПоРегиструБюджетированияВычитатьКонтекстноеМеню" id="144"/>
+													<ExtendedTooltip name="НастройкиПоРегиструБюджетированияВычитатьРасширеннаяПодсказка" id="145"/>
+												</InputField>
+											</ChildItems>
+										</Table>
+									</ChildItems>
+								</Page>
+								<Page name="СтраницаЗапроса" id="75">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Запрос</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Страница запроса</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ExtendedTooltip name="СтраницаЗапросаРасширеннаяПодсказка" id="76"/>
+									<ChildItems>
+										<UsualGroup name="Группа2" id="69">
+											<Group>Horizontal</Group>
+											<Behavior>Usual</Behavior>
+											<Representation>None</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="70"/>
+											<ChildItems>
+												<Button name="ОткрытьКонтструкторЗапроса" id="67">
+													<Type>UsualButton</Type>
+													<CommandName>Form.Command.ОткрытьКонтструкторЗапроса</CommandName>
+													<ExtendedTooltip name="ОткрытьКонтструкторЗапросаРасширеннаяПодсказка" id="68"/>
+												</Button>
+												<Button name="ОткрытьЗапросВСКД" id="71">
+													<Type>UsualButton</Type>
+													<CommandName>Form.Command.ОткрытьЗапросВСКД</CommandName>
+													<ExtendedTooltip name="ОткрытьЗапросВСКДРасширеннаяПодсказка" id="72"/>
+												</Button>
+											</ChildItems>
+										</UsualGroup>
+										<InputField name="ТекстЗапроса" id="64">
+											<DataPath>Объект.ТекстЗапроса</DataPath>
+											<TitleLocation>None</TitleLocation>
+											<MultiLine>true</MultiLine>
+											<ContextMenu name="ТекстЗапросаКонтекстноеМеню" id="65"/>
+											<ExtendedTooltip name="ТекстЗапросаРасширеннаяПодсказка" id="66"/>
+										</InputField>
+									</ChildItems>
+								</Page>
+							</ChildItems>
+						</Pages>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.ИсточникиДанныхДляРасчетовБюджетирования</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="АдресСхемыКомпоновкиДанных" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Адрес схемы компоновки данных</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="КомпоновщикНастроек" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Компоновщик настроек</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>dcsset:SettingsComposer</v8:Type>
+			</Type>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="РедактироватьСхемуКомпоновки" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Редактировать схему компоновки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Редактировать схему компоновки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.DataCompositionSettingsWizard</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>РедактироватьСхемуКомпоновки</Action>
+			<Representation>TextPicture</Representation>
+			<ModifiesSavedData>true</ModifiesSavedData>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ПроверитьРезультат" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверить результат</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверить результат</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПроверитьРезультат</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ПроверитьРезультатВТЗ" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверить результат в ТЗ</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверить результат ВТЗ</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПроверитьРезультатВТЗ</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ОткрытьКонтструкторЗапроса" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть контструктор запроса</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть контструктор запроса</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОткрытьКонтструкторЗапроса</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ОткрытьЗапросВСКД" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть запрос в СКД</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть запрос ВСКД</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОткрытьЗапросВСКД</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="СгенерироватьЗапросПоРегистру" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сгенерировать запрос </v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сгенерировать запрос по регистру</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СгенерироватьЗапросПоРегистру</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="СгенерироватьЗапросПоРегиструБухгалтерии" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сгенерировать запрос </v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сгенерировать запрос по регистру бухгалтерии</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СгенерироватьЗапросПоРегиструБухгалтерии</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+	</Commands>
+</Form>

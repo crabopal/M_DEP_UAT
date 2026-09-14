@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.20">
+	<Item id="834f4dd6-9510-45ba-ac79-e739df26e8f2">
+		<Name>ДДС</Name>
+		<Code>1              </Code>
+		<Description>Бюджет движения денежных средств</Description>
+		<IsFolder>true</IsFolder>
+	</Item>
+	<Item id="cbb9ec2c-2d49-47fb-859b-a9d47583933e">
+		<Name>БДР</Name>
+		<Code>2              </Code>
+		<Description>Бюджет доходов и расходов</Description>
+		<IsFolder>true</IsFolder>
+	</Item>
+</PredefinedData>

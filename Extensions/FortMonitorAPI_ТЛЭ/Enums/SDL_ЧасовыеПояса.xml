@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="a7c9fd06-0d1a-4069-8935-1528c9d1be06">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.SDL_ЧасовыеПояса" category="Ref">
+				<xr:TypeId>4e88f408-4bf4-47c7-92c0-0ad0b4a7d217</xr:TypeId>
+				<xr:ValueId>01f38d29-fe84-4596-b6f6-f019ccf361a0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.SDL_ЧасовыеПояса" category="Manager">
+				<xr:TypeId>53d5978c-65bf-4951-bcbe-4ad8474a2443</xr:TypeId>
+				<xr:ValueId>cf7d3e89-aca3-4b01-99f8-3a0bfb1adfb4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.SDL_ЧасовыеПояса" category="List">
+				<xr:TypeId>1995ec99-3844-40e4-8042-149954902fb1</xr:TypeId>
+				<xr:ValueId>05717ce4-0654-419a-b129-acff034afec4</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>SDL_ЧасовыеПояса</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Часовые пояса</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="1c0cfb68-5373-4770-8153-6dd9f2a395d0">
+				<Properties>
+					<Name>UTC2</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>UTC+2 (Калининград)</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="30688e8a-a676-4537-8779-84f2aad2fe8e">
+				<Properties>
+					<Name>UTC3</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>UTC+3 (Москва)</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="4153ed44-f8c8-4734-a334-09932f1a279c">
+				<Properties>
+					<Name>UTC4</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>UTC+4 (Самара, Астрахань)</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="a138e2df-62e2-48d5-9739-61ae367bb752">
+				<Properties>
+					<Name>UTC5</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>UTC+5 (Уфа, Пермь, Тюмень)</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="2fcbbd09-3fc9-4bc3-9fab-a9bc0f16efd1">
+				<Properties>
+					<Name>UTC6</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>UTC+6 (Омск)</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="809c7fec-65f8-488d-8692-228f0ce7f8bb">
+				<Properties>
+					<Name>UTC7</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>UTC+7 (Красноярск, Новосибирск)</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="b479f334-b362-4f6c-8416-55c5509b3a0b">
+				<Properties>
+					<Name>UTC8</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>UTC+8 (Иркутск)</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="a81c40b8-3c89-482f-9814-8594b772ccbe">
+				<Properties>
+					<Name>UTC9</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>UTC+9 (Якутск)</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="cd84fe50-f85f-4580-a498-e273a9c23f3a">
+				<Properties>
+					<Name>UTC10</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>UTC+10 (Хабаровск)</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="009d06dd-3c4b-4717-8ee1-941a71654d5f">
+				<Properties>
+					<Name>UTC11</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>UTC+11 (Магадан, Сахалин)</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="18e9880b-3118-48f9-9540-d747ca8ab9b2">
+				<Properties>
+					<Name>UTC12</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>UTC+12 (Камчатка, Чукотка)</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="1e62d487-dc88-4a6f-989e-d43d58476394">
+				<Properties>
+					<Name>UTC1</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>UTC1</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="93cf91d5-e28d-4865-acf4-85ef4f977dea">
+				<Properties>
+					<Name>UTC0</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>UTC0</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

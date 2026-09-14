@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="161acf4b-6387-4370-9af1-e1fcb95e5903">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.уатЗаправкаГСМ" category="Object">
+				<xr:TypeId>77385e0d-5333-459e-9900-b38db744a419</xr:TypeId>
+				<xr:ValueId>3b5836c4-fcae-4ff3-b6e9-4a1d06104345</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.уатЗаправкаГСМ" category="Ref">
+				<xr:TypeId>ca2b7638-5669-4439-9230-c752c599deff</xr:TypeId>
+				<xr:ValueId>b1d6c343-8751-4f7d-8965-ed3c0cd8f757</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.уатЗаправкаГСМ" category="Selection">
+				<xr:TypeId>ca6a00fe-1c81-418e-9446-0294331c2749</xr:TypeId>
+				<xr:ValueId>37779e9f-a2e2-4703-b765-6a130b267442</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.уатЗаправкаГСМ" category="List">
+				<xr:TypeId>4d490210-4d56-4434-a08a-0d9cffa54ba4</xr:TypeId>
+				<xr:ValueId>a316ad8f-4217-416a-9f9f-729c234f74c1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.уатЗаправкаГСМ" category="Manager">
+				<xr:TypeId>84cb449c-202a-4aab-a83a-960a48248950</xr:TypeId>
+				<xr:ValueId>327fdc04-c0f2-4d30-9bae-ce648fa535ca</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уатЗаправкаГСМ</Name>
+			<Comment/>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

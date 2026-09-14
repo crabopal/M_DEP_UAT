@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="250b81ce-c958-48dd-ac16-2f62d39c5b86">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.уатПробегРасходПоМониторингу" category="Record">
+				<xr:TypeId>1a59f0d2-1c62-4692-bcb6-86596cd6207e</xr:TypeId>
+				<xr:ValueId>4013fe70-dbf4-4004-8bcb-870cede93239</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.уатПробегРасходПоМониторингу" category="Manager">
+				<xr:TypeId>00999424-5f9a-4601-af8e-bc8d883113d3</xr:TypeId>
+				<xr:ValueId>1951f819-a983-4595-804c-dfd5d5e2d029</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.уатПробегРасходПоМониторингу" category="Selection">
+				<xr:TypeId>98a1e6b2-fa86-47ad-b798-cf7b91b0f8d3</xr:TypeId>
+				<xr:ValueId>bfab6430-8beb-475e-9b60-e19c4014c3bd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.уатПробегРасходПоМониторингу" category="List">
+				<xr:TypeId>6570b820-35ff-43c7-a206-8af6634fc6d8</xr:TypeId>
+				<xr:ValueId>522718cb-e7c5-48fe-89e1-c76a73c98240</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.уатПробегРасходПоМониторингу" category="RecordSet">
+				<xr:TypeId>8ff2950b-f461-4fb7-984e-aa76797b6fd8</xr:TypeId>
+				<xr:ValueId>147e7ce4-1c11-4235-bebc-c9cf89b9d9f4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.уатПробегРасходПоМониторингу" category="RecordKey">
+				<xr:TypeId>ad52c1ae-d2bf-41ec-88d6-dcff2e4cedba</xr:TypeId>
+				<xr:ValueId>f0d917c0-86ae-440b-b7eb-207e2541124f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.уатПробегРасходПоМониторингу" category="RecordManager">
+				<xr:TypeId>5ae3b819-3661-490d-afd5-29c6e4c3c899</xr:TypeId>
+				<xr:ValueId>7dd9b351-cd82-4f7a-9951-83bd60f83484</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ManagerModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уатПробегРасходПоМониторингу</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>d42e2251-2027-4b1c-b577-1c95be84a1f3</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Second</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Dimension uuid="80a29a8f-3078-4a41-9ce3-bdcd35910b9c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ТС</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>43cf6d02-8a1e-4b57-bf8f-fb6c2e591110</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.уатТС</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

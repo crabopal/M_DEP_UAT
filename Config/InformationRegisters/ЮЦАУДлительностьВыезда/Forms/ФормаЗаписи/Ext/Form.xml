@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="Период" id="1">
+			<DataPath>Запись.Period</DataPath>
+			<ContextMenu name="ПериодКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="ПериодРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Организация" id="4">
+			<DataPath>Запись.Организация</DataPath>
+			<ContextMenu name="ОрганизацияКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="Маршрут" id="7">
+			<DataPath>Запись.Маршрут</DataPath>
+			<ContextMenu name="МаршрутКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="МаршрутРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="Выезд" id="10">
+			<DataPath>Запись.Выезд</DataPath>
+			<ChoiceParameterLinks>
+				<xr:Link>
+					<xr:Name>Отбор.Владелец</xr:Name>
+					<xr:DataPath xsi:type="xs:string">Запись.Маршрут</xr:DataPath>
+					<xr:ValueChange>Clear</xr:ValueChange>
+				</xr:Link>
+			</ChoiceParameterLinks>
+			<ContextMenu name="ВыездКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="ВыездРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<InputField name="Смена" id="13">
+			<DataPath>Запись.Смена</DataPath>
+			<ContextMenu name="СменаКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="СменаРасширеннаяПодсказка" id="15"/>
+		</InputField>
+		<InputField name="Сезон" id="40">
+			<ContextMenu name="СезонКонтекстноеМеню" id="41"/>
+			<ExtendedTooltip name="СезонРасширеннаяПодсказка" id="42"/>
+		</InputField>
+		<InputField name="ВыхБудн" id="16">
+			<DataPath>Запись.ВыхБудн</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выходные/будни</v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="ВыхБуднКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="ВыхБуднРасширеннаяПодсказка" id="18"/>
+		</InputField>
+		<InputField name="Длительность" id="19">
+			<DataPath>Запись.Длительность</DataPath>
+			<ContextMenu name="ДлительностьКонтекстноеМеню" id="20"/>
+			<ExtendedTooltip name="ДлительностьРасширеннаяПодсказка" id="21"/>
+		</InputField>
+		<InputField name="НачалоОбеда" id="22">
+			<DataPath>Запись.НачалоОбеда</DataPath>
+			<ContextMenu name="НачалоОбедаКонтекстноеМеню" id="23"/>
+			<ExtendedTooltip name="НачалоОбедаРасширеннаяПодсказка" id="24"/>
+		</InputField>
+		<InputField name="КонецОбеда" id="25">
+			<DataPath>Запись.КонецОбеда</DataPath>
+			<ContextMenu name="КонецОбедаКонтекстноеМеню" id="26"/>
+			<ExtendedTooltip name="КонецОбедаРасширеннаяПодсказка" id="27"/>
+		</InputField>
+		<InputField name="ВремяВыезда" id="28">
+			<DataPath>Запись.ВремяВыезда</DataPath>
+			<ContextMenu name="ВремяВыездаКонтекстноеМеню" id="29"/>
+			<ExtendedTooltip name="ВремяВыездаРасширеннаяПодсказка" id="30"/>
+		</InputField>
+		<InputField name="ВремяЗаезда" id="31">
+			<DataPath>Запись.ВремяЗаезда</DataPath>
+			<ContextMenu name="ВремяЗаездаКонтекстноеМеню" id="32"/>
+			<ExtendedTooltip name="ВремяЗаездаРасширеннаяПодсказка" id="33"/>
+		</InputField>
+		<InputField name="НачалоДопОбеда" id="34">
+			<DataPath>Запись.НачалоДопОбеда</DataPath>
+			<ContextMenu name="НачалоДопОбедаКонтекстноеМеню" id="35"/>
+			<ExtendedTooltip name="НачалоДопОбедаРасширеннаяПодсказка" id="36"/>
+		</InputField>
+		<InputField name="КонецДопОбеда" id="37">
+			<DataPath>Запись.КонецДопОбеда</DataPath>
+			<ContextMenu name="КонецДопОбедаКонтекстноеМеню" id="38"/>
+			<ExtendedTooltip name="КонецДопОбедаРасширеннаяПодсказка" id="39"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Запись" id="1">
+			<Type>
+				<v8:Type>cfg:InformationRegisterRecordManager.ЮЦАУДлительностьВыезда</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>

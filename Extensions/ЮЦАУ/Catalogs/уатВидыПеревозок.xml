@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="1423bb9a-bf53-4831-ab0a-c123d789875b">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.уатВидыПеревозок" category="Object">
+				<xr:TypeId>2284f12b-f6a8-4e15-9257-e76df2b7e0d6</xr:TypeId>
+				<xr:ValueId>1d1d072c-0f30-47dc-aac9-fa4aa174ba31</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.уатВидыПеревозок" category="Ref">
+				<xr:TypeId>1f157d88-74db-44aa-a28a-42ff7a64d28e</xr:TypeId>
+				<xr:ValueId>7cd08918-d5ac-45b5-81f2-465c2da874fc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.уатВидыПеревозок" category="Selection">
+				<xr:TypeId>65aa3065-6f8f-4c28-9528-70f9f63504ca</xr:TypeId>
+				<xr:ValueId>fe14ab2f-c5e3-47b8-a7ae-bae78247db0d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.уатВидыПеревозок" category="List">
+				<xr:TypeId>42d93ca9-d72e-4894-b6cc-4ccad18db91c</xr:TypeId>
+				<xr:ValueId>c29903a9-90b3-4935-bddd-fb920ab34887</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.уатВидыПеревозок" category="Manager">
+				<xr:TypeId>61028f22-00e1-46d1-a061-a286b49bcd47</xr:TypeId>
+				<xr:ValueId>859c55fa-862b-4923-b4c3-d7dae759123e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уатВидыПеревозок</Name>
+			<Comment/>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

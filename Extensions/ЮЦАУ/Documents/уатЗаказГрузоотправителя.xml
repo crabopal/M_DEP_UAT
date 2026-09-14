@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="185c8715-4b07-45f7-844d-5448a0a5f915">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.уатЗаказГрузоотправителя" category="Object">
+				<xr:TypeId>edb4f709-9c0f-4508-97e6-c7505b6f9b27</xr:TypeId>
+				<xr:ValueId>34c9141e-0feb-4cf1-8efc-cf060f712286</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.уатЗаказГрузоотправителя" category="Ref">
+				<xr:TypeId>b052d7fc-9525-42c2-8870-f0393b8870c6</xr:TypeId>
+				<xr:ValueId>b4805db8-2e0e-4e7c-941c-42dea1064b7d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.уатЗаказГрузоотправителя" category="Selection">
+				<xr:TypeId>f7009608-a20f-458f-8395-8c35f2cdf474</xr:TypeId>
+				<xr:ValueId>a8c9f1ac-ed3f-4530-99b7-903b81363bb2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.уатЗаказГрузоотправителя" category="List">
+				<xr:TypeId>2d8d27de-b2dc-403a-b4c5-d53fc2b90c6a</xr:TypeId>
+				<xr:ValueId>3047cb0e-5617-4e3b-a3b9-abfab4413c0c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.уатЗаказГрузоотправителя" category="Manager">
+				<xr:TypeId>ca2814ee-ee42-4cb5-8847-26c86cb5c02c</xr:TypeId>
+				<xr:ValueId>4f245405-975e-4808-a1dd-f6b639ab199b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уатЗаказГрузоотправителя</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>60954f6c-dd04-4e27-b8ed-6905949b26cf</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

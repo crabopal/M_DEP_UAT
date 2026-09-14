@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="a105b6a1-7d74-4baf-a224-e2670b4807ea">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.уатДополнительныеСведенияПоGPS" category="Record">
+				<xr:TypeId>bff54066-d653-4915-b6e6-d256ce4450f9</xr:TypeId>
+				<xr:ValueId>94fb1146-5799-4b70-93ee-a87ebc34cfb8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.уатДополнительныеСведенияПоGPS" category="Manager">
+				<xr:TypeId>05854cf5-7fbc-4b26-8522-253059c25005</xr:TypeId>
+				<xr:ValueId>c2f2ff05-c105-4b4b-8d54-dc055e045148</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.уатДополнительныеСведенияПоGPS" category="Selection">
+				<xr:TypeId>32c8b3aa-896f-441e-8430-62f2bdcf9cf3</xr:TypeId>
+				<xr:ValueId>6c41ebd0-4711-448b-b3a7-c10839f89c69</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.уатДополнительныеСведенияПоGPS" category="List">
+				<xr:TypeId>ed7874e2-5bf1-4898-bf98-c20c01a76dca</xr:TypeId>
+				<xr:ValueId>2704dbf7-cfdd-4e36-9563-1c9399ba51eb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.уатДополнительныеСведенияПоGPS" category="RecordSet">
+				<xr:TypeId>fd54ddd1-f793-4e34-ba7e-b4e6238b29b9</xr:TypeId>
+				<xr:ValueId>cf718b5a-db9d-48ec-8730-3712d50c5682</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.уатДополнительныеСведенияПоGPS" category="RecordKey">
+				<xr:TypeId>e2e08d0b-533c-4884-b51c-df1373a66ed3</xr:TypeId>
+				<xr:ValueId>5a44ec42-ef43-4b8b-b249-7b74bc14197d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.уатДополнительныеСведенияПоGPS" category="RecordManager">
+				<xr:TypeId>b58a4cec-8397-4394-8767-f8034811df9b</xr:TypeId>
+				<xr:ValueId>c847405c-d0ea-48a0-a6ea-fc8fcde5568a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уатДополнительныеСведенияПоGPS</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>0b51b6ed-c565-42ff-aab7-cd35d9079c0f</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Second</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="3498aa0b-2e84-4722-9248-168ee1ab99a1">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДлительностьСобытия</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>4baab163-fec3-470e-b13c-c4c712559d58</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="ba33f6a8-35cc-43bd-b0c4-939e258e69c9">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Значение</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>784885d8-762a-44fe-8844-494568cb8bf6</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>3</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="d55acecb-4124-4f3c-8a71-3b09e041fec7">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПредельноеЗначение</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>c6a353ea-38fd-4881-aacb-5e14ce1b15a0</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>3</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="1bc6463d-d881-4b9b-b80a-4612e836aac1">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ТС</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>820143bf-22a4-4245-8de4-b98207944ce5</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.уатТС</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="460b0ba1-11ab-4c85-88ae-af2dbe5e39de">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ТипСобытия</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>6a8801e4-8591-4b5f-8fe8-ebaefc660900</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.уатТипСобытияGPS</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

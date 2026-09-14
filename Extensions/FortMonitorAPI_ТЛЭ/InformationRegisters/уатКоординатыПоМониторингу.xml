@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="afe8c866-dd9a-448d-bd1c-b6c78707b1f4">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.уатКоординатыПоМониторингу" category="Record">
+				<xr:TypeId>2ffd7697-abee-425b-995c-17cecae9e478</xr:TypeId>
+				<xr:ValueId>a4d8e71e-95df-4af3-946c-f0c73a1bfce0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.уатКоординатыПоМониторингу" category="Manager">
+				<xr:TypeId>341e2e45-7e07-4205-b032-0c9c6722cea7</xr:TypeId>
+				<xr:ValueId>279470db-ba46-4e46-a5bf-6064e36d1b93</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.уатКоординатыПоМониторингу" category="Selection">
+				<xr:TypeId>e6632463-207d-476b-b9a6-d85b03adefa7</xr:TypeId>
+				<xr:ValueId>e2311a1a-195f-45af-8fdb-2ea7a961a128</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.уатКоординатыПоМониторингу" category="List">
+				<xr:TypeId>633a3a24-d93e-47db-a0c0-0009fbe5b180</xr:TypeId>
+				<xr:ValueId>a80d7337-a636-4808-af60-80fb8b38cc30</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.уатКоординатыПоМониторингу" category="RecordSet">
+				<xr:TypeId>d690e5d0-c86b-4940-b29f-f7cd2a409f29</xr:TypeId>
+				<xr:ValueId>57605fd4-dc10-47aa-aa5d-394b68cc55b4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.уатКоординатыПоМониторингу" category="RecordKey">
+				<xr:TypeId>5365ed4e-d1f4-4a83-b161-3df424ad541e</xr:TypeId>
+				<xr:ValueId>20321260-ea1f-4a30-8a1e-c1218232ff5d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.уатКоординатыПоМониторингу" category="RecordManager">
+				<xr:TypeId>2db22d89-e290-423f-abf4-a6e0717bce59</xr:TypeId>
+				<xr:ValueId>43523fe3-13a7-4933-978c-f2f1197315ed</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уатКоординатыПоМониторингу</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>173b2d91-21d5-4231-b1ae-aa4a60b74560</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Second</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="aebc8c84-148f-4e3a-95e4-2657ae31293e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Широта</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b3509544-f8ac-440f-b85c-7be13e199b6d</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>21</v8:Digits>
+							<v8:FractionDigits>17</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="9680be0e-6061-469a-8ace-fdd6a825e1d4">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Долгота</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>c87d02b3-95e3-4d72-a654-4d242bfca892</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>21</v8:Digits>
+							<v8:FractionDigits>17</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="147d2074-52d6-48ee-ba95-e298c0287278">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПредставлениеАдреса</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>a9132451-cf86-49e6-bdec-ef2d1d6b4043</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="2a49a52b-6bdb-4c07-84ea-9d9ce4ec0df8">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Скорость</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>ac58c329-ae87-46df-b7aa-0b1e970a5369</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>6</v8:Digits>
+							<v8:FractionDigits>1</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="c0678e1e-dae3-42bd-b05e-58bc94abd05a">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Курс</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>78dfb2bc-b45e-48c5-86d1-1aa74481f5af</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>3</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="0cf89931-ad2c-444a-b8e9-5ddfeac6ac66">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ТС</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>8751bd44-7c82-4566-9271-66230da06aeb</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.уатТС</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

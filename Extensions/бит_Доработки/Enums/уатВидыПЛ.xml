@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="8376ab47-0fea-40ae-bcd3-815bd997439a">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.уатВидыПЛ" category="Ref">
+				<xr:TypeId>cb40e84e-0752-4bd6-b66c-3ec65d2bb3b4</xr:TypeId>
+				<xr:ValueId>0756dda2-583a-40aa-a587-ee9792ee5085</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.уатВидыПЛ" category="Manager">
+				<xr:TypeId>1714e2eb-5932-472f-8d36-9b4d7071ead4</xr:TypeId>
+				<xr:ValueId>3034c1a0-e79e-45f0-b5e0-9b29f4656661</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.уатВидыПЛ" category="List">
+				<xr:TypeId>5c120d54-62ed-402a-b59a-6f17265edcc0</xr:TypeId>
+				<xr:ValueId>5b74945f-6da0-4a62-8993-7cc951608151</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уатВидыПЛ</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>e3699a58-9ce4-467b-ba82-709f02861698</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="48438cf8-cee0-4c60-b86d-9ad1c1fd5c3e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>_6</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>62a00e9d-6ab6-4e05-9916-b7cfaf633b7a</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

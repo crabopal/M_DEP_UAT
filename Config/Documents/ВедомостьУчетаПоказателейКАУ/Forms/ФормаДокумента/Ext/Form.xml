@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<UsualGroup name="ГруппаНомерДата" id="134">
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа номер дата</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаНомерДатаРасширеннаяПодсказка" id="135"/>
+			<ChildItems>
+				<InputField name="Дата" id="4">
+					<DataPath>Объект.Date</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+				</InputField>
+				<InputField name="Номер" id="1">
+					<DataPath>Объект.Number</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="Организация" id="7">
+			<DataPath>Объект.Организация</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ОрганизацияКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="Участок" id="136">
+			<DataPath>Объект.Участок</DataPath>
+			<ContextMenu name="УчастокКонтекстноеМеню" id="137"/>
+			<ExtendedTooltip name="УчастокРасширеннаяПодсказка" id="138"/>
+		</InputField>
+		<InputField name="КАУ" id="139">
+			<DataPath>Объект.КАУ</DataPath>
+			<ContextMenu name="КАУКонтекстноеМеню" id="140"/>
+			<ExtendedTooltip name="КАУРасширеннаяПодсказка" id="141"/>
+		</InputField>
+		<InputField name="Ответственный" id="19">
+			<DataPath>Объект.Ответственный</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ОтветственныйКонтекстноеМеню" id="20"/>
+			<ExtendedTooltip name="ОтветственныйРасширеннаяПодсказка" id="21"/>
+		</InputField>
+		<InputField name="Комментарий" id="16">
+			<DataPath>Объект.Комментарий</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="КомментарийКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="18"/>
+		</InputField>
+		<Table name="ДанныеПоДням" id="142">
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<FileDragMode>AsFile</FileDragMode>
+			<DataPath>Объект.ДанныеПоДням</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ДанныеПоДнямКонтекстноеМеню" id="143"/>
+			<AutoCommandBar name="ДанныеПоДнямКоманднаяПанель" id="144"/>
+			<ExtendedTooltip name="ДанныеПоДнямРасширеннаяПодсказка" id="145"/>
+			<SearchStringAddition name="ДанныеПоДнямСтрокаПоиска" id="146">
+				<AdditionSource>
+					<Item>ДанныеПоДням</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ДанныеПоДнямСтрокаПоискаКонтекстноеМеню" id="147"/>
+				<ExtendedTooltip name="ДанныеПоДнямСтрокаПоискаРасширеннаяПодсказка" id="148"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ДанныеПоДнямСостояниеПросмотра" id="149">
+				<AdditionSource>
+					<Item>ДанныеПоДням</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ДанныеПоДнямСостояниеПросмотраКонтекстноеМеню" id="150"/>
+				<ExtendedTooltip name="ДанныеПоДнямСостояниеПросмотраРасширеннаяПодсказка" id="151"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ДанныеПоДнямУправлениеПоиском" id="152">
+				<AdditionSource>
+					<Item>ДанныеПоДням</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ДанныеПоДнямУправлениеПоискомКонтекстноеМеню" id="153"/>
+				<ExtendedTooltip name="ДанныеПоДнямУправлениеПоискомРасширеннаяПодсказка" id="154"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="ДанныеПоДнямНомерСтроки" id="155">
+					<DataPath>Объект.ДанныеПоДням.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДанныеПоДнямНомерСтрокиКонтекстноеМеню" id="156"/>
+					<ExtendedTooltip name="ДанныеПоДнямНомерСтрокиРасширеннаяПодсказка" id="157"/>
+				</LabelField>
+				<InputField name="ДанныеПоДнямСотрудник" id="158">
+					<DataPath>Объект.ДанныеПоДням.Показатель</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДанныеПоДнямСотрудникКонтекстноеМеню" id="159"/>
+					<ExtendedTooltip name="ДанныеПоДнямСотрудникРасширеннаяПодсказка" id="160"/>
+				</InputField>
+				<InputField name="ДанныеПоДнямКоличество1" id="161">
+					<DataPath>Объект.ДанныеПоДням.Количество1</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДанныеПоДнямКоличество1КонтекстноеМеню" id="162"/>
+					<ExtendedTooltip name="ДанныеПоДнямКоличество1РасширеннаяПодсказка" id="163"/>
+				</InputField>
+				<InputField name="ДанныеПоДнямКоличество2" id="164">
+					<DataPath>Объект.ДанныеПоДням.Количество2</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДанныеПоДнямКоличество2КонтекстноеМеню" id="165"/>
+					<ExtendedTooltip name="ДанныеПоДнямКоличество2РасширеннаяПодсказка" id="166"/>
+				</InputField>
+				<InputField name="ДанныеПоДнямКоличество3" id="167">
+					<DataPath>Объект.ДанныеПоДням.Количество3</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДанныеПоДнямКоличество3КонтекстноеМеню" id="168"/>
+					<ExtendedTooltip name="ДанныеПоДнямКоличество3РасширеннаяПодсказка" id="169"/>
+				</InputField>
+				<InputField name="ДанныеПоДнямКоличество4" id="170">
+					<DataPath>Объект.ДанныеПоДням.Количество4</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДанныеПоДнямКоличество4КонтекстноеМеню" id="171"/>
+					<ExtendedTooltip name="ДанныеПоДнямКоличество4РасширеннаяПодсказка" id="172"/>
+				</InputField>
+				<InputField name="ДанныеПоДнямКоличество5" id="173">
+					<DataPath>Объект.ДанныеПоДням.Количество5</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДанныеПоДнямКоличество5КонтекстноеМеню" id="174"/>
+					<ExtendedTooltip name="ДанныеПоДнямКоличество5РасширеннаяПодсказка" id="175"/>
+				</InputField>
+				<InputField name="ДанныеПоДнямКоличество6" id="176">
+					<DataPath>Объект.ДанныеПоДням.Количество6</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДанныеПоДнямКоличество6КонтекстноеМеню" id="177"/>
+					<ExtendedTooltip name="ДанныеПоДнямКоличество6РасширеннаяПодсказка" id="178"/>
+				</InputField>
+				<InputField name="ДанныеПоДнямКоличество7" id="179">
+					<DataPath>Объект.ДанныеПоДням.Количество7</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДанныеПоДнямКоличество7КонтекстноеМеню" id="180"/>
+					<ExtendedTooltip name="ДанныеПоДнямКоличество7РасширеннаяПодсказка" id="181"/>
+				</InputField>
+				<InputField name="ДанныеПоДнямКоличество8" id="182">
+					<DataPath>Объект.ДанныеПоДням.Количество8</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДанныеПоДнямКоличество8КонтекстноеМеню" id="183"/>
+					<ExtendedTooltip name="ДанныеПоДнямКоличество8РасширеннаяПодсказка" id="184"/>
+				</InputField>
+				<InputField name="ДанныеПоДнямКоличество9" id="185">
+					<DataPath>Объект.ДанныеПоДням.Количество9</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДанныеПоДнямКоличество9КонтекстноеМеню" id="186"/>
+					<ExtendedTooltip name="ДанныеПоДнямКоличество9РасширеннаяПодсказка" id="187"/>
+				</InputField>
+				<InputField name="ДанныеПоДнямКоличество10" id="188">
+					<DataPath>Объект.ДанныеПоДням.Количество10</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДанныеПоДнямКоличество10КонтекстноеМеню" id="189"/>
+					<ExtendedTooltip name="ДанныеПоДнямКоличество10РасширеннаяПодсказка" id="190"/>
+				</InputField>
+				<InputField name="ДанныеПоДнямКоличество11" id="191">
+					<DataPath>Объект.ДанныеПоДням.Количество11</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДанныеПоДнямКоличество11КонтекстноеМеню" id="192"/>
+					<ExtendedTooltip name="ДанныеПоДнямКоличество11РасширеннаяПодсказка" id="193"/>
+				</InputField>
+				<InputField name="ДанныеПоДнямКоличество12" id="194">
+					<DataPath>Объект.ДанныеПоДням.Количество12</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДанныеПоДнямКоличество12КонтекстноеМеню" id="195"/>
+					<ExtendedTooltip name="ДанныеПоДнямКоличество12РасширеннаяПодсказка" id="196"/>
+				</InputField>
+				<InputField name="ДанныеПоДнямКоличество13" id="197">
+					<DataPath>Объект.ДанныеПоДням.Количество13</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДанныеПоДнямКоличество13КонтекстноеМеню" id="198"/>
+					<ExtendedTooltip name="ДанныеПоДнямКоличество13РасширеннаяПодсказка" id="199"/>
+				</InputField>
+				<InputField name="ДанныеПоДнямКоличество14" id="200">
+					<DataPath>Объект.ДанныеПоДням.Количество14</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДанныеПоДнямКоличество14КонтекстноеМеню" id="201"/>
+					<ExtendedTooltip name="ДанныеПоДнямКоличество14РасширеннаяПодсказка" id="202"/>
+				</InputField>
+				<InputField name="ДанныеПоДнямКоличество15" id="203">
+					<DataPath>Объект.ДанныеПоДням.Количество15</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДанныеПоДнямКоличество15КонтекстноеМеню" id="204"/>
+					<ExtendedTooltip name="ДанныеПоДнямКоличество15РасширеннаяПодсказка" id="205"/>
+				</InputField>
+				<InputField name="ДанныеПоДнямКоличество16" id="206">
+					<DataPath>Объект.ДанныеПоДням.Количество16</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДанныеПоДнямКоличество16КонтекстноеМеню" id="207"/>
+					<ExtendedTooltip name="ДанныеПоДнямКоличество16РасширеннаяПодсказка" id="208"/>
+				</InputField>
+				<InputField name="ДанныеПоДнямКоличество17" id="209">
+					<DataPath>Объект.ДанныеПоДням.Количество17</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДанныеПоДнямКоличество17КонтекстноеМеню" id="210"/>
+					<ExtendedTooltip name="ДанныеПоДнямКоличество17РасширеннаяПодсказка" id="211"/>
+				</InputField>
+				<InputField name="ДанныеПоДнямКоличество18" id="212">
+					<DataPath>Объект.ДанныеПоДням.Количество18</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДанныеПоДнямКоличество18КонтекстноеМеню" id="213"/>
+					<ExtendedTooltip name="ДанныеПоДнямКоличество18РасширеннаяПодсказка" id="214"/>
+				</InputField>
+				<InputField name="ДанныеПоДнямКоличество19" id="215">
+					<DataPath>Объект.ДанныеПоДням.Количество19</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДанныеПоДнямКоличество19КонтекстноеМеню" id="216"/>
+					<ExtendedTooltip name="ДанныеПоДнямКоличество19РасширеннаяПодсказка" id="217"/>
+				</InputField>
+				<InputField name="ДанныеПоДнямКоличество20" id="218">
+					<DataPath>Объект.ДанныеПоДням.Количество20</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДанныеПоДнямКоличество20КонтекстноеМеню" id="219"/>
+					<ExtendedTooltip name="ДанныеПоДнямКоличество20РасширеннаяПодсказка" id="220"/>
+				</InputField>
+				<InputField name="ДанныеПоДнямКоличество21" id="221">
+					<DataPath>Объект.ДанныеПоДням.Количество21</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДанныеПоДнямКоличество21КонтекстноеМеню" id="222"/>
+					<ExtendedTooltip name="ДанныеПоДнямКоличество21РасширеннаяПодсказка" id="223"/>
+				</InputField>
+				<InputField name="ДанныеПоДнямКоличество22" id="224">
+					<DataPath>Объект.ДанныеПоДням.Количество22</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДанныеПоДнямКоличество22КонтекстноеМеню" id="225"/>
+					<ExtendedTooltip name="ДанныеПоДнямКоличество22РасширеннаяПодсказка" id="226"/>
+				</InputField>
+				<InputField name="ДанныеПоДнямКоличество23" id="227">
+					<DataPath>Объект.ДанныеПоДням.Количество23</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДанныеПоДнямКоличество23КонтекстноеМеню" id="228"/>
+					<ExtendedTooltip name="ДанныеПоДнямКоличество23РасширеннаяПодсказка" id="229"/>
+				</InputField>
+				<InputField name="ДанныеПоДнямКоличество24" id="230">
+					<DataPath>Объект.ДанныеПоДням.Количество24</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДанныеПоДнямКоличество24КонтекстноеМеню" id="231"/>
+					<ExtendedTooltip name="ДанныеПоДнямКоличество24РасширеннаяПодсказка" id="232"/>
+				</InputField>
+				<InputField name="ДанныеПоДнямКоличество25" id="233">
+					<DataPath>Объект.ДанныеПоДням.Количество25</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДанныеПоДнямКоличество25КонтекстноеМеню" id="234"/>
+					<ExtendedTooltip name="ДанныеПоДнямКоличество25РасширеннаяПодсказка" id="235"/>
+				</InputField>
+				<InputField name="ДанныеПоДнямКоличество26" id="236">
+					<DataPath>Объект.ДанныеПоДням.Количество26</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДанныеПоДнямКоличество26КонтекстноеМеню" id="237"/>
+					<ExtendedTooltip name="ДанныеПоДнямКоличество26РасширеннаяПодсказка" id="238"/>
+				</InputField>
+				<InputField name="ДанныеПоДнямКоличество27" id="239">
+					<DataPath>Объект.ДанныеПоДням.Количество27</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДанныеПоДнямКоличество27КонтекстноеМеню" id="240"/>
+					<ExtendedTooltip name="ДанныеПоДнямКоличество27РасширеннаяПодсказка" id="241"/>
+				</InputField>
+				<InputField name="ДанныеПоДнямКоличество28" id="242">
+					<DataPath>Объект.ДанныеПоДням.Количество28</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДанныеПоДнямКоличество28КонтекстноеМеню" id="243"/>
+					<ExtendedTooltip name="ДанныеПоДнямКоличество28РасширеннаяПодсказка" id="244"/>
+				</InputField>
+				<InputField name="ДанныеПоДнямКоличество29" id="245">
+					<DataPath>Объект.ДанныеПоДням.Количество29</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДанныеПоДнямКоличество29КонтекстноеМеню" id="246"/>
+					<ExtendedTooltip name="ДанныеПоДнямКоличество29РасширеннаяПодсказка" id="247"/>
+				</InputField>
+				<InputField name="ДанныеПоДнямКоличество30" id="248">
+					<DataPath>Объект.ДанныеПоДням.Количество30</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДанныеПоДнямКоличество30КонтекстноеМеню" id="249"/>
+					<ExtendedTooltip name="ДанныеПоДнямКоличество30РасширеннаяПодсказка" id="250"/>
+				</InputField>
+				<InputField name="ДанныеПоДнямКоличество31" id="251">
+					<DataPath>Объект.ДанныеПоДням.Количество31</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДанныеПоДнямКоличество31КонтекстноеМеню" id="252"/>
+					<ExtendedTooltip name="ДанныеПоДнямКоличество31РасширеннаяПодсказка" id="253"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.ВедомостьУчетаПоказателейКАУ</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+	</Attributes>
+</Form>

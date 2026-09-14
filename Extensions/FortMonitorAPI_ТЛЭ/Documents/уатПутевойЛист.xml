@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="44df840c-505d-40b3-93e4-779b1795af05">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.уатПутевойЛист" category="Object">
+				<xr:TypeId>1f418917-b7bb-4121-9b7c-3898189a0f96</xr:TypeId>
+				<xr:ValueId>1b09ab59-6508-418d-8658-f5b4482212a1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.уатПутевойЛист" category="Ref">
+				<xr:TypeId>c16f0d1e-0f73-43e0-9b2b-6f3b57d29f44</xr:TypeId>
+				<xr:ValueId>df05533b-8074-4bd9-a846-79a677120c0b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.уатПутевойЛист" category="Selection">
+				<xr:TypeId>c7277cf0-f771-4783-8334-577473e3a299</xr:TypeId>
+				<xr:ValueId>b9eafc87-0eaa-4f4e-8348-d4041ccec8d3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.уатПутевойЛист" category="List">
+				<xr:TypeId>054e9da2-9706-4e87-ac20-a14190c33d74</xr:TypeId>
+				<xr:ValueId>3877958d-b191-4c04-8ce0-3443e13335d4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.уатПутевойЛист" category="Manager">
+				<xr:TypeId>6a8b7720-4b6c-4b35-8194-d3466705f1c2</xr:TypeId>
+				<xr:ValueId>9b057918-467f-4bf9-9a53-8c74d734031f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уатПутевойЛист</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>949fd64d-7ca7-4997-9128-446139f9b18e</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаДокумента</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

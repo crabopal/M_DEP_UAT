@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="6579c5c7-f0ed-42ca-ba8b-05402d1532ba">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.уатПластиковыеКарты" category="Object">
+				<xr:TypeId>d3f28247-63ef-46fb-a0f3-9d68936e176f</xr:TypeId>
+				<xr:ValueId>35878d58-1806-473b-babc-25df67550e8d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.уатПластиковыеКарты" category="Ref">
+				<xr:TypeId>a16994bd-9d94-4b26-8e59-475308bf761d</xr:TypeId>
+				<xr:ValueId>5f3b6c01-effb-43ff-88ba-1372d160ef82</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.уатПластиковыеКарты" category="Selection">
+				<xr:TypeId>34099a74-96e8-4003-abf5-728765eb6c38</xr:TypeId>
+				<xr:ValueId>90001849-b56b-4aea-b53e-3640b21ca623</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.уатПластиковыеКарты" category="List">
+				<xr:TypeId>4a7e9304-53b9-43e5-874f-86283292cbcc</xr:TypeId>
+				<xr:ValueId>f9b9493a-6317-48f8-aa37-3beddff36e53</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.уатПластиковыеКарты" category="Manager">
+				<xr:TypeId>f2db8665-2ed3-4637-9830-076476b958d4</xr:TypeId>
+				<xr:ValueId>9409c74b-ffbc-4f94-a524-17bec023d3ce</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уатПластиковыеКарты</Name>
+			<Comment/>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

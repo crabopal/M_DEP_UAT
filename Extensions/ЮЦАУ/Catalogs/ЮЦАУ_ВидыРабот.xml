@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="b74e638d-6dd2-4e4b-85e9-63a8e3bc4b4d">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ЮЦАУ_ВидыРабот" category="Object">
+				<xr:TypeId>f5b1dea4-a97a-42a9-bcac-803e16420f4c</xr:TypeId>
+				<xr:ValueId>a9aba3fa-582f-4aba-b8fb-91a2df7dc2d0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ЮЦАУ_ВидыРабот" category="Ref">
+				<xr:TypeId>6345b18c-a785-4d69-8853-6e6412cab811</xr:TypeId>
+				<xr:ValueId>1aee8a9b-8ab5-4a00-83db-a23b1a26d240</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ЮЦАУ_ВидыРабот" category="Selection">
+				<xr:TypeId>45e1602b-526d-4246-9d70-58699f3a085f</xr:TypeId>
+				<xr:ValueId>d210885d-1c89-4dd2-9852-6ef48face158</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ЮЦАУ_ВидыРабот" category="List">
+				<xr:TypeId>3bb66824-8a6a-4734-bff3-23719787fb60</xr:TypeId>
+				<xr:ValueId>145019f6-4d86-43a4-a27a-cc07b934bd4f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ЮЦАУ_ВидыРабот" category="Manager">
+				<xr:TypeId>b2b3883d-5fa8-4da8-96ac-3083170fad92</xr:TypeId>
+				<xr:ValueId>70ac47b0-91f7-4b85-8680-fbf27c711865</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЮЦАУ_ВидыРабот</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>2481adb1-c0dd-4bd5-baad-422dc94d5ff9</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

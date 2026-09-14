@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="c695aec5-9a0e-4424-b87f-dfaf913db990">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ЮЦАУДлительностьВыезда" category="Record">
+				<xr:TypeId>fa093174-54ba-4397-82d8-d775bb31cd4f</xr:TypeId>
+				<xr:ValueId>7e297262-b57e-45c9-81f0-3a4063b7c933</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ЮЦАУДлительностьВыезда" category="Manager">
+				<xr:TypeId>dffed2db-78b9-4392-a167-c7706b1dbc0b</xr:TypeId>
+				<xr:ValueId>673a59ee-6846-474c-818f-15539e85837f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ЮЦАУДлительностьВыезда" category="Selection">
+				<xr:TypeId>017b5986-c42e-4c02-994a-1fe1339efeca</xr:TypeId>
+				<xr:ValueId>f131d632-ed74-4df9-a6df-99d615f00c55</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ЮЦАУДлительностьВыезда" category="List">
+				<xr:TypeId>b63c2591-e9e3-49e3-8025-601b2b1a7ec1</xr:TypeId>
+				<xr:ValueId>a6ae8e1d-f427-4876-9c73-5f5ca0cc2714</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ЮЦАУДлительностьВыезда" category="RecordSet">
+				<xr:TypeId>586969f1-d551-4ef4-a428-f3fdfa8cecbb</xr:TypeId>
+				<xr:ValueId>466650a3-02c2-4bbe-9d3c-2157c8aedada</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ЮЦАУДлительностьВыезда" category="RecordKey">
+				<xr:TypeId>8b8ac10b-9d98-46c3-9796-7c6a46a9c076</xr:TypeId>
+				<xr:ValueId>5c923efa-7382-4dee-a552-92989009f35e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ЮЦАУДлительностьВыезда" category="RecordManager">
+				<xr:TypeId>dd664708-b8fb-499e-aab3-557f0c2a9b2e</xr:TypeId>
+				<xr:ValueId>41174180-2b49-4366-886e-7c94f0bec831</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЮЦАУДлительностьВыезда</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>e7dfb21d-ca7e-4c87-b3c2-147e79a847a6</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Day</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="fb78ada7-a421-484d-abc5-d3be96effa87">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НачалоОбеда</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f4886755-1082-40da-9110-4525bd5d7dbc</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Time</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="095d57b2-3bba-489f-886a-ffa95ecd0993">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВремяЗаезда</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>ac1da4d7-31cc-4998-8ee0-0227b26a9e18</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Time</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="e6975c37-db67-4f6f-a7c4-19a178c9d297">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Длительность</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>65ed361a-e844-46fe-b611-bf3af0a9a2a2</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Time</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="f79352de-68fa-4ad1-8d8d-85efffa36004">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВремяВыезда</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>e92499bb-71c9-465c-abee-f6080df4c984</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Time</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="ae00da01-6978-4935-9fe4-12c78d41e1d8">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВыхБудн</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b329ba1d-ab61-46fd-b046-63d81b0ea6ea</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.ЮЦАУ_Выходные_праздничные_будни</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="d07a2292-bb17-407f-b1ba-e5ea4ecb3fb9">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Маршрут</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>4e4bb16c-9fc9-44e7-910e-35eb761b26e0</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.уатМаршруты</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="023eea18-f9be-4316-8189-062b41515553">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Выезд</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>29ea2567-7bc0-478f-afdb-9e566e73bbba</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ЮЦАУ_Выезды</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="71f4afcf-ce7c-4c28-bbd4-8b8aabd57cc7">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Смена</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>87180e40-1f81-4d2b-8e06-357cfaecff59</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.ЮЦАУ_Смены</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

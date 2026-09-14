@@ -1,0 +1,411 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<VerticalScroll>useIfNecessary</VerticalScroll>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаОК" id="48">
+				<Type>CommandBarButton</Type>
+				<Representation>PictureAndText</Representation>
+				<DefaultButton>true</DefaultButton>
+				<CommandName>Form.Command.ОК</CommandName>
+				<ExtendedTooltip name="ФормаОКРасширеннаяПодсказка" id="49"/>
+			</Button>
+			<Button name="ФормаЗаписать" id="12">
+				<Type>CommandBarButton</Type>
+				<Representation>Picture</Representation>
+				<CommandName>Form.Command.Записать</CommandName>
+				<Picture>
+					<xr:Ref>StdPicture.Write</xr:Ref>
+					<xr:LoadTransparent>true</xr:LoadTransparent>
+				</Picture>
+				<ExtendedTooltip name="ФормаЗаписатьExtendedTooltip" id="13"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="BeforeClose">ПередЗакрытием</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="ТипАгрегата" id="27">
+			<DataPath>ТипАгрегата</DataPath>
+			<HorizontalStretch>false</HorizontalStretch>
+			<OpenButton>false</OpenButton>
+			<CreateButton>false</CreateButton>
+			<ListChoiceMode>true</ListChoiceMode>
+			<InputHint>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>&lt;Все типы агрегатов&gt;</v8:content>
+				</v8:item>
+			</InputHint>
+			<ContextMenu name="ТипАгрегатаКонтекстноеМеню" id="28"/>
+			<ExtendedTooltip name="ТипАгрегатаРасширеннаяПодсказка" id="29"/>
+			<Events>
+				<Event name="OnChange">ТипАгрегатаПриИзменении</Event>
+			</Events>
+		</InputField>
+		<Table name="НастройкаФормированияНаименования" id="1">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<FileDragMode>AsFile</FileDragMode>
+			<DataPath>НастройкаФормированияНаименования</DataPath>
+			<SearchStringLocation>None</SearchStringLocation>
+			<ViewStatusLocation>None</ViewStatusLocation>
+			<SearchControlLocation>None</SearchControlLocation>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="НастройкаФормированияНаименованияКонтекстноеМеню" id="2"/>
+			<AutoCommandBar name="НастройкаФормированияНаименованияКоманднаяПанель" id="3">
+				<Autofill>false</Autofill>
+				<ChildItems>
+					<Button name="НастройкаФормированияНаименованияДобавить" id="34">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.НастройкаФормированияНаименования.StandardCommand.Add</CommandName>
+						<ExtendedTooltip name="НастройкаФормированияНаименованияДобавитьРасширеннаяПодсказка" id="35"/>
+					</Button>
+					<Button name="НастройкаФормированияНаименованияСкопировать" id="36">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.НастройкаФормированияНаименования.StandardCommand.Copy</CommandName>
+						<ExtendedTooltip name="НастройкаФормированияНаименованияСкопироватьРасширеннаяПодсказка" id="37"/>
+					</Button>
+					<Button name="НастройкаФормированияНаименованияУдалить" id="40">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.НастройкаФормированияНаименования.StandardCommand.Delete</CommandName>
+						<ExtendedTooltip name="НастройкаФормированияНаименованияУдалитьРасширеннаяПодсказка" id="41"/>
+					</Button>
+					<ButtonGroup name="НастройкаФормированияНаименованияГруппа1" id="46">
+						<Representation>Compact</Representation>
+						<ExtendedTooltip name="НастройкаФормированияНаименованияГруппа1РасширеннаяПодсказка" id="47"/>
+						<ChildItems>
+							<Button name="НастройкаФормированияНаименованияПереместитьВверх" id="42">
+								<Type>CommandBarButton</Type>
+								<CommandName>Form.Item.НастройкаФормированияНаименования.StandardCommand.MoveUp</CommandName>
+								<ExtendedTooltip name="НастройкаФормированияНаименованияПереместитьВверхРасширеннаяПодсказка" id="43"/>
+							</Button>
+							<Button name="НастройкаФормированияНаименованияПереместитьВниз" id="44">
+								<Type>CommandBarButton</Type>
+								<CommandName>Form.Item.НастройкаФормированияНаименования.StandardCommand.MoveDown</CommandName>
+								<ExtendedTooltip name="НастройкаФормированияНаименованияПереместитьВнизРасширеннаяПодсказка" id="45"/>
+							</Button>
+						</ChildItems>
+					</ButtonGroup>
+					<Button name="ФормаСкопироватьНастройкиИзДругогоТипа" id="30">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.СкопироватьНастройкиИзДругогоТипа</CommandName>
+						<ExtendedTooltip name="ФормаСкопироватьНастройкиИзДругогоТипаРасширеннаяПодсказка" id="31"/>
+					</Button>
+				</ChildItems>
+			</AutoCommandBar>
+			<ExtendedTooltip name="НастройкаФормированияНаименованияExtendedTooltip" id="14"/>
+			<SearchStringAddition name="НастройкаФормированияНаименованияСтрокаПоиска" id="18">
+				<AdditionSource>
+					<Item>НастройкаФормированияНаименования</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="НастройкаФормированияНаименованияСтрокаПоискаКонтекстноеМеню" id="19"/>
+				<ExtendedTooltip name="НастройкаФормированияНаименованияСтрокаПоискаРасширеннаяПодсказка" id="20"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="НастройкаФормированияНаименованияСостояниеПросмотра" id="21">
+				<AdditionSource>
+					<Item>НастройкаФормированияНаименования</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="НастройкаФормированияНаименованияСостояниеПросмотраКонтекстноеМеню" id="22"/>
+				<ExtendedTooltip name="НастройкаФормированияНаименованияСостояниеПросмотраРасширеннаяПодсказка" id="23"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="НастройкаФормированияНаименованияУправлениеПоиском" id="24">
+				<AdditionSource>
+					<Item>НастройкаФормированияНаименования</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="НастройкаФормированияНаименованияУправлениеПоискомКонтекстноеМеню" id="25"/>
+				<ExtendedTooltip name="НастройкаФормированияНаименованияУправлениеПоискомРасширеннаяПодсказка" id="26"/>
+			</SearchControlAddition>
+			<Events>
+				<Event name="OnEditEnd">НастройкаФормированияНаименованияПриОкончанииРедактирования</Event>
+				<Event name="OnChange">НастройкаФормированияНаименованияПриИзменении</Event>
+			</Events>
+			<ChildItems>
+				<InputField name="НастройкаФормированияНаименованияПоле" id="8">
+					<DataPath>НастройкаФормированияНаименования.Поле</DataPath>
+					<UserVisible>
+						<xr:Common>true</xr:Common>
+						<xr:Value name="Role.ИзменениеМакетовПечатныхФорм">true</xr:Value>
+						<xr:Value name="1a1de318-8260-40f3-89e2-12d9f2ebea1f">true</xr:Value>
+						<xr:Value name="a5a01ca9-0841-472b-94dd-0c4039dc6b96">true</xr:Value>
+						<xr:Value name="737ead15-5393-4de4-9335-67d1839433b5">true</xr:Value>
+						<xr:Value name="e7048e4e-20d6-4086-b74f-54589c713501">true</xr:Value>
+						<xr:Value name="Role.уатПрикладнаяРольГСМ">true</xr:Value>
+						<xr:Value name="Role.уатПрикладнаяРольДиспетчер">true</xr:Value>
+						<xr:Value name="Role.уатПрикладнаяРольКадровик">true</xr:Value>
+						<xr:Value name="Role.уатПрикладнаяРольКладовщик">true</xr:Value>
+						<xr:Value name="Role.уатМеханик">true</xr:Value>
+						<xr:Value name="efcb8a2e-825b-4fd0-ab6a-7faae18fbbee">true</xr:Value>
+						<xr:Value name="Role.уатПрикладнаяРольМеханик">true</xr:Value>
+						<xr:Value name="Role.уатТиповаяКонфигурация">false</xr:Value>
+						<xr:Value name="Role.уатПрикладнаяРольЭкономист">true</xr:Value>
+					</UserVisible>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Поле</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ChoiceButton>true</ChoiceButton>
+					<ContextMenu name="НастройкаФормированияНаименованияПолеКонтекстноеМеню" id="9"/>
+					<ExtendedTooltip name="НастройкаФормированияНаименованияПолеExtendedTooltip" id="16"/>
+					<Events>
+						<Event name="StartChoice">НастройкаФормированияНаименованияПолеНачалоВыбора</Event>
+					</Events>
+				</InputField>
+			</ChildItems>
+		</Table>
+		<LabelField name="ПредставлениеНаименования" id="10">
+			<DataPath>ПредставлениеНаименования</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пример</v8:content>
+				</v8:item>
+			</Title>
+			<TitleTextColor>style:FieldSelectionBackColor</TitleTextColor>
+			<TextColor>style:FieldSelectionBackColor</TextColor>
+			<ContextMenu name="ПредставлениеНаименованияКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="ПредставлениеНаименованияExtendedTooltip" id="17"/>
+		</LabelField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="НастройкаФормированияНаименования" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройка формирования наименования</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Поле" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Поле</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>500</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="ПредставлениеНаименования" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Представление наименования</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="СтруктураОбразец" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Структура образец</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="ТипАгрегата" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Тип агрегата</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.уатТипыАгрегатов</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Поле" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Поле</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>500</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Значение" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Значение</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>500</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="ТипАгрегата" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тип агрегата</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.уатТипыАгрегатов</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="НастройкаФормированияНаименованияВсеСтроки" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройка формирования наименования</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Поле" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Поле</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>500</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ТипАгрегата" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Тип агрегата</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.уатТипыАгрегатов</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Номер" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номер</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>5</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="ТипАгрегатаВрем" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тип агрегата временный</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.уатТипыАгрегатов</v8:Type>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Записать" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Записать</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Записать</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Записать</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="СкопироватьНастройкиИзДругогоТипа" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Скопировать настройки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Скопировать настройки из другого типа</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СкопироватьНастройкиИзДругогоТипа</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ОК" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ОК</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ОК</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.WriteAndClose</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ОК</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+	</Commands>
+</Form>

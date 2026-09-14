@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<ChartOfCalculationTypes uuid="808f7bcb-4da4-47e1-8d1d-0f4959c9ad0a">
+		<InternalInfo>
+			<xr:GeneratedType name="ChartOfCalculationTypesObject.уатОсновныеНачисления" category="Object">
+				<xr:TypeId>e1046599-6992-48fc-80d4-32eb64a3bedb</xr:TypeId>
+				<xr:ValueId>adae1ccf-b599-4e80-a1e9-9f9eed98400b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCalculationTypesRef.уатОсновныеНачисления" category="Ref">
+				<xr:TypeId>57cbb10f-b203-4ecb-bd28-e6d21b2e5d11</xr:TypeId>
+				<xr:ValueId>1489ec91-5cf2-49df-b2a1-437dcf7baae2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCalculationTypesSelection.уатОсновныеНачисления" category="Selection">
+				<xr:TypeId>1f93e435-4d23-479e-9366-be927267d9de</xr:TypeId>
+				<xr:ValueId>faa504d5-b34b-4531-acaa-5623287371c1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCalculationTypesList.уатОсновныеНачисления" category="List">
+				<xr:TypeId>5538747e-4cb5-4171-8fac-3fae2153a414</xr:TypeId>
+				<xr:ValueId>bc6c7e43-3753-499d-b0b1-9495d904a685</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCalculationTypesManager.уатОсновныеНачисления" category="Manager">
+				<xr:TypeId>fbae114d-d7af-44c5-b5c4-fc16f8e1525d</xr:TypeId>
+				<xr:ValueId>6deb734d-264f-45cc-b829-20c95d9b9a56</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DisplacingCalculationTypes.уатОсновныеНачисления" category="DisplacingCalculationTypes">
+				<xr:TypeId>d5fd128d-7601-4a68-a1e0-ef642324bf18</xr:TypeId>
+				<xr:ValueId>87ba9f8f-7193-485e-a56c-bff343f00b94</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DisplacingCalculationTypesRow.уатОсновныеНачисления" category="DisplacingCalculationTypesRow">
+				<xr:TypeId>db3455f6-a4e6-419f-837a-380dfd4b662b</xr:TypeId>
+				<xr:ValueId>0054157b-5097-417f-bf0a-307de812de22</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="BaseCalculationTypes.уатОсновныеНачисления" category="BaseCalculationTypes">
+				<xr:TypeId>7aece7ce-778d-4234-9bec-818f1bbd8964</xr:TypeId>
+				<xr:ValueId>8be08d39-a039-4973-ac65-d19c13dd0778</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="BaseCalculationTypesRow.уатОсновныеНачисления" category="BaseCalculationTypesRow">
+				<xr:TypeId>643388c1-04ab-49ae-bd53-ef047b028889</xr:TypeId>
+				<xr:ValueId>9cffe5e3-2c85-4b99-808d-47d789a9ab90</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="LeadingCalculationTypes.уатОсновныеНачисления" category="LeadingCalculationTypes">
+				<xr:TypeId>67262115-6616-4c6e-a038-fbc6b1f6fdec</xr:TypeId>
+				<xr:ValueId>7a08897b-ca2a-4567-a568-5fe1a399d9e2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="LeadingCalculationTypesRow.уатОсновныеНачисления" category="LeadingCalculationTypesRow">
+				<xr:TypeId>4a57dce9-ea38-4f39-98f5-5e79c4014ae0</xr:TypeId>
+				<xr:ValueId>28ae3bcc-bf6e-4f09-abe0-dea6b5310c8c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уатОсновныеНачисления</Name>
+			<Comment/>
+		</Properties>
+		<ChildObjects/>
+	</ChartOfCalculationTypes>
+</MetaDataObject>

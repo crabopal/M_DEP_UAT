@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="7d74df7a-bbbe-4608-9335-3a2fda676910">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ЮЦАУ_Смены" category="Ref">
+				<xr:TypeId>99e39ccc-acbf-4187-ba1e-2ff4608cb9d7</xr:TypeId>
+				<xr:ValueId>31d07424-421d-4d30-84f5-84f2ba4f756a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ЮЦАУ_Смены" category="Manager">
+				<xr:TypeId>3f16c5c7-bcfc-4876-841d-53398766cd2a</xr:TypeId>
+				<xr:ValueId>be53d576-3fcd-401d-938d-f4807b031e14</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ЮЦАУ_Смены" category="List">
+				<xr:TypeId>4be859c0-36ae-4d30-8bb1-f3c9db08997a</xr:TypeId>
+				<xr:ValueId>031edafa-b72e-46bf-ad12-9631b16c6eb6</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЮЦАУ_Смены</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>47f3705a-72ad-43e8-a0aa-ba4cedfcbe09</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

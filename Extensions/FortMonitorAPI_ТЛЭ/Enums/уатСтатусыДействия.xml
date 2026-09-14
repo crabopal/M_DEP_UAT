@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="e7b4af32-a17a-47e7-b0f0-2e05d852f88d">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.уатСтатусыДействия" category="Ref">
+				<xr:TypeId>4ce06e0a-e195-499d-a2b5-30c52242a02d</xr:TypeId>
+				<xr:ValueId>8419e799-b941-43ee-8232-cc132b53e3f1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.уатСтатусыДействия" category="Manager">
+				<xr:TypeId>b9f4ce63-db9a-4150-97f4-a82da4c96c59</xr:TypeId>
+				<xr:ValueId>9ec013cd-68fe-46e0-8fec-5b82c1f5bb40</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.уатСтатусыДействия" category="List">
+				<xr:TypeId>cef89ece-a827-4208-a2bd-ee896412dfdd</xr:TypeId>
+				<xr:ValueId>f96d6c49-ef0c-4090-8449-7a060de61fc5</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уатСтатусыДействия</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>60cf373d-9ffc-4cf3-bc18-d8fb493e60f5</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="5e83895e-0364-45d7-903c-dccb9562f22b">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Действует</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>ef32e9b9-0925-442d-8652-adabd7de13b4</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

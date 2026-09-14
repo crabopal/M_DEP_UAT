@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="8a16cad0-25a0-4071-8ad8-043b46ca8285">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.уатТекущееМестоположениеТСПоМониторингу" category="Record">
+				<xr:TypeId>3b963d7e-0bd4-4114-83c2-639d9590c82f</xr:TypeId>
+				<xr:ValueId>3798228d-651d-4b02-b3c1-d0d7eb70fd26</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.уатТекущееМестоположениеТСПоМониторингу" category="Manager">
+				<xr:TypeId>cac31044-da14-4e3c-949e-20a1bd2f72e6</xr:TypeId>
+				<xr:ValueId>ff929339-abb4-48fc-b42c-8838f1e4c05e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.уатТекущееМестоположениеТСПоМониторингу" category="Selection">
+				<xr:TypeId>dbe3dd35-db73-481f-9a97-88e72e4aa5e4</xr:TypeId>
+				<xr:ValueId>8bdaa56b-f2bb-4cc9-870f-dc45507dfb13</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.уатТекущееМестоположениеТСПоМониторингу" category="List">
+				<xr:TypeId>777d52f9-40f3-46ea-aea0-13c9bb941fff</xr:TypeId>
+				<xr:ValueId>08f6e5b2-bc8f-4bad-b640-0949c11cfd6e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.уатТекущееМестоположениеТСПоМониторингу" category="RecordSet">
+				<xr:TypeId>2c49ea54-2ed3-4146-a88d-aa66d6418366</xr:TypeId>
+				<xr:ValueId>4caea034-8932-4fb9-b6e3-fc5ac6f4d387</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.уатТекущееМестоположениеТСПоМониторингу" category="RecordKey">
+				<xr:TypeId>e7e9131e-f0ec-4c26-9ab0-939c878ab5be</xr:TypeId>
+				<xr:ValueId>33b6871a-b6e6-4a35-a46f-91b506aa8570</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.уатТекущееМестоположениеТСПоМониторингу" category="RecordManager">
+				<xr:TypeId>4bb8125e-f830-44b9-9b6b-1132e9eb6b52</xr:TypeId>
+				<xr:ValueId>afe1f3ce-0e05-4cd2-a6f4-4dbc1d30929d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уатТекущееМестоположениеТСПоМониторингу</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>31fa8565-9a60-4d93-ab02-9cda9a9f8af3</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="29dfd4cf-07ea-4f76-a272-ab62beecc675">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Дата</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>7faea8c3-2f3b-45dc-82de-f123369c1b85</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="8f58fa49-9095-496f-a112-10f8cb1ace1d">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Широта</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>3ba5a1c3-03f2-4e05-8efe-e926dd0d1786</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>21</v8:Digits>
+							<v8:FractionDigits>17</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="66f0e2bc-d5bd-470c-a13c-02d131e22eba">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Долгота</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>68955528-2692-47a4-b6d5-fb524de6b322</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>21</v8:Digits>
+							<v8:FractionDigits>17</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="a2319318-7985-4cd6-ba0d-b9773054b520">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПредставлениеАдреса</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>3b310c52-225d-4722-bb1a-946674c8ce59</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="9b63c85e-66a9-41f0-93a7-02aae1affce9">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Скорость</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f71ad91e-f38c-446a-a707-fc8c3f9146db</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>6</v8:Digits>
+							<v8:FractionDigits>1</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="e924832c-893e-41a5-b680-8d5e75234f67">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Курс</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>5d3653a5-5ac9-48e4-9be2-f4f6982b2680</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>3</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="25c84258-e748-485d-a9a2-a696cb2cd4a3">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ТС</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>e648ac3c-beab-435b-82fc-0f1309ff2098</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.уатТС</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Form>ФормаСписка</Form>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

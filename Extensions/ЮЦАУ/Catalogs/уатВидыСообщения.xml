@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="d3be2093-3d19-4bba-9046-1e761944e6fb">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.уатВидыСообщения" category="Object">
+				<xr:TypeId>fdeaa778-fd7b-43bc-b023-c27c3fe2fbb0</xr:TypeId>
+				<xr:ValueId>385888c5-9fe9-4dd4-92ce-32f3530bdfaa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.уатВидыСообщения" category="Ref">
+				<xr:TypeId>a144f4f3-8245-4810-b3f4-5f831bb1dcbe</xr:TypeId>
+				<xr:ValueId>9751573d-6bc2-43ea-adca-8f763d3e754d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.уатВидыСообщения" category="Selection">
+				<xr:TypeId>dd1bebb9-759f-42a5-b24a-5be4b5dbaf4b</xr:TypeId>
+				<xr:ValueId>3e0a7a93-b30c-4f95-afac-622e188db40e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.уатВидыСообщения" category="List">
+				<xr:TypeId>b2a8f109-a613-4a04-ad9d-24e41ef91738</xr:TypeId>
+				<xr:ValueId>1f29ded8-6f8b-4495-95b6-ab075575169d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.уатВидыСообщения" category="Manager">
+				<xr:TypeId>dc2846b3-5898-4e69-9bcf-bc245ef92c24</xr:TypeId>
+				<xr:ValueId>8d927872-7940-4077-8bc4-e796bde60c16</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уатВидыСообщения</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>3dfd1f48-cb82-4c06-abbf-03fddd9f40e8</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

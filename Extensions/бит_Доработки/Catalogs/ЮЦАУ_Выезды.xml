@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="706355e9-5370-4237-aed9-df9090117b66">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ЮЦАУ_Выезды" category="Object">
+				<xr:TypeId>9e65d90b-f685-41e3-90ef-f3630a1a56e5</xr:TypeId>
+				<xr:ValueId>abb72768-f93e-4de5-ae3c-a9654fec6578</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ЮЦАУ_Выезды" category="Ref">
+				<xr:TypeId>0b603d1e-edd1-42cc-8a5b-debd343d67b6</xr:TypeId>
+				<xr:ValueId>72a15b29-49a8-4873-b982-3b79b4870ba2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ЮЦАУ_Выезды" category="Selection">
+				<xr:TypeId>0d1ea9b1-9055-40fc-bb9b-baf4d2865b7d</xr:TypeId>
+				<xr:ValueId>639e3225-642e-492c-8e41-fe9bdd67a4b5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ЮЦАУ_Выезды" category="List">
+				<xr:TypeId>8e9b1fe1-6022-475e-a993-5f73eb4ad123</xr:TypeId>
+				<xr:ValueId>990d4c24-0ef8-4ae2-89fd-9da1e25cb953</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ЮЦАУ_Выезды" category="Manager">
+				<xr:TypeId>79f483e3-aae8-41c0-bdc9-41e5661266fa</xr:TypeId>
+				<xr:ValueId>59a597ac-bdc5-440f-bda4-7cf6e0186456</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЮЦАУ_Выезды</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>a4043104-c4a0-4c6d-a8ee-715e9d599f42</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

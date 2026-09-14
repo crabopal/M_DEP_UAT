@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="f6a7a507-db6a-4601-a924-4a3a8c000161">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.уатМаршруты" category="Object">
+				<xr:TypeId>e203727e-2be5-4853-b080-340fb5ab17cc</xr:TypeId>
+				<xr:ValueId>44a9933a-712d-4593-acf3-c959a70e271d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.уатМаршруты" category="Ref">
+				<xr:TypeId>99906701-f1e0-4ed0-9658-7e29070e86c4</xr:TypeId>
+				<xr:ValueId>e352b237-695d-4285-a0d3-2f9d01c09bc1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.уатМаршруты" category="Selection">
+				<xr:TypeId>ab661939-36f6-4cae-b5c0-1f60bcbf31fc</xr:TypeId>
+				<xr:ValueId>202ea18f-5678-4273-ba79-bfef98d6d2bb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.уатМаршруты" category="List">
+				<xr:TypeId>f230afd1-7be5-4313-8f6b-e9118cf9e11f</xr:TypeId>
+				<xr:ValueId>98681a5d-6ef8-4c6c-9db4-477ba812589d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.уатМаршруты" category="Manager">
+				<xr:TypeId>eb7d05ec-7377-4a8c-8790-a1750bc35789</xr:TypeId>
+				<xr:ValueId>a753680d-b22a-41af-b3f3-cb8d297d8946</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уатМаршруты</Name>
+			<Comment/>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

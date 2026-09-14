@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="be50f7e4-52e1-46e7-849b-e84fb6d20b1c">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.уатТипСобытияGPS" category="Ref">
+				<xr:TypeId>4f347ae3-8a99-4cae-95f5-8899f6b03c9e</xr:TypeId>
+				<xr:ValueId>6942cddc-ebaf-41f7-9bed-d608bcdbb984</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.уатТипСобытияGPS" category="Manager">
+				<xr:TypeId>4dc2cb23-3217-4712-b23c-8270f5439053</xr:TypeId>
+				<xr:ValueId>19083644-e351-486e-8e21-5d3357136934</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.уатТипСобытияGPS" category="List">
+				<xr:TypeId>c2d316df-d71c-460b-9d48-9dcc72690776</xr:TypeId>
+				<xr:ValueId>9c5304fd-c057-4089-ac25-e2892308204b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уатТипСобытияGPS</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>4715f107-b5a9-411b-a6a3-f7ff5d6482c7</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="9dcc1967-e221-4cb4-9aaf-43c049302824">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СливГСМ</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>06badd4d-fb27-4caa-95e8-6deb884ce5a8</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="bbd254a5-8bf6-4cf8-8674-ea2738d72181">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЗаправкаГСМ</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>9a69b9c6-0b95-401c-ba49-0de473ea3911</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="fd968d25-1599-4325-8d92-33c9e554e527">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>МгновенноеПревышениеСкорости</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d35f920f-9e71-4d0b-8fcd-30020850fc9f</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="014f1434-fe7d-45e0-8524-587874d9f780">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДлительноеПревышениеСкорости</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>5cd264b2-7857-49f2-8f68-0def41a331e4</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

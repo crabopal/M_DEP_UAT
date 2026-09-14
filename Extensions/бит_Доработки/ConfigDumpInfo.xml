@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
+	<ConfigVersions>
+		<Metadata name="Catalog.ЮЦАУ_Выезды" id="706355e9-5370-4237-aed9-df9090117b66" configVersion="9313d99085b8b13754fd95221d0dfce8077a415b"/>
+		<Metadata name="Catalog.уатМаршруты" id="765ba0c5-dd10-409c-90d3-0344b7358693" configVersion="a547c7d05d220f79b2603687b8762c79f02bdd07"/>
+		<Metadata name="CommonModule.УправлениеКонтактнойИнформацией" id="1efdf105-796a-4e5e-9a0c-e85c23e6662b" configVersion="7c22604ac6a80450fc78385cf53dadbbd0f6f9e8"/>
+		<Metadata name="CommonModule.УправлениеКонтактнойИнформацией.Module" id="1efdf105-796a-4e5e-9a0c-e85c23e6662b.0" configVersion="1746b9287029a2cab21cc05f85cb89aa76e58054"/>
+		<Metadata name="CommonModule.уатПутевыеЛисты" id="51790b76-77d8-49c6-abe1-47adbf09ea0e" configVersion="8b3453bcde57676acf0dbcd0b2a6dab0ba99aa6a"/>
+		<Metadata name="CommonModule.уатПутевыеЛисты.Module" id="51790b76-77d8-49c6-abe1-47adbf09ea0e.0" configVersion="6a893133f513646d6e602ee81aa06bc0ace6a597"/>
+		<Metadata name="CommonPicture.ЗаполнитьФорму" id="3e39dd87-739e-4b70-8997-c73c7514f290" configVersion="86f23ad932b8fd31aad1550aba4089603d7d9231"/>
+		<Metadata name="CommonPicture.Напоминание" id="ef7d6617-e84e-4357-8565-956392d409a6" configVersion="0fe2998a18cdffcc00fc055d40fa62ba23e657d6"/>
+		<Metadata name="CommonPicture.Органайзер" id="d176aefe-fbf7-4c5e-9806-d1fe99a1d3e8" configVersion="fe509a5906ac511447b06d42aa864d77e06cfcf3"/>
+		<Metadata name="CommonPicture.уатМаршрутныеЛисты" id="34b543a6-a821-446a-bbc4-e572c09b7d40" configVersion="bd063dd8a016b93bde089cdc96e449d50038cae4"/>
+		<Metadata name="CommonPicture.уатПодменюВводаНаОсновании" id="a3aa36de-12e4-45a9-a7b3-73f7429468ab" configVersion="86ed626d9375c7cebecd174331b48375a8980bbe"/>
+		<Metadata name="CommonPicture.уатРедактироватьВДиалоге" id="96641658-e937-4144-bf29-8f5334ad6917" configVersion="1ad909873efa29f848a90a9cc4776d7f4e309305"/>
+		<Metadata name="CommonPicture.уатСостоянияДокумента" id="5d2d8981-5746-4afe-b254-b5b3480c9ca2" configVersion="bd9f8d0b8d4079d07b67a6c82028aa3540d6aad3"/>
+		<Metadata name="Configuration.бит_Доработки" id="04b4c957-69cc-4d21-8395-bc4387f6ad30" configVersion="0986d1e03622a813fb1dc438e24ae461b891848a"/>
+		<Metadata name="Document.уатПутевойЛист" id="f4558dba-a3c1-42d8-88c6-7edb1a59b11b" configVersion="2d87e2480aad68eb1594e525e9fae65fad5dd794"/>
+		<Metadata name="Document.уатПутевойЛист.Form.ФормаДокумента" id="898e238e-aea0-45a6-a2ed-fbddd2da8baf" configVersion="23d4ca3d0f56f9e5487f1362304efd327ae48fa2"/>
+		<Metadata name="Document.уатПутевойЛист.Form.ФормаДокумента.Form" id="898e238e-aea0-45a6-a2ed-fbddd2da8baf.0" configVersion="1ad53a844f064701a660f3ca0bf450a17c59c1b5"/>
+		<Metadata name="Document.уатПутевойЛист.ObjectModule" id="f4558dba-a3c1-42d8-88c6-7edb1a59b11b.0" configVersion="e37c46e5c7e3760d409a612c9ee672b7f2c957e7"/>
+		<Metadata name="Enum.ЮЦАУ_Выходные_праздничные_будни" id="6203ac6f-45e7-4747-99f1-4ebff1f7bd77" configVersion="d0910a0e4033ed1803329b34b55cb86aff2f0982"/>
+		<Metadata name="Enum.ЮЦАУ_Смены" id="8dae24c3-c46c-4bb8-82ce-1421aebabb69" configVersion="90609808343725090ced6dacb6d73e02a89c6370"/>
+		<Metadata name="Enum.уатВидыПЛ" id="8376ab47-0fea-40ae-bcd3-815bd997439a" configVersion="08d29fdb79934302ec185b1498f4c0a0f60eba9f">
+			<Metadata name="Enum.уатВидыПЛ.EnumValue._6" id="48438cf8-cee0-4c60-b86d-9ad1c1fd5c3e"/>
+		</Metadata>
+		<Metadata name="Enum.уатСтатусыДействия" id="299275c4-4753-4755-a77b-feb06917b8ef" configVersion="0b55e49d0454ffa45835c392c3ffb141e9a80402">
+			<Metadata name="Enum.уатСтатусыДействия.EnumValue.Действует" id="43196c53-fe0e-4230-9a6e-97db46804da3"/>
+		</Metadata>
+		<Metadata name="Enum.уатСтатусыКарт" id="386af618-e8eb-45fe-b908-f4a081e70f39" configVersion="9b095e63a6c55c83d112ea2f35f786dcc0494443">
+			<Metadata name="Enum.уатСтатусыКарт.EnumValue.Действует" id="8d971d90-7544-4c09-b7ac-0f4cdd80929c"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ЮЦАУДлительностьВыезда" id="c695aec5-9a0e-4424-b87f-dfaf913db990" configVersion="484703fd9d76163fccc19fd93cda336087b8e769">
+			<Metadata name="InformationRegister.ЮЦАУДлительностьВыезда.Dimension.Выезд" id="023eea18-f9be-4316-8189-062b41515553"/>
+			<Metadata name="InformationRegister.ЮЦАУДлительностьВыезда.Resource.ВремяЗаезда" id="095d57b2-3bba-489f-886a-ffa95ecd0993"/>
+			<Metadata name="InformationRegister.ЮЦАУДлительностьВыезда.Dimension.Смена" id="71f4afcf-ce7c-4c28-bbd4-8b8aabd57cc7"/>
+			<Metadata name="InformationRegister.ЮЦАУДлительностьВыезда.Dimension.ВыхБудн" id="ae00da01-6978-4935-9fe4-12c78d41e1d8"/>
+			<Metadata name="InformationRegister.ЮЦАУДлительностьВыезда.Dimension.Маршрут" id="d07a2292-bb17-407f-b1ba-e5ea4ecb3fb9"/>
+			<Metadata name="InformationRegister.ЮЦАУДлительностьВыезда.Resource.Длительность" id="e6975c37-db67-4f6f-a7c4-19a178c9d297"/>
+			<Metadata name="InformationRegister.ЮЦАУДлительностьВыезда.Resource.ВремяВыезда" id="f79352de-68fa-4ad1-8d8d-85efffa36004"/>
+			<Metadata name="InformationRegister.ЮЦАУДлительностьВыезда.Resource.НачалоОбеда" id="fb78ada7-a421-484d-abc5-d3be96effa87"/>
+		</Metadata>
+		<Metadata name="Language.Русский" id="1a7e0426-ed1a-4361-9196-289696ae3306" configVersion="4657ca2e78cac4e2a2675342a5ac99d16c83e50a"/>
+		<Metadata name="Role.Бит_ОсновнаяРоль" id="504a63ca-44a8-4d71-a5eb-f16bdeb078e6" configVersion="49a11f228cca9c6324d3cf23dfcecbb9162dc2e6"/>
+		<Metadata name="StyleItem.ГиперссылкаЦвет" id="6be70415-80dc-44df-9d7b-dccd9e7a3c04" configVersion="39eb0543dcd49235475fdc449a553fcfbdc703b8"/>
+		<Metadata name="StyleItem.ПоясняющийТекст" id="293170a9-ca10-45c7-b4b1-d022987009b1" configVersion="0c41bce633d72576606ac3cb61bcd2a262f03f25"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

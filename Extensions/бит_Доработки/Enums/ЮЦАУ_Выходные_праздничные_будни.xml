@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="6203ac6f-45e7-4747-99f1-4ebff1f7bd77">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ЮЦАУ_Выходные_праздничные_будни" category="Ref">
+				<xr:TypeId>eb0afddd-abfc-4ff5-91b7-0d40bf4fa0fc</xr:TypeId>
+				<xr:ValueId>24c20045-b72b-41c9-aea0-376d6d089e33</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ЮЦАУ_Выходные_праздничные_будни" category="Manager">
+				<xr:TypeId>08ed4a9d-660e-4aaf-b734-1d890f9989f5</xr:TypeId>
+				<xr:ValueId>4ffe511c-b5c2-460e-8dbd-5fa1c33ddfb8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ЮЦАУ_Выходные_праздничные_будни" category="List">
+				<xr:TypeId>575e23ee-ecb7-4e68-ba34-4fba0ab1b894</xr:TypeId>
+				<xr:ValueId>cec8ecb5-2514-41d9-91a5-80068b7851e8</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЮЦАУ_Выходные_праздничные_будни</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>0b99bfe4-d5bb-457d-b663-4ebc8e2b19e5</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

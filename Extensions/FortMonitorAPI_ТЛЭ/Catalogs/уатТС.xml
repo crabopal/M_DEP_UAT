@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="c88f9b32-66d0-496c-8709-feb84af78cb7">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.уатТС" category="Object">
+				<xr:TypeId>949700cd-1db3-4b04-9e99-2941d6312bfb</xr:TypeId>
+				<xr:ValueId>060febe6-bdd1-4584-a592-8a31539a24a2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.уатТС" category="Ref">
+				<xr:TypeId>79920bcd-5727-4e9b-bd13-7275d3610f27</xr:TypeId>
+				<xr:ValueId>bb35a54b-4e23-46ca-b6c3-235f3e0afaba</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.уатТС" category="Selection">
+				<xr:TypeId>e6efd5eb-0ceb-425b-bf5c-9f6a7da813fe</xr:TypeId>
+				<xr:ValueId>1dd413e0-a3b7-4075-9d6e-ea01a6ac6082</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.уатТС" category="List">
+				<xr:TypeId>99151374-578b-49c3-80a0-db45c5e68d1f</xr:TypeId>
+				<xr:ValueId>27836152-d240-495b-8144-ec3df8d5000f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.уатТС" category="Manager">
+				<xr:TypeId>4613022b-bb48-407a-bafa-b43539c2e7f2</xr:TypeId>
+				<xr:ValueId>ee97c4f7-4007-4b83-9e28-dd81cca2df11</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уатТС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>3c440e2a-1752-45d8-a8a5-5eeff05a15c5</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="503b2810-2172-4c57-bdbc-09de0c04ac55">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ИДвСистемеНавигации</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>4364d4ce-e20f-41d6-9390-02c651239d5b</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>100</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="81caec9a-54da-4501-af76-867d78899872">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ИспользуемаяСистемаGPS</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>487e7edb-6f35-4a0b-b676-599e083fc70e</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

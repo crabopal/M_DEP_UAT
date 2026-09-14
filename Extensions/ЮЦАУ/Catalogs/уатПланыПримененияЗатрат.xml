@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="948631b7-c8e5-4d6a-8769-c109f9fe0d30">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.уатПланыПримененияЗатрат" category="Object">
+				<xr:TypeId>18e1c934-28f1-41ac-b089-9b0b830e860b</xr:TypeId>
+				<xr:ValueId>e492ac95-bc09-4de6-89b0-eee987570d26</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.уатПланыПримененияЗатрат" category="Ref">
+				<xr:TypeId>35401a5e-c2ef-405b-9b1b-cd48ac94f567</xr:TypeId>
+				<xr:ValueId>1519e99e-0dec-4edf-b3e1-f870c4fa5216</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.уатПланыПримененияЗатрат" category="Selection">
+				<xr:TypeId>c7d4efbd-6768-4890-8bc4-8806d6adf295</xr:TypeId>
+				<xr:ValueId>8fc3aeb3-a54d-4531-81d4-0c6cdd0b7882</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.уатПланыПримененияЗатрат" category="List">
+				<xr:TypeId>5662fed6-8642-4319-b98f-e3cb7d3802a4</xr:TypeId>
+				<xr:ValueId>b467a1e1-c11b-4f27-92c1-b43d8b5b1762</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.уатПланыПримененияЗатрат" category="Manager">
+				<xr:TypeId>1a8c7b1a-9565-4d35-a091-a0c91d63cf95</xr:TypeId>
+				<xr:ValueId>f2097b32-1e5e-4476-89a4-429017ef46d3</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уатПланыПримененияЗатрат</Name>
+			<Comment/>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

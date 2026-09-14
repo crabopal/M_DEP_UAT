@@ -1,0 +1,479 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="Номер" id="1">
+			<DataPath>Объект.Number</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Дата" id="4">
+			<DataPath>Объект.Date</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="Участок" id="7">
+			<DataPath>Объект.Участок</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="УчастокКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="УчастокРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<Table name="Материалы" id="16">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<FileDragMode>AsFile</FileDragMode>
+			<DataPath>Объект.Материалы</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="МатериалыКонтекстноеМеню" id="17"/>
+			<AutoCommandBar name="МатериалыКоманднаяПанель" id="18"/>
+			<ExtendedTooltip name="МатериалыРасширеннаяПодсказка" id="19"/>
+			<SearchStringAddition name="МатериалыСтрокаПоиска" id="20">
+				<AdditionSource>
+					<Item>Материалы</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="МатериалыСтрокаПоискаКонтекстноеМеню" id="21"/>
+				<ExtendedTooltip name="МатериалыСтрокаПоискаРасширеннаяПодсказка" id="22"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="МатериалыСостояниеПросмотра" id="23">
+				<AdditionSource>
+					<Item>Материалы</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="МатериалыСостояниеПросмотраКонтекстноеМеню" id="24"/>
+				<ExtendedTooltip name="МатериалыСостояниеПросмотраРасширеннаяПодсказка" id="25"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="МатериалыУправлениеПоиском" id="26">
+				<AdditionSource>
+					<Item>Материалы</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="МатериалыУправлениеПоискомКонтекстноеМеню" id="27"/>
+				<ExtendedTooltip name="МатериалыУправлениеПоискомРасширеннаяПодсказка" id="28"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="МатериалыНомерСтроки" id="29">
+					<DataPath>Объект.Материалы.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="МатериалыНомерСтрокиКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="МатериалыНомерСтрокиРасширеннаяПодсказка" id="31"/>
+				</LabelField>
+				<InputField name="МатериалыВидРабот" id="32">
+					<DataPath>Объект.Материалы.ВидРабот</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="МатериалыВидРаботКонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="МатериалыВидРаботРасширеннаяПодсказка" id="34"/>
+				</InputField>
+				<InputField name="МатериалыМатериал" id="35">
+					<DataPath>Объект.Материалы.Материал</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="МатериалыМатериалКонтекстноеМеню" id="36"/>
+					<ExtendedTooltip name="МатериалыМатериалРасширеннаяПодсказка" id="37"/>
+				</InputField>
+				<InputField name="МатериалыКоличество1" id="38">
+					<DataPath>Объект.Материалы.Количество1</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>1</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="МатериалыКоличество1КонтекстноеМеню" id="39"/>
+					<ExtendedTooltip name="МатериалыКоличество1РасширеннаяПодсказка" id="40"/>
+				</InputField>
+				<InputField name="МатериалыКоличество2" id="41">
+					<DataPath>Объект.Материалы.Количество2</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>2</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="МатериалыКоличество2КонтекстноеМеню" id="42"/>
+					<ExtendedTooltip name="МатериалыКоличество2РасширеннаяПодсказка" id="43"/>
+				</InputField>
+				<InputField name="МатериалыКоличество3" id="44">
+					<DataPath>Объект.Материалы.Количество3</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>3</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="МатериалыКоличество3КонтекстноеМеню" id="45"/>
+					<ExtendedTooltip name="МатериалыКоличество3РасширеннаяПодсказка" id="46"/>
+				</InputField>
+				<InputField name="МатериалыКоличество4" id="47">
+					<DataPath>Объект.Материалы.Количество4</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>4</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="МатериалыКоличество4КонтекстноеМеню" id="48"/>
+					<ExtendedTooltip name="МатериалыКоличество4РасширеннаяПодсказка" id="49"/>
+				</InputField>
+				<InputField name="МатериалыКоличество5" id="50">
+					<DataPath>Объект.Материалы.Количество5</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>5</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="МатериалыКоличество5КонтекстноеМеню" id="51"/>
+					<ExtendedTooltip name="МатериалыКоличество5РасширеннаяПодсказка" id="52"/>
+				</InputField>
+				<InputField name="МатериалыКоличество6" id="53">
+					<DataPath>Объект.Материалы.Количество6</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>6</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="МатериалыКоличество6КонтекстноеМеню" id="54"/>
+					<ExtendedTooltip name="МатериалыКоличество6РасширеннаяПодсказка" id="55"/>
+				</InputField>
+				<InputField name="МатериалыКоличество7" id="56">
+					<DataPath>Объект.Материалы.Количество7</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>7</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="МатериалыКоличество7КонтекстноеМеню" id="57"/>
+					<ExtendedTooltip name="МатериалыКоличество7РасширеннаяПодсказка" id="58"/>
+				</InputField>
+				<InputField name="МатериалыКоличество8" id="59">
+					<DataPath>Объект.Материалы.Количество8</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>8</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="МатериалыКоличество8КонтекстноеМеню" id="60"/>
+					<ExtendedTooltip name="МатериалыКоличество8РасширеннаяПодсказка" id="61"/>
+				</InputField>
+				<InputField name="МатериалыКоличество9" id="62">
+					<DataPath>Объект.Материалы.Количество9</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>9</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="МатериалыКоличество9КонтекстноеМеню" id="63"/>
+					<ExtendedTooltip name="МатериалыКоличество9РасширеннаяПодсказка" id="64"/>
+				</InputField>
+				<InputField name="МатериалыКоличество10" id="65">
+					<DataPath>Объект.Материалы.Количество10</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>10</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="МатериалыКоличество10КонтекстноеМеню" id="66"/>
+					<ExtendedTooltip name="МатериалыКоличество10РасширеннаяПодсказка" id="67"/>
+				</InputField>
+				<InputField name="МатериалыКоличество11" id="68">
+					<DataPath>Объект.Материалы.Количество11</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>11</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="МатериалыКоличество11КонтекстноеМеню" id="69"/>
+					<ExtendedTooltip name="МатериалыКоличество11РасширеннаяПодсказка" id="70"/>
+				</InputField>
+				<InputField name="МатериалыКоличество12" id="71">
+					<DataPath>Объект.Материалы.Количество12</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>12</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="МатериалыКоличество12КонтекстноеМеню" id="72"/>
+					<ExtendedTooltip name="МатериалыКоличество12РасширеннаяПодсказка" id="73"/>
+				</InputField>
+				<InputField name="МатериалыКоличество13" id="74">
+					<DataPath>Объект.Материалы.Количество13</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>13</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="МатериалыКоличество13КонтекстноеМеню" id="75"/>
+					<ExtendedTooltip name="МатериалыКоличество13РасширеннаяПодсказка" id="76"/>
+				</InputField>
+				<InputField name="МатериалыКоличество14" id="77">
+					<DataPath>Объект.Материалы.Количество14</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>14</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="МатериалыКоличество14КонтекстноеМеню" id="78"/>
+					<ExtendedTooltip name="МатериалыКоличество14РасширеннаяПодсказка" id="79"/>
+				</InputField>
+				<InputField name="МатериалыКоличество15" id="80">
+					<DataPath>Объект.Материалы.Количество15</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>15</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="МатериалыКоличество15КонтекстноеМеню" id="81"/>
+					<ExtendedTooltip name="МатериалыКоличество15РасширеннаяПодсказка" id="82"/>
+				</InputField>
+				<InputField name="МатериалыКоличество16" id="83">
+					<DataPath>Объект.Материалы.Количество16</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>16</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="МатериалыКоличество16КонтекстноеМеню" id="84"/>
+					<ExtendedTooltip name="МатериалыКоличество16РасширеннаяПодсказка" id="85"/>
+				</InputField>
+				<InputField name="МатериалыКоличество17" id="86">
+					<DataPath>Объект.Материалы.Количество17</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>17</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="МатериалыКоличество17КонтекстноеМеню" id="87"/>
+					<ExtendedTooltip name="МатериалыКоличество17РасширеннаяПодсказка" id="88"/>
+				</InputField>
+				<InputField name="МатериалыКоличество18" id="89">
+					<DataPath>Объект.Материалы.Количество18</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>18</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="МатериалыКоличество18КонтекстноеМеню" id="90"/>
+					<ExtendedTooltip name="МатериалыКоличество18РасширеннаяПодсказка" id="91"/>
+				</InputField>
+				<InputField name="МатериалыКоличество19" id="92">
+					<DataPath>Объект.Материалы.Количество19</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>19</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="МатериалыКоличество19КонтекстноеМеню" id="93"/>
+					<ExtendedTooltip name="МатериалыКоличество19РасширеннаяПодсказка" id="94"/>
+				</InputField>
+				<InputField name="МатериалыКоличество20" id="95">
+					<DataPath>Объект.Материалы.Количество20</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>20</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="МатериалыКоличество20КонтекстноеМеню" id="96"/>
+					<ExtendedTooltip name="МатериалыКоличество20РасширеннаяПодсказка" id="97"/>
+				</InputField>
+				<InputField name="МатериалыКоличество21" id="98">
+					<DataPath>Объект.Материалы.Количество21</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>21</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="МатериалыКоличество21КонтекстноеМеню" id="99"/>
+					<ExtendedTooltip name="МатериалыКоличество21РасширеннаяПодсказка" id="100"/>
+				</InputField>
+				<InputField name="МатериалыКоличество22" id="101">
+					<DataPath>Объект.Материалы.Количество22</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>22</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="МатериалыКоличество22КонтекстноеМеню" id="102"/>
+					<ExtendedTooltip name="МатериалыКоличество22РасширеннаяПодсказка" id="103"/>
+				</InputField>
+				<InputField name="МатериалыКоличество23" id="104">
+					<DataPath>Объект.Материалы.Количество23</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>23</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="МатериалыКоличество23КонтекстноеМеню" id="105"/>
+					<ExtendedTooltip name="МатериалыКоличество23РасширеннаяПодсказка" id="106"/>
+				</InputField>
+				<InputField name="МатериалыКоличество24" id="107">
+					<DataPath>Объект.Материалы.Количество24</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>24</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="МатериалыКоличество24КонтекстноеМеню" id="108"/>
+					<ExtendedTooltip name="МатериалыКоличество24РасширеннаяПодсказка" id="109"/>
+				</InputField>
+				<InputField name="МатериалыКоличество25" id="110">
+					<DataPath>Объект.Материалы.Количество25</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>25</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="МатериалыКоличество25КонтекстноеМеню" id="111"/>
+					<ExtendedTooltip name="МатериалыКоличество25РасширеннаяПодсказка" id="112"/>
+				</InputField>
+				<InputField name="МатериалыКоличество26" id="113">
+					<DataPath>Объект.Материалы.Количество26</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>26</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="МатериалыКоличество26КонтекстноеМеню" id="114"/>
+					<ExtendedTooltip name="МатериалыКоличество26РасширеннаяПодсказка" id="115"/>
+				</InputField>
+				<InputField name="МатериалыКоличество27" id="116">
+					<DataPath>Объект.Материалы.Количество27</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>27</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="МатериалыКоличество27КонтекстноеМеню" id="117"/>
+					<ExtendedTooltip name="МатериалыКоличество27РасширеннаяПодсказка" id="118"/>
+				</InputField>
+				<InputField name="МатериалыКоличество28" id="119">
+					<DataPath>Объект.Материалы.Количество28</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>28</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="МатериалыКоличество28КонтекстноеМеню" id="120"/>
+					<ExtendedTooltip name="МатериалыКоличество28РасширеннаяПодсказка" id="121"/>
+				</InputField>
+				<InputField name="МатериалыКоличество29" id="122">
+					<DataPath>Объект.Материалы.Количество29</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>29</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="МатериалыКоличество29КонтекстноеМеню" id="123"/>
+					<ExtendedTooltip name="МатериалыКоличество29РасширеннаяПодсказка" id="124"/>
+				</InputField>
+				<InputField name="МатериалыКоличество30" id="125">
+					<DataPath>Объект.Материалы.Количество30</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>30</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="МатериалыКоличество30КонтекстноеМеню" id="126"/>
+					<ExtendedTooltip name="МатериалыКоличество30РасширеннаяПодсказка" id="127"/>
+				</InputField>
+				<InputField name="МатериалыКоличество31" id="128">
+					<DataPath>Объект.Материалы.Количество31</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>31</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="МатериалыКоличество31КонтекстноеМеню" id="129"/>
+					<ExtendedTooltip name="МатериалыКоличество31РасширеннаяПодсказка" id="130"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+		<InputField name="Ответственный" id="13">
+			<DataPath>Объект.Ответственный</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ОтветственныйКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="ОтветственныйРасширеннаяПодсказка" id="15"/>
+		</InputField>
+		<InputField name="Коментарий" id="10">
+			<DataPath>Объект.Коментарий</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="КоментарийКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="КоментарийРасширеннаяПодсказка" id="12"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.УчетМатериаловПоВидамРабот</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+	</Attributes>
+</Form>

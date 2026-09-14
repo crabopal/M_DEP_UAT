@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="369498ef-5089-4ea7-8564-f87435510633">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.уатЖурналыТранспортныхДокументов" category="Object">
+				<xr:TypeId>a41f10c8-18d3-4af0-b3db-cddcb4c7d4c2</xr:TypeId>
+				<xr:ValueId>f5ea916a-51ca-41cf-8681-f3be74c28bb3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.уатЖурналыТранспортныхДокументов" category="Ref">
+				<xr:TypeId>0f351366-779a-441a-b06c-2e08a0cc1b12</xr:TypeId>
+				<xr:ValueId>14da60a8-8a98-49c4-b906-de41f52fcf55</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.уатЖурналыТранспортныхДокументов" category="Selection">
+				<xr:TypeId>da41c8f9-46a4-4ecf-80ec-1aa99c12fab6</xr:TypeId>
+				<xr:ValueId>28be856e-ff8c-4d08-8545-a6efd0a3d427</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.уатЖурналыТранспортныхДокументов" category="List">
+				<xr:TypeId>83a6c862-6b0a-4337-bb41-f81f1d2fd550</xr:TypeId>
+				<xr:ValueId>6139dd83-bf34-46d9-8bf3-fe709597ca3d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.уатЖурналыТранспортныхДокументов" category="Manager">
+				<xr:TypeId>b261c0a4-e283-421b-8cf9-025b31176566</xr:TypeId>
+				<xr:ValueId>fbae8491-c9c1-4100-b90d-a402149957b5</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уатЖурналыТранспортныхДокументов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>ee589480-6cda-4203-995e-ed287eba2148</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

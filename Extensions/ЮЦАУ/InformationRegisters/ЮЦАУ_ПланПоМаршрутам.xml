@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="03bb01b5-345a-4815-afd5-1c7cdcf7b6f3">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ЮЦАУ_ПланПоМаршрутам" category="Record">
+				<xr:TypeId>036f47d2-9b37-4b88-8c2e-ce26ecb98276</xr:TypeId>
+				<xr:ValueId>e51f40eb-2e2d-449e-91e6-2fc0d727572d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ЮЦАУ_ПланПоМаршрутам" category="Manager">
+				<xr:TypeId>586d5ced-ea68-4615-ac1d-04b3e2b58298</xr:TypeId>
+				<xr:ValueId>83992866-e61d-4d62-bfe0-bf664ccc0be0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ЮЦАУ_ПланПоМаршрутам" category="Selection">
+				<xr:TypeId>232f6f98-4a47-465b-9bfb-d4da546cfd54</xr:TypeId>
+				<xr:ValueId>558c3939-4c2d-49f1-9a7c-b0538f1958a3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ЮЦАУ_ПланПоМаршрутам" category="List">
+				<xr:TypeId>6e30d829-78f1-474a-bd0a-de1155fc2602</xr:TypeId>
+				<xr:ValueId>e4178522-8dcf-42fb-8554-7fee43411ae2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ЮЦАУ_ПланПоМаршрутам" category="RecordSet">
+				<xr:TypeId>3d74800c-8d14-4201-a3fd-e84d654d992a</xr:TypeId>
+				<xr:ValueId>044b83f4-221d-4c3e-aafc-2301dcc14f94</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ЮЦАУ_ПланПоМаршрутам" category="RecordKey">
+				<xr:TypeId>1869f7e9-55bf-4b05-a37b-0f2486583b43</xr:TypeId>
+				<xr:ValueId>cd0b7df8-8cfc-4b8d-b2a8-bc1d35773e54</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ЮЦАУ_ПланПоМаршрутам" category="RecordManager">
+				<xr:TypeId>58eef676-5263-4a17-bc3e-73ae47b04e1d</xr:TypeId>
+				<xr:ValueId>48bba466-697d-49f2-a593-821cdf1f8089</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЮЦАУ_ПланПоМаршрутам</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>c55fd3b8-5ad3-4319-9a92-8787af671fcc</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Month</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects/>
+	</InformationRegister>
+</MetaDataObject>
