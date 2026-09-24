@@ -279,6 +279,43 @@
 			<ContextMenu name="ЮЦ_ОтображатьНаТерминалеВыдачиПЛКонтекстноеМеню" id="45"/>
 			<ExtendedTooltip name="ЮЦ_ОтображатьНаТерминалеВыдачиПЛРасширеннаяПодсказка" id="46"/>
 		</CheckBoxField>
+		<CheckBoxField name="ЮЦ_НовыйРасчетВремениСмены" id="47">
+			<DataPath>Объект.ЮЦ_НовыйРасчетВремениСмены</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Новый расчет времени смены</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Для водителей этого подразделения ночная смена целиком относится на дату выезда, путевой только на слив топлива не дает часов в табель</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ToolTipRepresentation>Button</ToolTipRepresentation>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ЮЦ_НовыйРасчетВремениСменыКонтекстноеМеню" id="48"/>
+			<ExtendedTooltip name="ЮЦ_НовыйРасчетВремениСменыРасширеннаяПодсказка" id="49"/>
+		</CheckBoxField>
+		<InputField name="ЮЦ_ДатаНачалаНовогоРасчетаВремениСмены" id="50">
+			<DataPath>Объект.ЮЦ_ДатаНачалаНовогоРасчетаВремениСмены</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата начала нового расчета</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Новый расчет применяется к путевым, у которых дата документа не раньше этой даты</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ToolTipRepresentation>Button</ToolTipRepresentation>
+			<ContextMenu name="ЮЦ_ДатаНачалаНовогоРасчетаВремениСменыКонтекстноеМеню" id="51"/>
+			<ExtendedTooltip name="ЮЦ_ДатаНачалаНовогоРасчетаВремениСменыРасширеннаяПодсказка" id="52"/>
+		</InputField>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1000001">
