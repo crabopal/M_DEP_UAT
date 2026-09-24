@@ -11,6 +11,8 @@
 		<Metadata name="Catalog.Организации" id="54dc711d-0173-4497-9fdd-24f4cf5af062" configVersion="569ee608568362fead52718503389080734dc8c9"/>
 		<Metadata name="Catalog.ПодразделенияОрганизаций" id="b74fbc11-e198-42de-87af-0d7a5ba9ef40" configVersion="b980e8edb19993c1268f5e666e5d058c7f747e09">
 			<Metadata name="Catalog.ПодразделенияОрганизаций.Attribute.ЮЦ_ОтображатьНаТерминалеВыдачиПЛ" id="45180708-832e-4d7f-990a-a70708a0cf0d"/>
+			<Metadata name="Catalog.ПодразделенияОрганизаций.Attribute.ЮЦ_НовыйРасчетВремениСмены" id="7c4e1a2b-8f30-4d5e-9a11-2b6c8d0e4f17"/>
+			<Metadata name="Catalog.ПодразделенияОрганизаций.Attribute.ЮЦ_ДатаНачалаНовогоРасчетаВремениСмены" id="a91d6c33-5e74-4b28-8c0a-f3e7d2b91a56"/>
 			<Metadata name="Catalog.ПодразделенияОрганизаций.Attribute.ПодразделениеРегламентированногоУчета" id="9703b78f-7582-4b43-9ebe-c0406c41a45d"/>
 		</Metadata>
 		<Metadata name="Catalog.ПодразделенияОрганизаций.Form.ФормаЭлемента" id="471c2dd0-947f-443b-a9b8-45831511c8ef" configVersion="ccf6176c9e1a810d9f8fa82fde3d63a81a40ebc6"/>
