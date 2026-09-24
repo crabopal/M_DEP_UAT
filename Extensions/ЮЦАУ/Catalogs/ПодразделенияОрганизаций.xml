@@ -132,7 +132,7 @@
 							<v8:content>Дата начала нового расчета времени смены</v8:content>
 						</v8:item>
 					</Synonym>
-					<Comment>Путевые с датой выезда раньше этой даты считаются по-старому</Comment>
+					<Comment>Путевые с датой документа раньше этой даты считаются по-старому</Comment>
 					<Type>
 						<v8:Type>xs:dateTime</v8:Type>
 						<v8:DateQualifiers>
@@ -145,7 +145,7 @@
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Новый расчет применяется к путевым, у которых дата выезда не раньше этой даты</v8:content>
+							<v8:content>Новый расчет применяется к путевым, у которых дата документа не раньше этой даты</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>

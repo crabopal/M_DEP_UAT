@@ -309,7 +309,7 @@
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Новый расчет применяется к путевым, у которых дата выезда не раньше этой даты</v8:content>
+					<v8:content>Новый расчет применяется к путевым, у которых дата документа не раньше этой даты</v8:content>
 				</v8:item>
 			</ToolTip>
 			<ToolTipRepresentation>Button</ToolTipRepresentation>
