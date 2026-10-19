@@ -5898,6 +5898,7 @@
 			<Catalog>УчетныеЗаписиЭлектроннойПочты</Catalog>
 			<Catalog>Файлы</Catalog>
 			<Catalog>ФизическиеЛица</Catalog>
+			<Catalog>ХранимыеЗначения</Catalog>
 			<Catalog>ХранилищеДвоичныхДанных</Catalog>
 			<Catalog>ХранимыеДанныеЭПД</Catalog>
 			<Catalog>ШаблоныАнкет</Catalog>
@@ -6959,6 +6960,7 @@
 			<DataProcessor>уатУстановитьЦенуЗаправкиГСМ</DataProcessor>
 			<DataProcessor>уатУстановкаПравИНастроек</DataProcessor>
 			<DataProcessor>уатЭлектронныеКарты</DataProcessor>
+			<DataProcessor>ЮЦАУ_ПересчетПутевыхЛистов</DataProcessor>
 			<DataProcessor>УдалениеПомеченныхОбъектов</DataProcessor>
 			<DataProcessor>УниверсальныйОбменДаннымиXML</DataProcessor>
 			<DataProcessor>УничтожениеПерсональныхДанных</DataProcessor>

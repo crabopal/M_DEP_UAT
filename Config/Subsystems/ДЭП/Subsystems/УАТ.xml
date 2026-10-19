@@ -25,6 +25,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ЮЦАУ_ОборотыПоМаршрутам</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ЮЦАУ_ОсновныеСведенияОПеревозке</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ЮЦАУ_ВидыРабот</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ХранимыеЗначения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ЮЦАУ_ПересчетПутевыхЛистов</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
