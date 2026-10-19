@@ -21609,7 +21609,7 @@
 		<Metadata name="DataProcessor.ЮЦАУ_ПересчетПутевыхЛистов" id="7c4e1a90-2b6d-4f58-9a31-0d8e6f5c4b21" configVersion="11aa22bb33cc44dd55ee66ff7788990000000000"/>
 		<Metadata name="DataProcessor.ЮЦАУ_ПересчетПутевыхЛистов.Form.Форма" id="9e8d7c6b-5a49-4382-8170-6f5e4d3c2b1a" configVersion="22bb33cc44dd55ee66ff7788990011aa00000000"/>
 		<Metadata name="DataProcessor.ЮЦАУ_ПересчетПутевыхЛистов.Form.Форма.Form" id="9e8d7c6b-5a49-4382-8170-6f5e4d3c2b1a.0" configVersion="33cc44dd55ee66ff7788990011aa22bb00000000"/>
-		<Metadata name="DataProcessor.ЮЦАУ_ПересчетПутевыхЛистов.ObjectModule" id="7c4e1a90-2b6d-4f58-9a31-0d8e6f5c4b21.0" configVersion="44dd55ee66ff7788990011aa22bb33cc00000000"/>
+		<Metadata name="DataProcessor.ЮЦАУ_ПересчетПутевыхЛистов.ObjectModule" id="7c4e1a90-2b6d-4f58-9a31-0d8e6f5c4b21.0" configVersion="55ee66ff7788990011aa22bb33cc44dd00000000"/>
 		<Metadata name="DataProcessor.эркасОбменДанными" id="a6ed08a7-9e44-4353-9c81-ec5ad96c364a" configVersion="d074d63dad6736449f7c91b18fbf3cc600000000">
 			<Metadata name="DataProcessor.эркасОбменДанными.Attribute.ДеревоРезультат" id="5202612c-3c5f-441d-b221-e5c8cd4f715d"/>
 			<Metadata name="DataProcessor.эркасОбменДанными.Attribute.Cookie" id="544335cd-8795-4d49-83cd-2230e3e22f7d"/>
