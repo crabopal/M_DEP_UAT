@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
 	<ConfigVersions>
+		<Metadata name="Catalog.Бит_ХранимыеЗначения" id="826e6893-ba37-474a-9a1c-3d4059703337" configVersion="a1c0e5d4b7f84a2c9e1d6b3f0a8c5e2d7b4a1908">
+			<Metadata name="Catalog.Бит_ХранимыеЗначения.Attribute.Значение" id="c7426ac9-3284-4b60-a9cb-4e0b880815c6"/>
+		</Metadata>
+		<Metadata name="Catalog.Бит_ХранимыеЗначения.ManagerModule" id="826e6893-ba37-474a-9a1c-3d4059703337.2" configVersion="b2d1f6e5c8a94b3d0f2e7c4a1b9d6e3f8c5b2a17"/>
+		<Metadata name="Catalog.Бит_ХранимыеЗначения.ObjectModule" id="826e6893-ba37-474a-9a1c-3d4059703337.0" configVersion="c3e2a7f6d9b05c4e1a3f8d5b2c0e7f4a9d6c3b28"/>
 		<Metadata name="Catalog.ЮЦАУ_Выезды" id="706355e9-5370-4237-aed9-df9090117b66" configVersion="9313d99085b8b13754fd95221d0dfce8077a415b"/>
 		<Metadata name="Catalog.уатМаршруты" id="765ba0c5-dd10-409c-90d3-0344b7358693" configVersion="a547c7d05d220f79b2603687b8762c79f02bdd07"/>
 		<Metadata name="CommonModule.УправлениеКонтактнойИнформацией" id="1efdf105-796a-4e5e-9a0c-e85c23e6662b" configVersion="7c22604ac6a80450fc78385cf53dadbbd0f6f9e8"/>
@@ -42,6 +47,8 @@
 		</Metadata>
 		<Metadata name="Language.Русский" id="1a7e0426-ed1a-4361-9196-289696ae3306" configVersion="4657ca2e78cac4e2a2675342a5ac99d16c83e50a"/>
 		<Metadata name="Role.Бит_ОсновнаяРоль" id="504a63ca-44a8-4d71-a5eb-f16bdeb078e6" configVersion="49a11f228cca9c6324d3cf23dfcecbb9162dc2e6"/>
+		<Metadata name="Role.Бит_ОсновнаяРоль.Rights" id="504a63ca-44a8-4d71-a5eb-f16bdeb078e6.0" configVersion="d4f3b8a7e0c16d5f2b4a9e6c3d1f8a5b0e7d4c39"/>
+		<Metadata name="Subsystem.Бит_Доработки" id="cf372e04-a6d1-45c8-a1b9-a115391c0ad6" configVersion="e5a4c9b8f1d27e6a3c5b0f7d4e2a9b6c1f8e5d40"/>
 		<Metadata name="StyleItem.ГиперссылкаЦвет" id="6be70415-80dc-44df-9d7b-dccd9e7a3c04" configVersion="39eb0543dcd49235475fdc449a553fcfbdc703b8"/>
 		<Metadata name="StyleItem.ПоясняющийТекст" id="293170a9-ca10-45c7-b4b1-d022987009b1" configVersion="0c41bce633d72576606ac3cb61bcd2a262f03f25"/>
 	</ConfigVersions>
