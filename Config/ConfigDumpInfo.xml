@@ -12736,8 +12736,8 @@
 		<Metadata name="CommonModule.ЭлектронныеДокументыЭДОСлужебныйКлиент.Module" id="38158709-acde-47a3-958d-ac895fd8c8aa.0" configVersion="d3e33a643be6154cbe26b7c665342d8400000000"/>
 		<Metadata name="CommonModule.ЭлектронныеДокументыЭДОСобытия" id="0d9d4172-0859-4679-8b25-de7aa9c29ba2" configVersion="d3918a0601c36243a159b08f11733d4c00000000"/>
 		<Metadata name="CommonModule.ЭлектронныеДокументыЭДОСобытия.Module" id="0d9d4172-0859-4679-8b25-de7aa9c29ba2.0" configVersion="9481a50b87bc584fa62cb611e301a48900000000"/>
-		<Metadata name="CommonModule.ЮЦАУ" id="0d20fbeb-864b-4054-9ee0-9a394141d721" configVersion="a753f4324b1f1b4e883ebf80712b7e0000000000"/>
-		<Metadata name="CommonModule.ЮЦАУ.Module" id="0d20fbeb-864b-4054-9ee0-9a394141d721.0" configVersion="3eb1409057b44b46a88bc699608bb20e00000000"/>
+		<Metadata name="CommonModule.ЮЦАУ" id="0d20fbeb-864b-4054-9ee0-9a394141d721" configVersion="220ab33e02570b4a9e2858d12ae3d2cc00000000"/>
+		<Metadata name="CommonModule.ЮЦАУ.Module" id="0d20fbeb-864b-4054-9ee0-9a394141d721.0" configVersion="f48cffcc2e79734e90bd2ac5aaadd20800000000"/>
 		<Metadata name="CommonModule.ЮЦАУ_ВнешнийПрограммныйИнтерфейс" id="764add48-fe32-46e5-814b-6787c2654a1b" configVersion="cd84eb283748244d91d22844f19a86b600000000"/>
 		<Metadata name="CommonModule.ЮЦАУ_ВнешнийПрограммныйИнтерфейс.Module" id="764add48-fe32-46e5-814b-6787c2654a1b.0" configVersion="d0e6c915b259b843a1236167aa50f3de00000000"/>
 		<Metadata name="CommonModule.анлАналитика" id="cf40500a-81d4-46a2-b0d2-417f3bc2cb74" configVersion="44243d4579ea1544ac2d5419b213807200000000"/>
