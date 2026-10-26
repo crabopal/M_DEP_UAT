@@ -18,6 +18,11 @@
 				<CommandName>Form.Command.ПроверитьОбратимость</CommandName>
 				<ExtendedTooltip name="ФормаПроверитьОбратимостьРасширеннаяПодсказка" id="6"/>
 			</Button>
+			<Button name="ФормаПоказатьЖурнал" id="90">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ПоказатьЖурнал</CommandName>
+				<ExtendedTooltip name="ФормаПоказатьЖурналРасширеннаяПодсказка" id="91"/>
+			</Button>
 		</ChildItems>
 	</AutoCommandBar>
 	<ChildItems>
@@ -56,7 +61,7 @@
 			<Title formatted="false">
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Пересчет вызывает расчет фактически отработанного времени и проведение. Проверка обратимости меняет данные только внутри транзакции и откатывает ее. Табель нужно заполнить отдельно.</v8:content>
+					<v8:content>Пересчет вызывает расчет фактически отработанного времени и проведение. Журнал показывает, изменились ли строки и совпали ли они с правилом смены. Проверка обратимости меняет данные только внутри транзакции и откатывает ее. Табель нужно заполнить отдельно.</v8:content>
 				</v8:item>
 			</Title>
 			<ContextMenu name="ПояснениеКонтекстноеМеню" id="16"/>
@@ -194,6 +199,17 @@
 				</InputField>
 			</ChildItems>
 		</Table>
+		<InputField name="Журнал" id="87">
+			<DataPath>Журнал</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<TitleLocation>Top</TitleLocation>
+			<MultiLine>true</MultiLine>
+			<Height>8</Height>
+			<HorizontalStretch>true</HorizontalStretch>
+			<VerticalStretch>true</VerticalStretch>
+			<ContextMenu name="ЖурналКонтекстноеМеню" id="88"/>
+			<ExtendedTooltip name="ЖурналРасширеннаяПодсказка" id="89"/>
+		</InputField>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="74">
@@ -422,6 +438,21 @@
 				</Column>
 			</Columns>
 		</Attribute>
+		<Attribute name="Журнал" id="86">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Журнал</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="Заполнить" id="1">
@@ -450,6 +481,15 @@
 				</v8:item>
 			</Title>
 			<Action>ПроверитьОбратимость</Action>
+		</Command>
+		<Command name="ПоказатьЖурнал" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показать журнал</v8:content>
+				</v8:item>
+			</Title>
+			<Action>ПоказатьЖурнал</Action>
 		</Command>
 	</Commands>
 </Form>
