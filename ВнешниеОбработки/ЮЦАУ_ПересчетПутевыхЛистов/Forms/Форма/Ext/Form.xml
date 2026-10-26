@@ -185,7 +185,7 @@
 	<Attributes>
 		<Attribute name="Объект" id="74">
 			<Type>
-				<v8:Type>cfg:DataProcessorObject.ЮЦАУ_ПересчетПутевыхЛистов</v8:Type>
+				<v8:Type>cfg:ExternalDataProcessorObject.ЮЦАУ_ПересчетПутевыхЛистов</v8:Type>
 			</Type>
 			<MainAttribute>true</MainAttribute>
 		</Attribute>

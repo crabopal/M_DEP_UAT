@@ -16303,7 +16303,7 @@
 		<Metadata name="CommonTemplate.уатТаблицаЦветов.Template" id="922f59d6-70cc-48ad-a613-d778d8903ab5.0" configVersion="654ab1786cc563439a24c339ff7cf31300000000"/>
 		<Metadata name="CommonTemplate.уатХранилищеЗащищеннойОбработки" id="e3bec952-c3fa-41de-b5c9-c632ff3aab4b" configVersion="1ea07704920bb6458cc46a0b45ff5de000000000"/>
 		<Metadata name="CommonTemplate.уатХранилищеЗащищеннойОбработки.Template" id="e3bec952-c3fa-41de-b5c9-c632ff3aab4b.0" configVersion="1e9a27cd43b8ea488c6a5540d0c10f4b00000000"/>
-		<Metadata name="Configuration.УправлениеАвтотранспортомПроф" id="e0666db2-45d6-49b4-a200-061c6ba7d569" configVersion="a17b94c25e03d6f4a8b1c0d9e2f3456700000000"/>
+		<Metadata name="Configuration.УправлениеАвтотранспортомПроф" id="e0666db2-45d6-49b4-a200-061c6ba7d569" configVersion="b28c05d36f14e705b9c2d1e0f304567800000000"/>
 		<Metadata name="Configuration.УправлениеАвтотранспортомПроф.ClientApplicationInterface" id="f0ba0954-a66b-4085-9df1-b8a4283bdbd3.b" configVersion="0c1288cdbdc3dd41bc8da7338654340500000000"/>
 		<Metadata name="Configuration.УправлениеАвтотранспортомПроф.CommandInterface" id="f0ba0954-a66b-4085-9df1-b8a4283bdbd3.a" configVersion="03a343278597684e834a6eaff7fb97c000000000"/>
 		<Metadata name="Configuration.УправлениеАвтотранспортомПроф.ExternalConnectionModule" id="f0ba0954-a66b-4085-9df1-b8a4283bdbd3.5" configVersion="030821d2f49b6d4188077554be1e4b9800000000"/>
@@ -21568,10 +21568,6 @@
 		<Metadata name="DataProcessor.уатЭлектронныеКарты.Form.ФормаПодбораПункта.Form" id="ba3cfc28-4fbe-488c-bc99-a82678908b87.0" configVersion="0db9eddf97745b46b2bcb6a1e9d4d36500000000"/>
 		<Metadata name="DataProcessor.уатЭлектронныеКарты.Help" id="fada68a3-b48b-4bac-b7c2-865a3e7aad52.1" configVersion="eda72fbe03e6a4438995f3fefa81790b00000000"/>
 		<Metadata name="DataProcessor.уатЭлектронныеКарты.ManagerModule" id="fada68a3-b48b-4bac-b7c2-865a3e7aad52.2" configVersion="fb2c2b837ff0d54b86eb5c8a421d9ea300000000"/>
-		<Metadata name="DataProcessor.ЮЦАУ_ПересчетПутевыхЛистов" id="7c4e1a90-2b6d-4f58-9a31-0d8e6f5c4b21" configVersion="11aa22bb33cc44dd55ee66ff7788990000000000"/>
-		<Metadata name="DataProcessor.ЮЦАУ_ПересчетПутевыхЛистов.Form.Форма" id="9e8d7c6b-5a49-4382-8170-6f5e4d3c2b1a" configVersion="22bb33cc44dd55ee66ff7788990011aa00000000"/>
-		<Metadata name="DataProcessor.ЮЦАУ_ПересчетПутевыхЛистов.Form.Форма.Form" id="9e8d7c6b-5a49-4382-8170-6f5e4d3c2b1a.0" configVersion="33cc44dd55ee66ff7788990011aa22bb00000000"/>
-		<Metadata name="DataProcessor.ЮЦАУ_ПересчетПутевыхЛистов.ObjectModule" id="7c4e1a90-2b6d-4f58-9a31-0d8e6f5c4b21.0" configVersion="66ff7788990011aa22bb33cc44dd55ee00000000"/>
 		<Metadata name="DataProcessor.эркасОбменДанными" id="a6ed08a7-9e44-4353-9c81-ec5ad96c364a" configVersion="d074d63dad6736449f7c91b18fbf3cc600000000">
 			<Metadata name="DataProcessor.эркасОбменДанными.Attribute.ДеревоРезультат" id="5202612c-3c5f-441d-b221-e5c8cd4f715d"/>
 			<Metadata name="DataProcessor.эркасОбменДанными.Attribute.Cookie" id="544335cd-8795-4d49-83cd-2230e3e22f7d"/>
@@ -41745,7 +41741,7 @@
 		<Metadata name="Role.ШифрованиеИРасшифровкаДанных" id="f6b8e6ae-7d3e-4f6c-bd74-66ee7593868c" configVersion="39d517c93021274d89366ad134f8dfbb00000000"/>
 		<Metadata name="Role.ШифрованиеИРасшифровкаДанных.Rights" id="f6b8e6ae-7d3e-4f6c-bd74-66ee7593868c.0" configVersion="98a706ec3572ea4d833abcf09899fc5b00000000"/>
 		<Metadata name="Role.ЮЦАУ" id="5a08c932-6606-4399-ab79-9bbd293f4456" configVersion="02168da0eba3b74094833d93271f0f2900000000"/>
-		<Metadata name="Role.ЮЦАУ.Rights" id="5a08c932-6606-4399-ab79-9bbd293f4456.0" configVersion="e1f2a3b4c5d6e7f8091a2b3c4d5e6f7000000000"/>
+		<Metadata name="Role.ЮЦАУ.Rights" id="5a08c932-6606-4399-ab79-9bbd293f4456.0" configVersion="f203b4c5d6e7f8091a2b3c4d5e6f718100000000"/>
 		<Metadata name="Role.ЮЦАУ_АвтобусныеПеревозки" id="5c5eb74a-ccd2-4a40-8563-9bf2c3cfa7b1" configVersion="358e906fadb34e49adbe3c580bae8fcd00000000"/>
 		<Metadata name="Role.ЮЦАУ_АвтобусныеПеревозки.Rights" id="5c5eb74a-ccd2-4a40-8563-9bf2c3cfa7b1.0" configVersion="15ae95e99eabb045a651dd0dc63513e700000000"/>
 		<Metadata name="Role.ЮЦАУ_Бюджетирование" id="94b82788-1b7b-4f16-af86-6abdbd3f6655" configVersion="01cf4041fe336043aa142611a9c4c62900000000"/>
@@ -42819,7 +42815,7 @@
 		<Metadata name="Subsystem.ДЭП.Subsystem.Бухгалтерия.CommandInterface" id="670c80ca-f2d7-4034-a218-1c6dd7acf9d5.1" configVersion="20d3d284a031ba439c381aae8021aee800000000"/>
 		<Metadata name="Subsystem.ДЭП.Subsystem.ПЭО" id="2a821eed-80a1-402d-8483-be75f774d0ee" configVersion="4a021c9635cd79499f5008d0c5c4da7d00000000"/>
 		<Metadata name="Subsystem.ДЭП.Subsystem.Прочее" id="7257c9df-c05b-4d26-b00a-8eb8989a93de" configVersion="03053c383f442d4891ca22524b7b548300000000"/>
-		<Metadata name="Subsystem.ДЭП.Subsystem.УАТ" id="1e949ae1-29ea-434f-a7c2-3c49503aa100" configVersion="f2a863b47e059394f57d263b4c0a1e8800000000"/>
+		<Metadata name="Subsystem.ДЭП.Subsystem.УАТ" id="1e949ae1-29ea-434f-a7c2-3c49503aa100" configVersion="03b974c58f16a40506e374c5d1b2f09900000000"/>
 		<Metadata name="Subsystem.ДЭП.Subsystem.УАТ.CommandInterface" id="1e949ae1-29ea-434f-a7c2-3c49503aa100.1" configVersion="4ba290e52e67534793592717188d596f00000000"/>
 		<Metadata name="Subsystem.ДЭП.Subsystem.Эркас" id="1b4fb54c-7f66-483b-8941-28fb11b4c189" configVersion="98b2dcdb703dee4ead351b76a34691a700000000"/>
 		<Metadata name="Subsystem.ДобавленныеОбъекты" id="5737db05-9e78-47ca-8f0a-6b03ed1f6cdc" configVersion="0e0a7a73dbf0e84f919cd68a1b645b9b00000000"/>

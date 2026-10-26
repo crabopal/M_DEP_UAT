@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<DataProcessor uuid="7c4e1a90-2b6d-4f58-9a31-0d8e6f5c4b21">
+	<ExternalDataProcessor uuid="7c4e1a90-2b6d-4f58-9a31-0d8e6f5c4b21">
 		<InternalInfo>
-			<xr:GeneratedType name="DataProcessorObject.ЮЦАУ_ПересчетПутевыхЛистов" category="Object">
+			<xr:ContainedObject>
+				<xr:ClassId>c3831ec8-d8d5-4f93-8a22-f9bfae07327f</xr:ClassId>
+				<xr:ObjectId>7c4e1a90-2b6d-4f58-9a31-0d8e6f5c4b21</xr:ObjectId>
+			</xr:ContainedObject>
+			<xr:GeneratedType name="ExternalDataProcessorObject.ЮЦАУ_ПересчетПутевыхЛистов" category="Object">
 				<xr:TypeId>3a9d7e12-6c40-4b8f-a1d2-5e7c9b0a4f63</xr:TypeId>
 				<xr:ValueId>8f1c2d34-5a6b-47c8-9d0e-1f2a3b4c5d6e</xr:ValueId>
-			</xr:GeneratedType>
-			<xr:GeneratedType name="DataProcessorManager.ЮЦАУ_ПересчетПутевыхЛистов" category="Manager">
-				<xr:TypeId>b2c3d4e5-f6a7-4890-b1c2-d3e4f5a6b7c8</xr:TypeId>
-				<xr:ValueId>c4d5e6f7-a8b9-40c1-d2e3-f4a5b6c7d8e9</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -19,21 +19,12 @@
 					<v8:content>Пересчет путевых листов</v8:content>
 				</v8:item>
 			</Synonym>
-			<Comment>ЛТ 136_00721. Пересчет ФОВ проведенных путевых листов по хранимому значению и проверка обратимости.</Comment>
-			<UseStandardCommands>true</UseStandardCommands>
-			<DefaultForm>DataProcessor.ЮЦАУ_ПересчетПутевыхЛистов.Form.Форма</DefaultForm>
+			<Comment>ЛТ 136_00721. Внешняя обработка: пересчет ФОВ проведенных путевых листов по хранимому значению и проверка обратимости.</Comment>
+			<DefaultForm>ExternalDataProcessor.ЮЦАУ_ПересчетПутевыхЛистов.Form.Форма</DefaultForm>
 			<AuxiliaryForm/>
-			<IncludeHelpInContents>false</IncludeHelpInContents>
-			<ExtendedPresentation/>
-			<Explanation>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Пересчет фактически отработанного времени проведенных путевых листов и проверка, что выключение хранимого значения возвращает прежние движения.</v8:content>
-				</v8:item>
-			</Explanation>
 		</Properties>
 		<ChildObjects>
 			<Form>Форма</Form>
 		</ChildObjects>
-	</DataProcessor>
+	</ExternalDataProcessor>
 </MetaDataObject>
