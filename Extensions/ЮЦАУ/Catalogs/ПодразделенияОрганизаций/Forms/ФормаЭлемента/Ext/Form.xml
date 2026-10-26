@@ -219,29 +219,6 @@
 				</Title>
 			</ExtendedTooltip>
 		</CheckBoxField>
-		<CheckBoxField name="ЮЦ_НовыйРасчетВремениСмены" id="60">
-			<DataPath>Объект.ЮЦ_НовыйРасчетВремениСмены</DataPath>
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Новый расчет времени смены</v8:content>
-				</v8:item>
-			</Title>
-			<CheckBoxType>Auto</CheckBoxType>
-			<ContextMenu name="ЮЦ_НовыйРасчетВремениСменыКонтекстноеМеню" id="61"/>
-			<ExtendedTooltip name="ЮЦ_НовыйРасчетВремениСменыРасширеннаяПодсказка" id="62"/>
-		</CheckBoxField>
-		<InputField name="ЮЦ_ДатаНачалаНовогоРасчетаВремениСмены" id="63">
-			<DataPath>Объект.ЮЦ_ДатаНачалаНовогоРасчетаВремениСмены</DataPath>
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Дата начала нового расчета времени смены</v8:content>
-				</v8:item>
-			</Title>
-			<ContextMenu name="ЮЦ_ДатаНачалаНовогоРасчетаВремениСменыКонтекстноеМеню" id="64"/>
-			<ExtendedTooltip name="ЮЦ_ДатаНачалаНовогоРасчетаВремениСменыРасширеннаяПодсказка" id="65"/>
-		</InputField>
 		<InputField name="Владелец" id="16">
 			<DataPath>Объект.Owner</DataPath>
 			<Title>
@@ -532,29 +509,6 @@
 					</Title>
 				</ExtendedTooltip>
 			</CheckBoxField>
-			<CheckBoxField name="ЮЦ_НовыйРасчетВремениСмены" id="60">
-				<DataPath>Объект.ЮЦ_НовыйРасчетВремениСмены</DataPath>
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Новый расчет времени смены</v8:content>
-					</v8:item>
-				</Title>
-				<CheckBoxType>Auto</CheckBoxType>
-				<ContextMenu name="ЮЦ_НовыйРасчетВремениСменыКонтекстноеМеню" id="61"/>
-				<ExtendedTooltip name="ЮЦ_НовыйРасчетВремениСменыРасширеннаяПодсказка" id="62"/>
-			</CheckBoxField>
-			<InputField name="ЮЦ_ДатаНачалаНовогоРасчетаВремениСмены" id="63">
-				<DataPath>Объект.ЮЦ_ДатаНачалаНовогоРасчетаВремениСмены</DataPath>
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Дата начала нового расчета времени смены</v8:content>
-					</v8:item>
-				</Title>
-				<ContextMenu name="ЮЦ_ДатаНачалаНовогоРасчетаВремениСменыКонтекстноеМеню" id="64"/>
-				<ExtendedTooltip name="ЮЦ_ДатаНачалаНовогоРасчетаВремениСменыРасширеннаяПодсказка" id="65"/>
-			</InputField>
 			<InputField name="Владелец" id="16">
 				<DataPath>Объект.Owner</DataPath>
 				<Title>

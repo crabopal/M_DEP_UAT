@@ -1,30 +1,30 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<Catalog uuid="e9b8fc3b-fe7e-4563-b615-ace3ca28d550">
+	<Catalog uuid="0cb1a64d-4b62-4787-a063-d3c661e9daac">
 		<InternalInfo>
-			<xr:GeneratedType name="CatalogObject.ХранимыеЗначения" category="Object">
-				<xr:TypeId>15c20272-1f10-4079-a190-ea9e6976ff9b</xr:TypeId>
-				<xr:ValueId>4500a17e-0f32-4529-ba8f-80223a800fa7</xr:ValueId>
+			<xr:GeneratedType name="CatalogObject.Бит_ХранимыеЗначения" category="Object">
+				<xr:TypeId>0b7c4a78-546c-417e-9d32-374e9ed85ec1</xr:TypeId>
+				<xr:ValueId>9beae6ef-04c5-4998-abc3-2adb7afe2741</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogRef.ХранимыеЗначения" category="Ref">
-				<xr:TypeId>a498c9f0-ca40-4a7e-b5e5-7267f3067cfc</xr:TypeId>
-				<xr:ValueId>78c42703-31bb-4ee1-beac-cdc94411f6f6</xr:ValueId>
+			<xr:GeneratedType name="CatalogRef.Бит_ХранимыеЗначения" category="Ref">
+				<xr:TypeId>c55cce39-a37f-4782-bffc-2ff6cd69837a</xr:TypeId>
+				<xr:ValueId>607d0237-1b1a-4982-95d1-2522d21848f2</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogSelection.ХранимыеЗначения" category="Selection">
-				<xr:TypeId>531451ec-5944-4daf-8c7f-1106974cfef0</xr:TypeId>
-				<xr:ValueId>f8c467af-5d11-44b3-bb1e-f3f653a93710</xr:ValueId>
+			<xr:GeneratedType name="CatalogSelection.Бит_ХранимыеЗначения" category="Selection">
+				<xr:TypeId>4a5e1cdd-21f1-4eba-b374-01dccca9015b</xr:TypeId>
+				<xr:ValueId>8aeacd69-2bc2-49e6-baf6-572519416e8b</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogList.ХранимыеЗначения" category="List">
-				<xr:TypeId>9a04ba27-2484-4249-8091-d64627a71d9c</xr:TypeId>
-				<xr:ValueId>db378cf7-a83e-4117-a9b0-b270a3d8c1fc</xr:ValueId>
+			<xr:GeneratedType name="CatalogList.Бит_ХранимыеЗначения" category="List">
+				<xr:TypeId>566f2f24-88a6-4827-a959-da78dc692a40</xr:TypeId>
+				<xr:ValueId>9ed33a20-f21f-4fd1-b421-5c9072eb5e01</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogManager.ХранимыеЗначения" category="Manager">
-				<xr:TypeId>f5e79247-31f0-48d6-9269-9cb9422132db</xr:TypeId>
-				<xr:ValueId>9b8c91ec-7e8f-4e6e-aa74-2ef96a464d3e</xr:ValueId>
+			<xr:GeneratedType name="CatalogManager.Бит_ХранимыеЗначения" category="Manager">
+				<xr:TypeId>807047d9-be4b-4164-b466-86d6ccfb72e8</xr:TypeId>
+				<xr:ValueId>d9ec7916-5590-449e-aa00-1c67895a7927</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ХранимыеЗначения</Name>
+			<Name>Бит_ХранимыеЗначения</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -54,8 +54,8 @@
 			<QuickChoice>false</QuickChoice>
 			<ChoiceMode>BothWays</ChoiceMode>
 			<InputByString>
-				<xr:Field>Catalog.ХранимыеЗначения.StandardAttribute.Description</xr:Field>
-				<xr:Field>Catalog.ХранимыеЗначения.StandardAttribute.Code</xr:Field>
+				<xr:Field>Catalog.Бит_ХранимыеЗначения.StandardAttribute.Description</xr:Field>
+				<xr:Field>Catalog.Бит_ХранимыеЗначения.StandardAttribute.Code</xr:Field>
 			</InputByString>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
@@ -97,7 +97,7 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="70b571ba-f943-44bf-a702-3f52295ea5a5">
+			<Attribute uuid="c6e86152-85be-4ab9-9ce6-29fe7c9dca08">
 				<Properties>
 					<Name>Значение</Name>
 					<Synonym>

@@ -9,12 +9,12 @@
 		<Metadata name="Catalog.Номенклатура" id="ce4c0cc6-f017-403b-a9a1-2e4664eb2625" configVersion="1125a6e39d8c6d5b114f6fe3d3282a7453501e3d"/>
 		<Metadata name="Catalog.НоменклатурныеГруппы" id="8403191c-d694-445c-853b-53ba27904590" configVersion="a000fea9d6029ac68f6286d7fa2c71ad2000a0fe"/>
 		<Metadata name="Catalog.Организации" id="54dc711d-0173-4497-9fdd-24f4cf5af062" configVersion="569ee608568362fead52718503389080734dc8c9"/>
-		<Metadata name="Catalog.ПодразделенияОрганизаций" id="b74fbc11-e198-42de-87af-0d7a5ba9ef40" configVersion="c4e8a1b70d3f4e6a9b2c5d8e1f0a3b6400000001">
+		<Metadata name="Catalog.ПодразделенияОрганизаций" id="b74fbc11-e198-42de-87af-0d7a5ba9ef40" configVersion="b980e8edb19993c1268f5e666e5d058c7f747e09">
 			<Metadata name="Catalog.ПодразделенияОрганизаций.Attribute.ЮЦ_ОтображатьНаТерминалеВыдачиПЛ" id="45180708-832e-4d7f-990a-a70708a0cf0d"/>
 			<Metadata name="Catalog.ПодразделенияОрганизаций.Attribute.ПодразделениеРегламентированногоУчета" id="9703b78f-7582-4b43-9ebe-c0406c41a45d"/>
 		</Metadata>
-		<Metadata name="Catalog.ПодразделенияОрганизаций.Form.ФормаЭлемента" id="471c2dd0-947f-443b-a9b8-45831511c8ef" configVersion="d5f9b2c81e405f7bac3d6e9f201b4c7500000002"/>
-		<Metadata name="Catalog.ПодразделенияОрганизаций.Form.ФормаЭлемента.Form" id="471c2dd0-947f-443b-a9b8-45831511c8ef.0" configVersion="e60ac3d92f51608cbd4e7fa0312c5d8600000003"/>
+		<Metadata name="Catalog.ПодразделенияОрганизаций.Form.ФормаЭлемента" id="471c2dd0-947f-443b-a9b8-45831511c8ef" configVersion="ccf6176c9e1a810d9f8fa82fde3d63a81a40ebc6"/>
+		<Metadata name="Catalog.ПодразделенияОрганизаций.Form.ФормаЭлемента.Form" id="471c2dd0-947f-443b-a9b8-45831511c8ef.0" configVersion="3e17669462e854343657ce0c98fe8ce12f0605b8"/>
 		<Metadata name="Catalog.Пользователи" id="e9452396-874b-4b18-93bc-8bee9f8390d1" configVersion="68266503599af25a342536cfb38bbd9a4ee9edf7"/>
 		<Metadata name="Catalog.Сотрудники" id="92de09e3-fe83-477b-953f-047465fa5dd0" configVersion="b364d37eb86ec34b475700b1804b05a8873acab5"/>
 		<Metadata name="Catalog.СтраныМира" id="df6a093b-2209-47b4-b453-3f4a453bb2e4" configVersion="65b809072937e979fc8d7597403760f16cdbd34f"/>
