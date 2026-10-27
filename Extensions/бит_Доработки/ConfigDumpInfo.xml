@@ -17,7 +17,9 @@
 		<Metadata name="CommonModule.УправлениеКонтактнойИнформацией" id="1efdf105-796a-4e5e-9a0c-e85c23e6662b" configVersion="7c22604ac6a80450fc78385cf53dadbbd0f6f9e8"/>
 		<Metadata name="CommonModule.УправлениеКонтактнойИнформацией.Module" id="1efdf105-796a-4e5e-9a0c-e85c23e6662b.0" configVersion="1746b9287029a2cab21cc05f85cb89aa76e58054"/>
 		<Metadata name="CommonModule.уатПутевыеЛисты" id="51790b76-77d8-49c6-abe1-47adbf09ea0e" configVersion="8b3453bcde57676acf0dbcd0b2a6dab0ba99aa6a"/>
-		<Metadata name="CommonModule.уатПутевыеЛисты.Module" id="51790b76-77d8-49c6-abe1-47adbf09ea0e.0" configVersion="0000000000000000000000000000000000000032"/>
+		<Metadata name="CommonModule.уатПутевыеЛисты.Module" id="51790b76-77d8-49c6-abe1-47adbf09ea0e.0" configVersion="0000000000000000000000000000000000000039"/>
+		<Metadata name="CommonModule.ЮЦАУ" id="d97a27f6-e869-49ae-badb-7d09140d5e5c" configVersion="0000000000000000000000000000000000000036"/>
+		<Metadata name="CommonModule.ЮЦАУ.Module" id="d97a27f6-e869-49ae-badb-7d09140d5e5c.0" configVersion="0000000000000000000000000000000000000037"/>
 		<Metadata name="CommonPicture.ЗаполнитьФорму" id="3e39dd87-739e-4b70-8997-c73c7514f290" configVersion="86f23ad932b8fd31aad1550aba4089603d7d9231"/>
 		<Metadata name="CommonPicture.Напоминание" id="ef7d6617-e84e-4357-8565-956392d409a6" configVersion="0fe2998a18cdffcc00fc055d40fa62ba23e657d6"/>
 		<Metadata name="CommonPicture.Органайзер" id="d176aefe-fbf7-4c5e-9806-d1fe99a1d3e8" configVersion="fe509a5906ac511447b06d42aa864d77e06cfcf3"/>
@@ -25,7 +27,7 @@
 		<Metadata name="CommonPicture.уатПодменюВводаНаОсновании" id="a3aa36de-12e4-45a9-a7b3-73f7429468ab" configVersion="86ed626d9375c7cebecd174331b48375a8980bbe"/>
 		<Metadata name="CommonPicture.уатРедактироватьВДиалоге" id="96641658-e937-4144-bf29-8f5334ad6917" configVersion="1ad909873efa29f848a90a9cc4776d7f4e309305"/>
 		<Metadata name="CommonPicture.уатСостоянияДокумента" id="5d2d8981-5746-4afe-b254-b5b3480c9ca2" configVersion="bd9f8d0b8d4079d07b67a6c82028aa3540d6aad3"/>
-		<Metadata name="Configuration.бит_Доработки" id="04b4c957-69cc-4d21-8395-bc4387f6ad30" configVersion="0000000000000000000000000000000000000031"/>
+		<Metadata name="Configuration.бит_Доработки" id="04b4c957-69cc-4d21-8395-bc4387f6ad30" configVersion="0000000000000000000000000000000000000038"/>
 		<Metadata name="Document.уатПутевойЛист" id="f4558dba-a3c1-42d8-88c6-7edb1a59b11b" configVersion="2d87e2480aad68eb1594e525e9fae65fad5dd794"/>
 		<Metadata name="Document.уатПутевойЛист.Form.ФормаДокумента" id="898e238e-aea0-45a6-a2ed-fbddd2da8baf" configVersion="23d4ca3d0f56f9e5487f1362304efd327ae48fa2"/>
 		<Metadata name="Document.уатПутевойЛист.Form.ФормаДокумента.Form" id="898e238e-aea0-45a6-a2ed-fbddd2da8baf.0" configVersion="1ad53a844f064701a660f3ca0bf450a17c59c1b5"/>
