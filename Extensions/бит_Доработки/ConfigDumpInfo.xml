@@ -10,7 +10,7 @@
 			<Metadata name="Catalog.ПодразделенияОрганизаций.Attribute.Бит_НовыйРасчетВремениСмены" id="af357dd5-1ca9-496c-94c8-4b529059aadb"/>
 			<Metadata name="Catalog.ПодразделенияОрганизаций.Attribute.Бит_ДатаНачалаНовогоРасчетаВремениСмены" id="fdc465a6-9145-47d1-958f-b302107d885e"/>
 		</Metadata>
-		<Metadata name="Catalog.ПодразделенияОрганизаций.Form.ФормаЭлемента" id="0931f6ad-ef41-4bd5-8122-79244a634ffd" configVersion="0000000000000000000000000000000000000024"/>
+		<Metadata name="Catalog.ПодразделенияОрганизаций.Form.ФормаЭлемента" id="0931f6ad-ef41-4bd5-8122-79244a634ffd" configVersion="0000000000000000000000000000000000000046"/>
 		<Metadata name="Catalog.ПодразделенияОрганизаций.Form.ФормаЭлемента.Form" id="0931f6ad-ef41-4bd5-8122-79244a634ffd.0" configVersion="0000000000000000000000000000000000000025"/>
 		<Metadata name="Catalog.ЮЦАУ_Выезды" id="706355e9-5370-4237-aed9-df9090117b66" configVersion="9313d99085b8b13754fd95221d0dfce8077a415b"/>
 		<Metadata name="Catalog.уатМаршруты" id="765ba0c5-dd10-409c-90d3-0344b7358693" configVersion="a547c7d05d220f79b2603687b8762c79f02bdd07"/>
