@@ -65,6 +65,7 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<Subsystem>Бит_Доработки</Subsystem>
 			<StyleItem>ПоясняющийТекст</StyleItem>
 			<StyleItem>ГиперссылкаЦвет</StyleItem>
 			<CommonPicture>уатПодменюВводаНаОсновании</CommonPicture>
@@ -76,7 +77,10 @@
 			<CommonPicture>ЗаполнитьФорму</CommonPicture>
 			<Role>Бит_ОсновнаяРоль</Role>
 			<CommonModule>уатПутевыеЛисты</CommonModule>
+			<CommonModule>ЮЦАУ</CommonModule>
 			<CommonModule>УправлениеКонтактнойИнформацией</CommonModule>
+			<Catalog>Бит_ХранимыеЗначения</Catalog>
+			<Catalog>ПодразделенияОрганизаций</Catalog>
 			<Catalog>ЮЦАУ_Выезды</Catalog>
 			<Catalog>уатМаршруты</Catalog>
 			<Document>уатПутевойЛист</Document>
